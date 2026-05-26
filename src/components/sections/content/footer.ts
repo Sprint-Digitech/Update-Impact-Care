@@ -1,0 +1,206 @@
+/** Auto-generated from original HTML – do not edit manually unless syncing from source */
+export const FOOTER_HTML = `<div class="ekit-template-content-markup ekit-template-content-footer ekit-template-content-theme-support">
+		<div data-elementor-type="wp-post" data-elementor-id="4466" class="elementor elementor-4466">
+				<div class="elementor-element elementor-element-0151cb0 e-flex e-con-boxed e-con e-parent" data-id="0151cb0" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-ef9a331 e-flex e-con-boxed e-con e-child" data-id="ef9a331" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2c2df37 e-con-full e-flex e-con e-child" data-id="2c2df37" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-9a82e37 e-con-full e-flex e-con e-child" data-id="9a82e37" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-bfc54a3 e-con-full e-flex e-con e-child" data-id="bfc54a3" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-522973c at-image-animation at-animation-image-none elementor-widget elementor-widget-image" data-id="522973c" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="184" height="51" src="/wp-content/uploads/2024/12/footer-logo.svg" class="attachment-full size-full wp-image-8193" alt="" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-77bf7f1 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="77bf7f1" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>We offer a wide range of healthcare services to meet your needs.</p>								</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-c512355 e-con-full e-flex e-con e-child" data-id="c512355" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-9960de5 at-heading-animation at-animation-heading-none elementor-widget elementor-widget-heading" data-id="9960de5" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Healthcare</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-a81493e footer-links elementor-widget elementor-widget-ekit-vertical-menu" data-id="a81493e" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="ekit-vertical-menu.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con">        <div 
+            class="ekit-vertical-main-menu-wraper   badge-position-left"
+        >
+                        <div class="ekit-vertical-menu-container"><ul id="menu-footer-healthcare-menu" class="ekit-vertical-navbar-nav submenu-click-on-icon"><li id="menu-item-4635" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4635 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Doctors</a></li>
+<li id="menu-item-4636" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4636 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Diagnostics</a></li>
+<li id="menu-item-4637" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4637 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Caregiver</a></li>
+<li id="menu-item-4638" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4638 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Hospitality</a></li>
+<li id="menu-item-4639" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4639 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Emergency</a></li>
+</ul></div>        </div>
+        </div>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-b5d0d70 e-con-full e-flex e-con e-child" data-id="b5d0d70" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-ceeb0fa at-heading-animation at-animation-heading-none elementor-widget elementor-widget-heading" data-id="ceeb0fa" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Quick Links</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-fd55830 footer-links elementor-widget elementor-widget-ekit-vertical-menu" data-id="fd55830" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="ekit-vertical-menu.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con">        <div 
+            class="ekit-vertical-main-menu-wraper   badge-position-left"
+        >
+                        <div class="ekit-vertical-menu-container"><ul id="menu-footer-menu" class="ekit-vertical-navbar-nav submenu-click-on-icon"><li id="menu-item-4261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-13 current_page_item menu-item-4261 nav-item elementskit-mobile-builder-content active" data-vertical-menu=750px><a href="/" class="ekit-menu-nav-link active">Home</a></li>
+<li id="menu-item-4263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4263 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/about-us/" class="ekit-menu-nav-link">About Us</a></li>
+<li id="menu-item-4643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4643 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/faqs/" class="ekit-menu-nav-link">FAQS</a></li>
+<li id="menu-item-4262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4262 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/blog/" class="ekit-menu-nav-link">Blog</a></li>
+<li id="menu-item-4644" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4644 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/our-team/" class="ekit-menu-nav-link">Our Team</a></li>
+</ul></div>        </div>
+        </div>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-3709540 e-con-full e-flex e-con e-child" data-id="3709540" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-fbe7f66 at-heading-animation at-animation-heading-none elementor-widget elementor-widget-heading" data-id="fbe7f66" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Contact Us</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-4812770 footer-contact-item  ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="4812770" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con" >        <!-- link opening -->
+                <a href="mailto:%20info@domain.com" class="ekit_global_links">
+                <!-- end link opening -->
+
+        <div class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
+                    <div class="elementskit-box-header elementor-animation-">
+                <div class="elementskit-info-box-icon  text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><path d="M5.85938 8.4375L14.1995 14.4253C14.6811 14.7711 15.3189 14.7711 15.8005 14.4253L24.1406 8.4375M6.5625 23.75H23.4375C24.9908 23.75 26.25 22.4442 26.25 20.8333V9.16667C26.25 7.55584 24.9908 6.25 23.4375 6.25H6.5625C5.0092 6.25 3.75 7.55584 3.75 9.16667V20.8333C3.75 22.4442 5.0092 23.75 6.5625 23.75Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </div>
+          </div>
+                        <div class="box-body">
+                            <h3 class="elementskit-info-box-title">
+                     info@domain.com                </h3>
+                                            </div>
+        
+        
+                </div>
+                </a>
+        </div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-792d019 footer-contact-item  ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="792d019" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con" >        <!-- link opening -->
+                <a href="tel:+1%20(213)%20465%20789" class="ekit_global_links">
+                <!-- end link opening -->
+
+        <div class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
+                    <div class="elementskit-box-header elementor-animation-">
+                <div class="elementskit-info-box-icon  text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><path d="M25.8293 23.4637C25.8293 23.4637 24.381 24.8862 24.026 25.3033C23.4478 25.9203 22.7666 26.2116 21.8736 26.2116C21.7877 26.2116 21.6961 26.2116 21.6102 26.2059C19.91 26.0974 18.33 25.4347 17.145 24.8691C13.9049 23.3037 11.0598 21.0814 8.69549 18.2649C6.74339 15.9169 5.43818 13.746 4.57376 11.4151C4.04137 9.99263 3.84673 8.88432 3.9326 7.83886C3.98985 7.17044 4.24745 6.61629 4.7226 6.14212L6.67469 4.19401C6.9552 3.93121 7.25288 3.78839 7.54484 3.78839C7.90549 3.78839 8.19744 4.00548 8.38063 4.1883C8.38636 4.19401 8.39208 4.19972 8.39781 4.20544C8.74701 4.53107 9.07904 4.86813 9.42824 5.22805C9.6057 5.41086 9.78889 5.59368 9.97208 5.7822L11.5349 7.34183C12.1417 7.9474 12.1417 8.50727 11.5349 9.11284C11.3689 9.27851 11.2086 9.44419 11.0426 9.60415C10.5617 10.0955 10.9395 9.71848 10.4414 10.1641C10.43 10.1755 10.4185 10.1812 10.4128 10.1927C9.92048 10.684 10.0121 11.1639 10.1151 11.4895C10.1208 11.5066 10.1266 11.5238 10.1323 11.5409C10.5387 12.5235 11.1112 13.449 11.9813 14.5516L11.9871 14.5573C13.5671 16.4997 15.2329 18.0136 17.0705 19.1734C17.3052 19.3219 17.5457 19.4419 17.7747 19.5561C17.9807 19.659 18.1754 19.7561 18.3414 19.8589C18.3643 19.8703 18.3872 19.8875 18.4101 19.8989C18.6047 19.996 18.7879 20.0417 18.9768 20.0417C19.452 20.0417 19.7497 19.7447 19.847 19.6475L20.9691 18.5277C21.1637 18.3335 21.4728 18.0993 21.8335 18.0993C22.1884 18.0993 22.4804 18.3221 22.6578 18.5163C22.6636 18.522 22.6636 18.522 22.6693 18.5277L25.8236 21.6756C26.4132 22.2583 25.8293 23.4637 25.8293 23.4637Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </div>
+          </div>
+                        <div class="box-body">
+                            <h3 class="elementskit-info-box-title">
+                    +1 (213) 465 789                </h3>
+                                            </div>
+        
+        
+                </div>
+                </a>
+        </div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-8efbe37 footer-contact-item  ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="8efbe37" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con" >        <!-- link opening -->
+                <!-- end link opening -->
+
+        <div class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
+                    <div class="elementskit-box-header elementor-animation-">
+                <div class="elementskit-info-box-icon  text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><path d="M14.9999 27C14.9999 27 24.3913 18.6522 24.3913 12.3913C24.3913 7.20463 20.1866 3 14.9999 3C9.81327 3 5.60864 7.20463 5.60864 12.3913C5.60864 18.6522 14.9999 27 14.9999 27Z" stroke="currentColor" stroke-width="2"></path><path d="M18.0003 12.0002C18.0003 13.657 16.6572 15.0002 15.0003 15.0002C13.3435 15.0002 12.0003 13.657 12.0003 12.0002C12.0003 10.3433 13.3435 9.00019 15.0003 9.00019C16.6572 9.00019 18.0003 10.3433 18.0003 12.0002Z" stroke="currentColor" stroke-width="2"></path></svg>
+                </div>
+          </div>
+                        <div class="box-body">
+                            <h3 class="elementskit-info-box-title">
+                    2464 Royal Ln. Mesa, New Jersey                </h3>
+                                            </div>
+        
+        
+                </div>
+        </div>				</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-592c0f4 e-con-full e-flex e-con e-child" data-id="592c0f4" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-f78aa1a e-con-full e-flex e-con e-child" data-id="f78aa1a" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-b38a783 footer-social-border elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="b38a783" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-5cfd6a3 e-con-full e-flex e-con e-child" data-id="5cfd6a3" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-662b311 footer-social-link elementor-widget elementor-widget-elementskit-social-media" data-id="662b311" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-social-media.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con" >			 <ul class="ekit_social_media">
+														<li class="elementor-repeater-item-268fce3">
+					    <a
+						href="#" aria-label="" class="dribbble" >
+							
+							<i aria-hidden="true" class="fab fa-dribbble"></i>
+                                                                                                            </a>
+                    </li>
+                    														<li class="elementor-repeater-item-d017926">
+					    <a
+						href="#" aria-label="" class="facebook" >
+							
+							<i aria-hidden="true" class="icon icon-facebook"></i>
+                                                                                                            </a>
+                    </li>
+                    														<li class="elementor-repeater-item-ee668cc">
+					    <a
+						href="#" aria-label="" class="instagram" >
+							
+							<i aria-hidden="true" class="fab fa-instagram"></i>
+                                                                                                            </a>
+                    </li>
+                    							</ul>
+		</div>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-a14c313 e-con-full e-flex e-con e-child" data-id="a14c313" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-2f5529d footer-social-border elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="2f5529d" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-62ec60b e-con-full e-flex e-con e-child" data-id="62ec60b" data-element_type="container" data-e-type="container">
+		<div class="elementor-element elementor-element-653b620 e-con-full e-flex e-con e-child" data-id="653b620" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-2c6fc45 elementor-widget elementor-widget-text-editor" data-id="2c6fc45" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Copyright © 2026 All Rights Reserved.</p>								</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-fa57236 e-con-full e-flex e-con e-child" data-id="fa57236" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-d939481 privacy-policy-links elementor-widget elementor-widget-ekit-vertical-menu" data-id="d939481" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="ekit-vertical-menu.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con">        <div 
+            class="ekit-vertical-main-menu-wraper   badge-position-left"
+        >
+                        <div class="ekit-vertical-menu-container"><ul id="menu-privacy-policy-menu" class="ekit-vertical-navbar-nav submenu-click-on-icon"><li id="menu-item-5088" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5088 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Privacy Policy</a></li>
+<li id="menu-item-5092" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5092 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Terms &#038; Conditions</a></li>
+</ul></div>        </div>
+        </div>				</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		</div>`;

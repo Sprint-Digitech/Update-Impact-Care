@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Dispnsary – Full Next.js Clone
 
-## Getting Started
+Complete Next.js (App Router) port of the [Dispnsary medical theme demo](https://demo.awaikenthemes.com/dispnsary/). The original HTTrack folder (`../impac`) is **never modified**.
 
-First, run the development server:
+## Pages included (33 routes)
+
+All pages are crawled from the live WordPress demo and rendered as static HTML bodies with original CSS, JS, GSAP, Elementor, and ElementsKit behavior.
+
+| Route | Description |
+|-------|-------------|
+| `/` | Home – Main |
+| `/home-image`, `/home-video`, `/home-slider` | Home variants |
+| `/about-us`, `/services`, `/blog`, `/contact-us`, `/appointment`, `/faqs` | Core pages |
+| `/services/*` | Service detail pages (urology, neurology, pharmacy, etc.) |
+| `/our-team`, `/our-team/dr-*` | Team listing and doctor profiles |
+| `/image-gallery`, `/video-gallery` | Media galleries |
+| `/research-breakthrough-…` (+ 5 more) | Blog posts |
+
+## Architecture
+
+- **`scripts/crawl-full-site.mjs`** – Downloads every page HTML, assets, Elementor webpack bundles, builds `pages-manifest.json` and `src/content/bodies/*.html`
+- **`scripts/postprocess-manifest.mjs`** – Normalizes Elementor config URLs and builds global stylesheet list
+- **`app/[[...slug]]/page.tsx`** – Catch-all static routes for every page
+- **`WordPressPage`** – Full `<body>` HTML clone with per-page `body` classes and Elementor config
+- **`public/vendor`** + **`public/assets`** – Local mirrors of plugins, theme, and uploads
+
+## Commands
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+
+# Re-crawl entire site from demo (after changing source)
+node scripts/crawl-full-site.mjs
+node scripts/postprocess-manifest.mjs
+
+npm run dev      # http://localhost:3000
+npm run build
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Original project note
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The `../impac` folder only contained a single HTTrack homepage. The **full site** is sourced from `demo.awaikenthemes.com` during crawl and stored under `dispnsary-next/mirror/` and `src/content/bodies/`.

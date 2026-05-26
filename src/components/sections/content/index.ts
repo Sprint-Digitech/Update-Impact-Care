@@ -1,0 +1,14 @@
+export { HEADER_HTML } from "./header";
+export { HERO_HTML } from "./hero";
+export { ABOUT_HTML } from "./about";
+export { SERVICES_HTML } from "./services";
+export { WHY_CHOOSE_HTML } from "./why-choose";
+export { HOW_WE_WORK_HTML } from "./how-we-work";
+export { BY_THE_NUMBERS_HTML } from "./by-the-numbers";
+export { FAQ_HTML } from "./faq";
+export { TEAM_HTML } from "./team";
+export { HEALTH_HTML } from "./health";
+export { CTA_HTML } from "./cta";
+export { TESTIMONIALS_HTML } from "./testimonials";
+export { BLOG_HTML } from "./blog";
+export { FOOTER_HTML } from "./footer";

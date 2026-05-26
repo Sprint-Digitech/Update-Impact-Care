@@ -1,0 +1,8 @@
+/* Minimal reset – theme + Elementor CSS provide all visual styles */
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  margin: 0;
+}
