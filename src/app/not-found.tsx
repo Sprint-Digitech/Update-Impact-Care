@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { WordPressPage } from "@/components/page/WordPressPage";
+import { ClientWordPressPage as WordPressPage } from "@/components/page/ClientWordPressPage";
 
 const BODIES_DIR = path.join(process.cwd(), "src", "content", "bodies");
 const BODY_FILE = path.join(BODIES_DIR, "404.html");

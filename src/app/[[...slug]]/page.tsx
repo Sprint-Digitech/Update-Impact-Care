@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { WordPressPage } from "@/components/page/WordPressPage";
+import { ClientWordPressPage as WordPressPage } from "@/components/page/ClientWordPressPage";
 import {
   getAllPages,
   getPageBodyHtml,

@@ -24,8 +24,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en-US">
-      <head>
+    <html lang="en-US" suppressHydrationWarning>
+      <head suppressHydrationWarning>
         <Stylesheets />
       </head>
       <body className="wp-theme-dispnsary tt-magic-cursor" suppressHydrationWarning>
