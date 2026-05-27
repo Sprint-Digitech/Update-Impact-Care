@@ -16,7 +16,7 @@ export function WordPressPage({
   bodyClass,
   elementorConfig,
 }: WordPressPageProps) {
-  usePageScripts(elementorConfig);
+  usePageScripts(elementorConfig, bodyHtml);
 
   useEffect(() => {
     const preloader = document.querySelector(".preloader");

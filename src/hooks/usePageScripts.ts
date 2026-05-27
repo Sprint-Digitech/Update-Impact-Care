@@ -32,7 +32,7 @@ function normalizeElementorConfig(raw: string): string {
 }
 
 /** Re-run Elementor + theme init when navigating between pages */
-export function usePageScripts(elementorConfig: string | null) {
+export function usePageScripts(elementorConfig: string | null, bodyHtml: string) {
   const ran = useRef(false);
 
   useEffect(() => {
@@ -58,6 +58,26 @@ export function usePageScripts(elementorConfig: string | null) {
 
     jQuery?.(window).trigger("elementor/lazyload/observe");
 
+    // Setup lazyload observer for Elementor container backgrounds
+    const lazyloadBackgrounds = document.querySelectorAll(
+      ".e-con.e-parent:not(.e-lazyloaded)"
+    );
+    const lazyloadBackgroundObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const lazyloadBackground = entry.target;
+            lazyloadBackground.classList.add("e-lazyloaded");
+            lazyloadBackgroundObserver.unobserve(lazyloadBackground);
+          }
+        });
+      },
+      { rootMargin: "200px 0px 200px 0px" }
+    );
+    lazyloadBackgrounds.forEach((lazyloadBackground) => {
+      lazyloadBackgroundObserver.observe(lazyloadBackground);
+    });
+
     if (typeof window.elementorFrontend !== "undefined") {
       try {
         window.elementorFrontend?.init?.();
@@ -79,7 +99,7 @@ export function usePageScripts(elementorConfig: string | null) {
 
     // Fallback: if Elementor didn't unhide elements (missing chunk / init issues),
     // ensure widgets become visible so galleries/videos render.
-    window.setTimeout(() => {
+    const timer = window.setTimeout(() => {
       const invisible = Array.from(document.querySelectorAll<HTMLElement>(".elementor-invisible"));
       if (!invisible.length) return;
       // If elements are still invisible after init, reveal them so content is visible.
@@ -95,7 +115,12 @@ export function usePageScripts(elementorConfig: string | null) {
         }
       }
     }, 220);
-  }, [elementorConfig]);
+
+    return () => {
+      lazyloadBackgroundObserver.disconnect();
+      window.clearTimeout(timer);
+    };
+  }, [elementorConfig, bodyHtml]);
 }
 
 declare global {
