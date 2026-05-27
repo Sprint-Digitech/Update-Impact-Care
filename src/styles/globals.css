@@ -75,3 +75,57 @@ body {
         direction: ltr;
     }
 }
+
+/* ==========================================================
+   Inner Page Hero Banners - 3D Medicine Background
+   Applied to all pages EXCEPT main home page hero 
+   (which uses .hero-image-section / .elementor-element-437f651)
+   ========================================================== */
+
+/* All inner page banners that use bg-section as a child container */
+.bg-section.e-con-child:not(.hero-image-section),
+.page-header.bg-section {
+    background-image: url('/assets/uploads/images/pharma_hero_banner_3d.png') !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    position: relative !important;
+}
+
+/* Dark overlay for better text readability */
+.bg-section.e-con-child:not(.hero-image-section)::before,
+.page-header.bg-section::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        135deg,
+        rgba(0, 10, 30, 0.65) 0%,
+        rgba(0, 30, 60, 0.50) 50%,
+        rgba(0, 100, 100, 0.35) 100%
+    );
+    z-index: 0;
+    pointer-events: none;
+}
+
+/* Ensure text content stays on top of overlay */
+.bg-section.e-con-child:not(.hero-image-section) > .e-con-inner,
+.bg-section.e-con-child:not(.hero-image-section) h1,
+.bg-section.e-con-child:not(.hero-image-section) h2,
+.bg-section.e-con-child:not(.hero-image-section) h3,
+.bg-section.e-con-child:not(.hero-image-section) p,
+.bg-section.e-con-child:not(.hero-image-section) .ekit-breadcrumb,
+.page-header.bg-section > .container,
+.page-header.bg-section h1,
+.page-header.bg-section p {
+    position: relative;
+    z-index: 1;
+    color: #ffffff !important;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Breadcrumb styling on banner */
+.bg-section.e-con-child:not(.hero-image-section) .ekit-breadcrumb li,
+.bg-section.e-con-child:not(.hero-image-section) .ekit-breadcrumb a {
+    color: rgba(255, 255, 255, 0.85) !important;
+}
