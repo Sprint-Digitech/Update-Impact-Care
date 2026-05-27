@@ -5,6 +5,7 @@ html {
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
 /* Footer Logo White Background Pill */
@@ -97,3 +98,124 @@ body {
 }
 
 
+
+
+/* Make inner pages hero banner full-width perfectly */
+.top-hero-banner {
+  position: relative !important;
+  left: 50% !important;
+  right: 50% !important;
+  width: 100vw !important;
+  max-width: 100vw !important;
+  margin-left: -50vw !important;
+  margin-right: -50vw !important;
+  border-radius: 0 !important;
+  min-height: clamp(350px, 45vh, 600px) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  box-sizing: border-box !important;
+  padding: 120px 20px 80px !important;
+  overflow: hidden !important;
+}
+
+/* Ensure inner contents stay within readable grid limits */
+.top-hero-banner > .e-con-inner {
+  max-width: 1140px !important;
+  margin: 0 auto !important;
+  width: 100% !important;
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+/* Improve overlay balance and text readability */
+.top-hero-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 10, 25, 0.4) 0%,
+      rgba(0, 15, 35, 0.6) 50%,
+      rgba(0, 20, 40, 0.85) 100%
+  ) !important;
+  z-index: 0 !important;
+}
+
+.top-hero-banner h1,
+.top-hero-banner h2,
+.top-hero-banner h3,
+.top-hero-banner p,
+.top-hero-banner .ekit-breadcrumb {
+  text-shadow: 0 4px 16px rgba(0, 0, 0, 0.9) !important;
+  color: #ffffff !important;
+}
+
+/* Scroll indicator animation - Premium Polish */
+@keyframes scrollDownAnim {
+  0% { transform: translate(-50%, 0); opacity: 0; }
+  20% { opacity: 1; }
+  80% { transform: translate(-50%, 14px); opacity: 1; }
+  100% { transform: translate(-50%, 18px); opacity: 0; }
+}
+
+.scroll-indicator-container {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 10;
+  cursor: pointer;
+  transition: opacity 0.4s ease, transform 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.scroll-indicator-container:hover {
+  opacity: 1;
+  transform: translateX(-50%) translateY(3px);
+}
+
+.scroll-indicator-mouse {
+  width: 24px;
+  height: 40px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.scroll-indicator-wheel {
+  width: 4px;
+  height: 6px;
+  background: #ffffff;
+  border-radius: 3px;
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: scrollDownAnim 2s infinite cubic-bezier(0.25, 0.1, 0.25, 1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.scroll-indicator-text {
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 12px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  opacity: 0.8;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  font-family: inherit;
+}
+/* Ensure perfectly flush alignment under the navigation bar */
+.top-hero-banner {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  top: 0 !important;
+}
