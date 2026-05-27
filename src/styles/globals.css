@@ -33,3 +33,12 @@ body {
   width: auto !important;
   object-fit: contain;
 }
+
+/* Fix header navigation menu wrapping */
+.ekit-template-content-header .elementskit-navbar-nav > li > a {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.ekit-template-content-header .e-con-inner {
+    max-width: 98% !important;
+}
