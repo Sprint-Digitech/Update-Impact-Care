@@ -1,5 +1,5 @@
 "use client";
-import { useMemo } from "react";
+import { useMemo, useEffect } from "react";
 
 import { HtmlBlock } from "@/components/ui/HtmlBlock";
 import { BodyClassManager } from "@/components/client/BodyClassManager";
@@ -17,6 +17,19 @@ export function WordPressPage({
   elementorConfig,
 }: WordPressPageProps) {
   usePageScripts(elementorConfig);
+
+  useEffect(() => {
+    const preloader = document.querySelector(".preloader");
+    if (preloader) {
+      const el = preloader as HTMLElement;
+      el.style.transition = "opacity 0.4s ease";
+      el.style.opacity = "0";
+      const timer = setTimeout(() => {
+        el.style.display = "none";
+      }, 400);
+      return () => clearTimeout(timer);
+    }
+  }, [bodyHtml]);
 
   // Some Elementor widgets can remain stuck in `elementor-invisible` when a
   // widget/chunk doesn't fully initialize in this Next.js runtime.
