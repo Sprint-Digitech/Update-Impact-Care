@@ -3,7 +3,7 @@
     {
       "path": "/home-slider",
       "fileKey": "home-slider",
-      "title": "Home – Slider – Impact Healthcare",
+      "title": "Home \u2013 Slider \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-10180 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-10180",
       "type": "page",
       "stylesheets": [
@@ -49,7 +49,7 @@
     {
       "path": "/home-video",
       "fileKey": "home-video",
-      "title": "Home – Video – Impact Healthcare",
+      "title": "Home \u2013 Video \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-10179 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-10179",
       "type": "page",
       "stylesheets": [
@@ -93,7 +93,7 @@
     {
       "path": "/home-image",
       "fileKey": "home-image",
-      "title": "Home – Image – Impact Healthcare",
+      "title": "Home \u2013 Image \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-10178 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-10178",
       "type": "page",
       "stylesheets": [
@@ -137,7 +137,7 @@
     {
       "path": "/services/chronic-care",
       "fileKey": "services__chronic-care",
-      "title": "Chronic Care – Impact Healthcare",
+      "title": "Chronic Care \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-10083 page-child parent-pageid-947 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-10083",
       "type": "page",
       "stylesheets": [
@@ -174,7 +174,7 @@
     {
       "path": "/services/vaccinations",
       "fileKey": "services__vaccinations",
-      "title": "Vaccinations – Impact Healthcare",
+      "title": "Vaccinations \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-10079 page-child parent-pageid-947 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-10079",
       "type": "page",
       "stylesheets": [
@@ -211,7 +211,7 @@
     {
       "path": "/services/eye-care",
       "fileKey": "services__eye-care",
-      "title": "Eye Care – Impact Healthcare",
+      "title": "Eye Care \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-10078 page-child parent-pageid-947 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-10078",
       "type": "page",
       "stylesheets": [
@@ -248,7 +248,7 @@
     {
       "path": "/services/quality-control",
       "fileKey": "services__quality-control",
-      "title": "Quality Control – Impact Healthcare",
+      "title": "Quality Control \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-10077 page-child parent-pageid-947 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-10077",
       "type": "page",
       "stylesheets": [
@@ -285,7 +285,7 @@
     {
       "path": "/services/urology",
       "fileKey": "services__urology",
-      "title": "Urology – Impact Healthcare",
+      "title": "Urology \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-10076 page-child parent-pageid-947 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-10076",
       "type": "page",
       "stylesheets": [
@@ -322,7 +322,7 @@
     {
       "path": "/our-team/rachel-davis",
       "fileKey": "our-team__rachel-davis",
-      "title": "Dr. Rachel Davis – Impact Healthcare",
+      "title": "Dr. Rachel Davis \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-9836 page-child parent-pageid-4281 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-9836",
       "type": "page",
       "stylesheets": [
@@ -358,7 +358,7 @@
     {
       "path": "/our-team/james-smith",
       "fileKey": "our-team__james-smith",
-      "title": "Dr. James Smith – Impact Healthcare",
+      "title": "Dr. James Smith \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-9835 page-child parent-pageid-4281 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-9835",
       "type": "page",
       "stylesheets": [
@@ -394,7 +394,7 @@
     {
       "path": "/our-team/sarah-lee",
       "fileKey": "our-team__sarah-lee",
-      "title": "Dr. Sarah Lee – Impact Healthcare",
+      "title": "Dr. Sarah Lee \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-9834 page-child parent-pageid-4281 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-9834",
       "type": "page",
       "stylesheets": [
@@ -430,7 +430,7 @@
     {
       "path": "/our-team/michael-johnson",
       "fileKey": "our-team__michael-johnson",
-      "title": "Dr. Michael Johnson – Impact Healthcare",
+      "title": "Dr. Michael Johnson \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-9833 page-child parent-pageid-4281 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-9833",
       "type": "page",
       "stylesheets": [
@@ -466,7 +466,7 @@
     {
       "path": "/our-team/arlene-mccoy",
       "fileKey": "our-team__arlene-mccoy",
-      "title": "Dr. Arlene Mccoy – Impact Healthcare",
+      "title": "Dr. Arlene Mccoy \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-9832 page-child parent-pageid-4281 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-9832",
       "type": "page",
       "stylesheets": [
@@ -502,7 +502,7 @@
     {
       "path": "/our-team/kristin-watson",
       "fileKey": "our-team__kristin-watson",
-      "title": "Dr. Kristin Watson – Impact Healthcare",
+      "title": "Dr. Kristin Watson \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-9831 page-child parent-pageid-4281 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-9831",
       "type": "page",
       "stylesheets": [
@@ -538,7 +538,7 @@
     {
       "path": "/our-team/jenny-wilson",
       "fileKey": "our-team__jenny-wilson",
-      "title": "Dr. Jenny Wilson – Impact Healthcare",
+      "title": "Dr. Jenny Wilson \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-9830 page-child parent-pageid-4281 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-9830",
       "type": "page",
       "stylesheets": [
@@ -574,7 +574,7 @@
     {
       "path": "/appointment",
       "fileKey": "appointment",
-      "title": "Appointment – Impact Healthcare",
+      "title": "Appointment \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-4582 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-4582",
       "type": "page",
       "stylesheets": [
@@ -611,7 +611,7 @@
     {
       "path": "/faqs",
       "fileKey": "faqs",
-      "title": "FAQS – Impact Healthcare",
+      "title": "FAQS \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-4404 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-4404",
       "type": "page",
       "stylesheets": [
@@ -647,7 +647,7 @@
     {
       "path": "/our-team",
       "fileKey": "our-team",
-      "title": "Our Team – Impact Healthcare",
+      "title": "Our Team \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-4281 page-parent wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-4281",
       "type": "page",
       "stylesheets": [
@@ -684,7 +684,7 @@
     {
       "path": "/our-team/esther-howard",
       "fileKey": "our-team__esther-howard",
-      "title": "Dr. Esther Howard – Impact Healthcare",
+      "title": "Dr. Esther Howard \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-3835 page-child parent-pageid-4281 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-3835",
       "type": "page",
       "stylesheets": [
@@ -720,7 +720,7 @@
     {
       "path": "/contact-us",
       "fileKey": "contact-us",
-      "title": "Contact Us – Impact Healthcare",
+      "title": "Contact Us \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-3269 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-3269",
       "type": "page",
       "stylesheets": [
@@ -755,7 +755,7 @@
     {
       "path": "/video-gallery",
       "fileKey": "video-gallery",
-      "title": "Video Gallery – Impact Healthcare",
+      "title": "Video Gallery \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-3126 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-3126",
       "type": "page",
       "stylesheets": [
@@ -789,7 +789,7 @@
     {
       "path": "/image-gallery",
       "fileKey": "image-gallery",
-      "title": "Image Gallery – Impact Healthcare",
+      "title": "Image Gallery \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-3072 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-3072",
       "type": "page",
       "stylesheets": [
@@ -826,7 +826,7 @@
     {
       "path": "/services/pharmacy",
       "fileKey": "services__pharmacy",
-      "title": "Pharmacy – Impact Healthcare",
+      "title": "Pharmacy \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-2034 page-child parent-pageid-947 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-2034",
       "type": "page",
       "stylesheets": [
@@ -861,46 +861,9 @@
       "bodyLength": 82602
     },
     {
-      "path": "/services",
-      "fileKey": "services",
-      "title": "Services – Impact Healthcare",
-      "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-947 page-parent wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-947",
-      "type": "page",
-      "stylesheets": [
-        "/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.0.9",
-        "/wp-content/uploads/elementor/css/post-3822.css?ver=1779408340",
-        "/wp-content/uploads/elementor/css/post-4466.css?ver=1779408340",
-        "/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6",
-        "/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.48.0",
-        "/wp-content/uploads/elementor/css/post-8.css?ver=1779408340",
-        "/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.0.9",
-        "/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=4.0.9",
-        "/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.0.9",
-        "/wp-content/plugins/elementor/assets/css/widget-image-box.min.css?ver=4.0.9",
-        "/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css?ver=4.0.9",
-        "/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5",
-        "/wp-content/uploads/elementor/css/post-947.css?ver=1779449439",
-        "/wp-content/plugins/elementskit-lite/widgets/init/assets/css/widget-styles.css?ver=3.9.6",
-        "/wp-content/plugins/elementskit/widgets/init/assets/css/widget-styles-pro.css?ver=4.2.2",
-        "/wp-content/plugins/elementskit-lite/widgets/init/assets/css/responsive.css?ver=3.9.6",
-        "/wp-content/themes/dispnsary/assets/css/css-variable.css?ver=1.0.5",
-        "/wp-content/themes/dispnsary/assets/css/all.min.css?ver=1.0.5",
-        "/wp-content/themes/dispnsary/assets/css/bootstrap.min.css?ver=1.0.5",
-        "/wp-content/themes/dispnsary/style.css?ver=1.0.5",
-        "/wp-content/uploads/elementor/google-fonts/css/dmsans.css?ver=1744841692",
-        "/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3",
-        "/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3",
-        "/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3",
-        "/wp-content/plugins/elementskit-lite/modules/elementskit-icon-pack/assets/css/ekiticons.css?ver=3.9.6",
-        "/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.0.9"
-      ],
-      "elementorConfig": "{\"environmentMode\":{\"edit\":false,\"wpPreview\":false,\"isScriptDebug\":false},\"i18n\":{\"shareOnFacebook\":\"Share on Facebook\",\"shareOnTwitter\":\"Share on Twitter\",\"pinIt\":\"Pin it\",\"download\":\"Download\",\"downloadImage\":\"Download image\",\"fullscreen\":\"Fullscreen\",\"zoom\":\"Zoom\",\"share\":\"Share\",\"playVideo\":\"Play Video\",\"previous\":\"Previous\",\"next\":\"Next\",\"close\":\"Close\",\"a11yCarouselPrevSlideMessage\":\"Previous slide\",\"a11yCarouselNextSlideMessage\":\"Next slide\",\"a11yCarouselFirstSlideMessage\":\"This is the first slide\",\"a11yCarouselLastSlideMessage\":\"This is the last slide\",\"a11yCarouselPaginationBulletMessage\":\"Go to slide\"},\"is_rtl\":false,\"breakpoints\":{\"xs\":0,\"sm\":480,\"md\":768,\"lg\":1025,\"xl\":1440,\"xxl\":1600},\"responsive\":{\"breakpoints\":{\"mobile\":{\"label\":\"Mobile Portrait\",\"value\":767,\"default_value\":767,\"direction\":\"max\",\"is_enabled\":true},\"mobile_extra\":{\"label\":\"Mobile Landscape\",\"value\":880,\"default_value\":880,\"direction\":\"max\",\"is_enabled\":false},\"tablet\":{\"label\":\"Tablet Portrait\",\"value\":1024,\"default_value\":1024,\"direction\":\"max\",\"is_enabled\":true},\"tablet_extra\":{\"label\":\"Tablet Landscape\",\"value\":1200,\"default_value\":1200,\"direction\":\"max\",\"is_enabled\":false},\"laptop\":{\"label\":\"Laptop\",\"value\":1366,\"default_value\":1366,\"direction\":\"max\",\"is_enabled\":false},\"widescreen\":{\"label\":\"Widescreen\",\"value\":2400,\"default_value\":2400,\"direction\":\"min\",\"is_enabled\":false}},\"hasCustomBreakpoints\":false},\"version\":\"4.0.9\",\"is_static\":false,\"experimentalFeatures\":{\"container\":true,\"nested-elements\":true,\"global_classes_should_enforce_capabilities\":true,\"e_variables\":true,\"e_opt_in_v4_page\":true,\"e_components\":true,\"e_interactions\":true,\"e_widget_creation\":true,\"import-export-customization\":true},\"urls\":{\"assets\":\"\\/vendor\\/plugins\\/elementor\\/assets\\/\",\"ajaxurl\":\"https:\\/\\/demo.awaikenthemes.com\\/dispnsary\\/wp-admin\\/admin-ajax.php\",\"uploadUrl\":\"\\/assets\\/uploads\"},\"nonces\":{\"floatingButtonsClickTracking\":\"a13287d5c7\",\"atomicFormsSendForm\":\"2d025462da\"},\"swiperClass\":\"swiper\",\"settings\":{\"page\":[],\"editorPreferences\":[]},\"kit\":{\"body_background_background\":\"classic\",\"active_breakpoints\":[\"viewport_mobile\",\"viewport_tablet\"],\"global_image_lightbox\":\"yes\",\"lightbox_enable_counter\":\"yes\",\"lightbox_enable_fullscreen\":\"yes\",\"lightbox_enable_zoom\":\"yes\",\"lightbox_enable_share\":\"yes\",\"lightbox_title_src\":\"title\",\"lightbox_description_src\":\"description\"},\"post\":{\"id\":947,\"title\":\"Services%20%E2%80%93%20Dispnsary\",\"excerpt\":\"\",\"featuredImage\":false}}",
-      "bodyLength": 141344
-    },
-    {
       "path": "/about-us",
       "fileKey": "about-us",
-      "title": "About Us – Impact Healthcare",
+      "title": "About Us \u2013 Impact Healthcare",
       "bodyClass": "wp-singular page-template page-template-elementor_header_footer page page-id-282 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-282",
       "type": "page",
       "stylesheets": [
@@ -943,7 +906,7 @@
     {
       "path": "/blog",
       "fileKey": "blog",
-      "title": "Blog – Impact Healthcare",
+      "title": "Blog \u2013 Impact Healthcare",
       "bodyClass": "blog wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-kit-8",
       "type": "page",
       "stylesheets": [
@@ -976,7 +939,7 @@
     {
       "path": "/",
       "fileKey": "index",
-      "title": "Impact Healthcare – Global Pharmaceutical & Medicine Export Brand",
+      "title": "Impact Healthcare \u2013 Global Pharmaceutical & Medicine Export Brand",
       "bodyClass": "home wp-singular page-template page-template-elementor_header_footer page page-id-13 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page elementor-page-13",
       "type": "page",
       "stylesheets": [
@@ -1020,7 +983,7 @@
     {
       "path": "/new-quality-standards-in-pharmaceutical-manufacturing",
       "fileKey": "new-quality-standards-in-pharmaceutical-manufacturing",
-      "title": "New Quality Standards in Pharmaceutical Manufacturing – Impact Healthcare",
+      "title": "New Quality Standards in Pharmaceutical Manufacturing \u2013 Impact Healthcare",
       "bodyClass": "wp-singular post-template-default single single-post postid-3638 single-format-standard wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-kit-8",
       "type": "post",
       "stylesheets": [
@@ -1053,7 +1016,7 @@
     {
       "path": "/global-supply-chain-strategies-for-bulk-distribution",
       "fileKey": "global-supply-chain-strategies-for-bulk-distribution",
-      "title": "Advanced Medical Solutions for Every Patient&#8217;s Needs – Impact Healthcare",
+      "title": "Advanced Medical Solutions for Every Patient&#8217;s Needs \u2013 Impact Healthcare",
       "bodyClass": "wp-singular post-template-default single single-post postid-3636 single-format-standard wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-kit-8",
       "type": "post",
       "stylesheets": [
@@ -1086,7 +1049,7 @@
     {
       "path": "/streamlining-production-for-generic-medicines",
       "fileKey": "streamlining-production-for-generic-medicines",
-      "title": "Streamlining Production for Generic Medicines – Impact Healthcare",
+      "title": "Streamlining Production for Generic Medicines \u2013 Impact Healthcare",
       "bodyClass": "wp-singular post-template-default single single-post postid-3631 single-format-standard wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-kit-8",
       "type": "post",
       "stylesheets": [
@@ -1119,7 +1082,7 @@
     {
       "path": "/innovations-in-api-formulation-and-development",
       "fileKey": "innovations-in-api-formulation-and-development",
-      "title": "Innovations in API Formulation and Development – Impact Healthcare",
+      "title": "Innovations in API Formulation and Development \u2013 Impact Healthcare",
       "bodyClass": "wp-singular post-template-default single single-post postid-3574 single-format-standard wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-kit-8",
       "type": "post",
       "stylesheets": [
@@ -1152,7 +1115,7 @@
     {
       "path": "/maintaining-regulatory-compliance-in-export-markets",
       "fileKey": "maintaining-regulatory-compliance-in-export-markets",
-      "title": "Maintaining Regulatory Compliance in Export Markets – Impact Healthcare",
+      "title": "Maintaining Regulatory Compliance in Export Markets \u2013 Impact Healthcare",
       "bodyClass": "wp-singular post-template-default single single-post postid-3572 single-format-standard wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-kit-8",
       "type": "post",
       "stylesheets": [
@@ -1185,7 +1148,7 @@
     {
       "path": "/advancing-b2b-partnerships-in-pharma-logistics",
       "fileKey": "advancing-b2b-partnerships-in-pharma-logistics",
-      "title": "Advancing B2B Partnerships in Pharma Logistics – Impact Healthcare",
+      "title": "Advancing B2B Partnerships in Pharma Logistics \u2013 Impact Healthcare",
       "bodyClass": "wp-singular post-template-default single single-post postid-3561 single-format-standard wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-kit-8",
       "type": "post",
       "stylesheets": [

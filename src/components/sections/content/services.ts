@@ -6,11 +6,11 @@ export const SERVICES_HTML = `<div class="elementor-element elementor-element-c2
 		<div class="elementor-element elementor-element-65ee97e e-con-full e-flex e-con e-child" data-id="65ee97e" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-3c048a8 section-title at-heading-animation at-animation-heading-none elementor-invisible elementor-widget elementor-widget-heading" data-id="3c048a8" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">Our Services</h3>				</div>
+					<h3 class="elementor-heading-title elementor-size-default">Our Products</h3>				</div>
 				</div>
 				<div class="elementor-element elementor-element-43a4963 at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading" data-id="43a4963" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Comprehensive services for your health</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">Comprehensive products for your health</h2>				</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-e6f0424 e-con-full e-flex e-con e-child" data-id="e6f0424" data-element_type="container" data-e-type="container">
@@ -28,10 +28,10 @@ export const SERVICES_HTML = `<div class="elementor-element elementor-element-c2
           </div>
                         <div class="box-body">
                             <h3 class="elementskit-info-box-title">
-                    Urology                </h3>
+                    Acofan Tablet                </h3>
                                                     <div class="box-footer disable_hover_button">
                     <div class="btn-wraper">
-                                                            <a class="elementskit-btn whitespace--normal" href="/services/urology/">
+                                                            <a class="elementskit-btn whitespace--normal" href="/products/">
                                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M11.6667 20H27.5" stroke="#0B1030" stroke-width="1.5"></path><path d="M22.5 14.1666L28.3333 20L22.5 25.8333" stroke="#0B1030" stroke-width="1.5" stroke-linejoin="round"></path></svg>                                    </a>
                                                         </div>
                 </div>
@@ -64,10 +64,10 @@ export const SERVICES_HTML = `<div class="elementor-element elementor-element-c2
           </div>
                         <div class="box-body">
                             <h3 class="elementskit-info-box-title">
-                    Neurology                </h3>
+                    Acumol Tablet                </h3>
                                                     <div class="box-footer disable_hover_button">
                     <div class="btn-wraper">
-                                                            <a class="elementskit-btn whitespace--normal" href="/services/neurology/">
+                                                            <a class="elementskit-btn whitespace--normal" href="/products/">
                                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M11.6667 20H27.5" stroke="#0B1030" stroke-width="1.5"></path><path d="M22.5 14.1666L28.3333 20L22.5 25.8333" stroke="#0B1030" stroke-width="1.5" stroke-linejoin="round"></path></svg>                                    </a>
                                                         </div>
                 </div>
@@ -100,10 +100,10 @@ export const SERVICES_HTML = `<div class="elementor-element elementor-element-c2
           </div>
                         <div class="box-body">
                             <h3 class="elementskit-info-box-title">
-                    Eye Care                </h3>
+                    AFSC Kit                </h3>
                                                     <div class="box-footer disable_hover_button">
                     <div class="btn-wraper">
-                                                            <a class="elementskit-btn whitespace--normal" href="/services/eye-care/">
+                                                            <a class="elementskit-btn whitespace--normal" href="/products/">
                                                                                 <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none"><path d="M11.6667 20H27.5" stroke="#0B1030" stroke-width="1.5"></path><path d="M22.5 14.1666L28.3333 20L22.5 25.8333" stroke="#0B1030" stroke-width="1.5" stroke-linejoin="round"></path></svg>                                    </a>
                                                         </div>
                 </div>
@@ -126,14 +126,14 @@ export const SERVICES_HTML = `<div class="elementor-element elementor-element-c2
 		<div class="elementor-element elementor-element-94aec90 e-con-full e-flex e-con e-child" data-id="94aec90" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-70cebdd elementor-invisible elementor-widget elementor-widget-text-editor" data-id="70cebdd" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:300,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>From preventive care to specialized treatments, our wide range of services is designed to support your health at every stage.</p>								</div>
+									<p>From preventive care to specialized treatments, our wide range of products is designed to support your health at every stage.</p>								</div>
 				</div>
 				<div class="elementor-element elementor-element-4b4812e elementor-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="4b4812e" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:400,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="button.default">
 				<div class="elementor-widget-container">
 									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="/services/">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="/products/">
 						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">View All Services</span>
+									<span class="elementor-button-text">View All Products</span>
 					</span>
 					</a>
 				</div>

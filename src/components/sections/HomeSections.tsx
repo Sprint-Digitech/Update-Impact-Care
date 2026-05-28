@@ -23,7 +23,6 @@ export function HomeSections() {
     >
       <Section html={HERO_HTML} />
       <Section html={ABOUT_HTML} />
-      <Section html={SERVICES_HTML} />
       <Section html={WHY_CHOOSE_HTML} />
       <Section html={HOW_WE_WORK_HTML} />
       <Section html={BY_THE_NUMBERS_HTML} />
