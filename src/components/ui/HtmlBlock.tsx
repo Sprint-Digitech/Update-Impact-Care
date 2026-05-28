@@ -37,10 +37,23 @@ export function HtmlBlock({
     // Handle same origin internal navigation
     if (href.startsWith("/") && !href.startsWith("//")) {
       e.preventDefault();
-      router.push(href);
+      const cleanHref = href.split("?")[0].replace(/\/$/, "") || "/";
+      const cleanPath = window.location.pathname.replace(/\/$/, "") || "/";
+      if (cleanHref === cleanPath) {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } else {
+        router.push(href);
+      }
     } else if (href.startsWith(window.location.origin)) {
       e.preventDefault();
-      router.push(href.replace(window.location.origin, "") || "/");
+      const relativeHref = href.replace(window.location.origin, "") || "/";
+      const cleanHref = relativeHref.split("?")[0].replace(/\/$/, "") || "/";
+      const cleanPath = window.location.pathname.replace(/\/$/, "") || "/";
+      if (cleanHref === cleanPath) {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } else {
+        router.push(relativeHref);
+      }
     }
   };
 
