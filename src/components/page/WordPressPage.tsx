@@ -5,16 +5,18 @@ import { HtmlBlock } from "@/components/ui/HtmlBlock";
 import { BodyClassManager } from "@/components/client/BodyClassManager";
 import { usePageScripts } from "@/hooks/usePageScripts";
 
-type WordPressPageProps = {
+export type WordPressPageProps = {
   bodyHtml: string;
   bodyClass: string;
   elementorConfig: string | null;
+  children?: React.ReactNode;
 };
 
 export function WordPressPage({
   bodyHtml,
   bodyClass,
   elementorConfig,
+  children,
 }: WordPressPageProps) {
   usePageScripts(elementorConfig, bodyHtml);
 
@@ -31,17 +33,37 @@ export function WordPressPage({
     }
   }, [bodyHtml]);
 
-  // Inject animated scroll indicator into the hero section
+  // Inject the scroll indicator into the page hero, never into the header.
   useEffect(() => {
     let scrollIndicator: HTMLDivElement | null = null;
     let hero: Element | null = null;
 
+    const heroSelectors = [
+      ".top-hero-banner",
+      ".page-header.bg-section",
+      'main#content .e-parent:first-of-type',
+      'main#content div[data-elementor-type="wp-page"] > .e-parent:first-of-type',
+      'main#content div[data-elementor-type="wp-post"] > .e-parent:first-of-type',
+      'div[data-elementor-type="wp-page"] > .e-parent:first-of-type',
+      'div[data-elementor-type="wp-post"] > .e-parent:first-of-type',
+    ];
+
+    const findHero = () => {
+      for (const selector of heroSelectors) {
+        const candidates = document.querySelectorAll(selector);
+
+        for (const candidate of candidates) {
+          if (!candidate.closest(".ekit-template-content-header")) {
+            return candidate;
+          }
+        }
+      }
+
+      return null;
+    };
+
     const timer = setTimeout(() => {
-      // Prioritize the dedicated top-hero-banner, fallback to the very first main content section
-      hero =
-        document.querySelector(".top-hero-banner") ||
-        document.querySelector('div[data-elementor-type="wp-page"] > .e-parent:first-of-type') ||
-        document.querySelector('div[data-elementor-type="wp-post"] > .e-parent:first-of-type');
+      hero = findHero();
 
       if (hero && !hero.querySelector(".scroll-indicator-container")) {
         // Ensure the hero is positioned relatively so the absolute indicator attaches to it
@@ -90,7 +112,7 @@ export function WordPressPage({
   return (
     <>
       <BodyClassManager className={bodyClass} />
-      <HtmlBlock html={sanitizedBodyHtml} />
+      {children ? children : <HtmlBlock html={sanitizedBodyHtml} />}
     </>
   );
 }

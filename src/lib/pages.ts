@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import manifestData from "@/content/pages-manifest.json";
+import { products } from "@/lib/data/products";
 
 export type PageManifestEntry = {
   path: string;
@@ -21,8 +22,28 @@ type Manifest = {
 const manifest = manifestData as Manifest;
 const BODIES_DIR = path.join(process.cwd(), "src", "content", "bodies");
 
+// Dynamically generate entries for all 48 products to support routing
+const productPages: PageManifestEntry[] = products.map(p => ({
+  path: `/products/${p.slug}`,
+  fileKey: `product__${p.slug}`,
+  title: p.title,
+  bodyClass: 'page-template-default page page-id-10083 wp-custom-logo wp-theme-dispnsary tt-magic-cursor elementor-default elementor-template-full-width elementor-kit-8 elementor-page',
+  type: 'page',
+  stylesheets: [],
+  elementorConfig: null,
+  bodyLength: 0
+}));
+
+// Combine static manifest pages with dynamic product pages
+const allMergedPages = [...manifest.pages];
+productPages.forEach(p => {
+  if (!allMergedPages.find(ap => ap.path === p.path)) {
+    allMergedPages.push(p);
+  }
+});
+
 export function getAllPages(): PageManifestEntry[] {
-  return manifest.pages;
+  return allMergedPages;
 }
 
 export function getPageByPath(urlPath: string): PageManifestEntry | undefined {
@@ -32,7 +53,7 @@ export function getPageByPath(urlPath: string): PageManifestEntry | undefined {
       : urlPath.endsWith("/")
         ? urlPath.slice(0, -1)
         : urlPath;
-  return manifest.pages.find((p) => p.path === normalized);
+  return allMergedPages.find((p) => p.path === normalized);
 }
 
 export function getPageBodyHtml(fileKey: string): string {

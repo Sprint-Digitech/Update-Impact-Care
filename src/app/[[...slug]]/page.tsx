@@ -7,6 +7,11 @@ import {
   getPageByPath,
   slugSegmentsToPath,
 } from "@/lib/pages";
+import { ProductsCatalog } from "@/components/products/ProductsCatalog";
+import { ProductDetailPage } from "@/components/products/ProductDetailPage";
+import { parseWordPressLayout, parseWordPressDetailLayout } from "@/lib/server-parser";
+import { products } from "@/lib/data/products";
+import { HtmlBlock } from "@/components/ui/HtmlBlock";
 
 type PageProps = {
   params: Promise<{ slug?: string[] }>;
@@ -123,6 +128,55 @@ export default async function DynamicPage({ params }: PageProps) {
 
   if (!page) notFound();
 
+  // 1. Intercept the products catalog page
+  if (urlPath === "/products") {
+    const rawHtml = getPageBodyHtml(page.fileKey);
+    const layout = parseWordPressLayout(rawHtml);
+
+    return (
+      <WordPressPage
+        bodyHtml={rawHtml}
+        bodyClass={page.bodyClass}
+        elementorConfig={page.elementorConfig}
+      >
+        <HtmlBlock html={layout.headStyles + layout.preloader + layout.cursor + layout.header} />
+        <div className="elementor elementor-947">
+          <HtmlBlock html={layout.heroBanner} />
+          <ProductsCatalog />
+          <HtmlBlock html={layout.lowerContent} />
+        </div>
+        <HtmlBlock html={layout.footer} />
+      </WordPressPage>
+    );
+  }
+
+  // 2. Intercept any individual product detail page
+  if (urlPath.startsWith("/products/")) {
+    const productSlug = urlPath.replace("/products/", "");
+    const product = products.find(p => p.slug === productSlug);
+    if (!product) notFound();
+
+    // Use product__acofan-tablet as the clean layout master frame template
+    const templateHtml = getPageBodyHtml("product__acofan-tablet");
+    const layout = parseWordPressDetailLayout(templateHtml);
+
+    return (
+      <WordPressPage
+        bodyHtml={templateHtml}
+        bodyClass={page.bodyClass}
+        elementorConfig={page.elementorConfig}
+      >
+        <HtmlBlock html={layout.headStyles + layout.preloader + layout.cursor + layout.header} />
+        <div className="elementor elementor-10083">
+          <HtmlBlock html={layout.heroBanner} />
+          <ProductDetailPage product={product} />
+        </div>
+        <HtmlBlock html={layout.footer} />
+      </WordPressPage>
+    );
+  }
+
+  // 3. Fallback standard WordPress page rendering
   const bodyHtml = getPageBodyHtml(page.fileKey);
 
   return (

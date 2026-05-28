@@ -7,9 +7,9 @@ export function parseWordPressLayout(html: string) {
   const headStyles = $("head style").parent().html() || "";
 
   // 2. Extract Preloader & Header
-  const preloader = $(".preloader").parent().html() || "";
-  const cursor = $("#magic-cursor").parent().html() || "";
-  const header = $(".ekit-template-content-header").parent().html() || "";
+  const preloader = $.html($(".preloader")) || "";
+  const cursor = $.html($("#magic-cursor")) || "";
+  const header = $.html($(".ekit-template-content-header")) || "";
 
   // 3. Extract Main content parts
   const mainContent = $('.elementor.elementor-947');
@@ -28,7 +28,7 @@ export function parseWordPressLayout(html: string) {
   });
 
   // 4. Extract Footer
-  const footer = $(".ekit-template-content-footer").parent().html() || "";
+  const footer = $.html($(".ekit-template-content-footer")) || "";
 
   return {
     headStyles,
@@ -37,6 +37,40 @@ export function parseWordPressLayout(html: string) {
     header,
     heroBanner,
     lowerContent,
+    footer
+  };
+}
+
+export function parseWordPressDetailLayout(html: string) {
+  const $ = cheerio.load(html);
+
+  // 1. Extract Head Styles
+  const headStyles = $("head style").parent().html() || "";
+
+  // 2. Extract Preloader & Header
+  const preloader = $.html($(".preloader")) || "";
+  const cursor = $.html($("#magic-cursor")) || "";
+  const header = $.html($(".ekit-template-content-header")) || "";
+
+  // 3. Extract Main content (elementor-10083)
+  const mainContent = $('.elementor.elementor-10083');
+  
+  let heroBanner = "";
+  mainContent.children().each((i, el) => {
+    if (i === 0) {
+      heroBanner = $.html(el);
+    }
+  });
+
+  // 4. Extract Footer
+  const footer = $.html($(".ekit-template-content-footer")) || "";
+
+  return {
+    headStyles,
+    preloader,
+    cursor,
+    header,
+    heroBanner,
     footer
   };
 }
