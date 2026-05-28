@@ -21,7 +21,8 @@ body {
 
 /* Header Logo adjustments - Premium Balance */
 .ata-site-logo-img {
-  max-height: 65px !important; /* Perfectly balanced: prominent but not overly bulky */
+  max-height: 65px !important;
+  /* Perfectly balanced: prominent but not overly bulky */
   width: auto !important;
   object-fit: contain !important;
   mix-blend-mode: multiply;
@@ -37,7 +38,8 @@ body {
 
 /* Premium Header Navigation Formatting */
 .ekit-template-content-header .elementskit-navbar-nav>li>a {
-  padding: 10px 18px !important; /* Balanced horizontal spacing between links */
+  padding: 10px 18px !important;
+  /* Balanced horizontal spacing between links */
   font-size: 15px !important;
   font-weight: 500 !important;
   letter-spacing: 0.3px !important;
@@ -47,12 +49,14 @@ body {
 .ekit-template-content-header .e-con.e-parent {
   padding-top: 10px !important;
   padding-bottom: 10px !important;
-  min-height: 85px !important; /* Prevents the header from feeling too cramped or too fat */
+  min-height: 85px !important;
+  /* Prevents the header from feeling too cramped or too fat */
 }
 
 /* Perfect Vertical Alignment */
 .ekit-template-content-header .e-con-inner {
-  max-width: 96% !important; /* Slightly more breathing room on the outer edges */
+  max-width: 96% !important;
+  /* Slightly more breathing room on the outer edges */
   align-items: center !important;
 }
 
@@ -68,39 +72,45 @@ body {
 
 /* Manufacturing Page Layout Grids */
 .mfg-grid-container {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    align-items: center;
-    margin-bottom: 60px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 60px;
 }
+
 .mfg-grid-container.reverse {
-    direction: rtl;
+  direction: rtl;
 }
-.mfg-grid-container.reverse > * {
-    direction: ltr;
+
+.mfg-grid-container.reverse>* {
+  direction: ltr;
 }
+
 .mfg-image-wrapper img {
-    border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
+
 @media (max-width: 768px) {
-    .mfg-grid-container {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    .mfg-grid-container.reverse {
-        direction: ltr;
-    }
+  .mfg-grid-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .mfg-grid-container.reverse {
+    direction: ltr;
+  }
 }
 
 /* Fix text contrast in list items under Why Choose Us / Manufacturing */
 .elementor-icon-list-text {
-  color: #1a202c !important; /* Premium dark charcoal color for high-contrast readability */
+  color: #1a202c !important;
+  /* Premium dark charcoal color for high-contrast readability */
   font-weight: 500 !important;
 }
 
@@ -108,12 +118,15 @@ body {
 .work-step-image-box .elementor-image-box-content {
   position: relative !important;
   z-index: 3 !important;
-  margin-top: -20px !important; /* Pull badge circle up to overlay the bottom of the circular image */
+  margin-top: -20px !important;
+  /* Pull badge circle up to overlay the bottom of the circular image */
 }
+
 .work-step-image-box .elementor-image-box-title {
   position: relative !important;
   z-index: 4 !important;
-  color: #ffffff !important; /* Premium white number text inside badge */
+  color: #ffffff !important;
+  /* Premium white number text inside badge */
   font-size: 16px !important;
   font-weight: 700 !important;
 }
@@ -130,7 +143,7 @@ body {
   max-width: 100vw !important;
   margin-left: -50vw !important;
   margin-right: -50vw !important;
-  border-radius: 0 !important;
+  border-radius: 40px 40px 0 0 !important;
   min-height: clamp(350px, 45vh, 600px) !important;
   display: flex !important;
   flex-direction: column !important;
@@ -141,7 +154,7 @@ body {
 }
 
 /* Ensure inner contents stay within readable grid limits */
-.top-hero-banner > .e-con-inner {
+.top-hero-banner>.e-con-inner {
   max-width: 1140px !important;
   margin: 0 auto !important;
   width: 100% !important;
@@ -154,12 +167,10 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-      180deg,
+  background: linear-gradient(180deg,
       rgba(0, 10, 25, 0.4) 0%,
       rgba(0, 15, 35, 0.6) 50%,
-      rgba(0, 20, 40, 0.85) 100%
-  ) !important;
+      rgba(0, 20, 40, 0.85) 100%) !important;
   z-index: 0 !important;
 }
 
@@ -174,10 +185,24 @@ body {
 
 /* Scroll indicator animation - Premium Polish */
 @keyframes scrollDownAnim {
-  0% { transform: translate(-50%, 0); opacity: 0; }
-  20% { opacity: 1; }
-  80% { transform: translate(-50%, 14px); opacity: 1; }
-  100% { transform: translate(-50%, 18px); opacity: 0; }
+  0% {
+    transform: translate(-50%, 0);
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 1;
+  }
+
+  80% {
+    transform: translate(-50%, 14px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translate(-50%, 18px);
+    opacity: 0;
+  }
 }
 
 .scroll-indicator-container {
@@ -234,6 +259,7 @@ body {
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
   font-family: inherit;
 }
+
 /* Ensure perfectly flush alignment under the navigation bar */
 .top-hero-banner {
   margin-top: 0 !important;
@@ -245,7 +271,8 @@ body {
 .elementor-element-095dcbd .elementor-widget-container p {
   font-size: 16px !important;
   line-height: 1.9 !important;
-  color: #334155 !important; /* Premium Slate Gray for high-end readability */
+  color: #334155 !important;
+  /* Premium Slate Gray for high-end readability */
   margin-bottom: 24px !important;
   letter-spacing: 0.2px !important;
   font-weight: 400 !important;
@@ -253,22 +280,25 @@ body {
 
 @media (min-width: 1024px) {
   .elementor-element-095dcbd .elementor-widget-container p {
-    font-size: 17px !important; /* Slightly larger on desktop */
-    padding-right: 4% !important; /* Prevents text from crowding the right-side image */
+    font-size: 17px !important;
+    /* Slightly larger on desktop */
+    padding-right: 4% !important;
+    /* Prevents text from crowding the right-side image */
   }
 }
 
 /* About Us Page - Premium Layout & Sticky Image Polish */
 /* Force top alignment so the image perfectly matches the heading height */
-.elementor-element-3683a39 > .e-con-inner {
-  align-items: flex-start !important; 
-  gap: 5% !important; /* Add perfect horizontal breathing room between text and image */
+.elementor-element-3683a39>.e-con-inner {
+  align-items: flex-start !important;
+  gap: 5% !important;
+  /* Add perfect horizontal breathing room between text and image */
 }
 
 /* Make the right-side image sticky so it scrolls elegantly with the user */
 .elementor-element-5391c8d {
   position: sticky !important;
-  top: 120px !important; 
+  top: 120px !important;
   z-index: 10 !important;
   height: max-content !important;
   padding-bottom: 40px !important;
@@ -292,156 +322,163 @@ body {
 /* ========================================= */
 
 @media (min-width: 992px) {
-    /* 1. Main About Us Section */
-    .elementor-element-3683a39 > .e-con-inner {
-        display: flex !important;
-        flex-direction: row !important;
-        flex-wrap: wrap !important; /* Critical: Allows the button to wrap to the bottom */
-        align-items: flex-start !important;
-        justify-content: space-between !important;
-    }
 
-    /* Assign correct desktop column widths to prevent squishing (40% Text, 55% Image) */
-    .elementor-element-b108e7a { 
-        width: 40% !important; 
-        flex: 0 0 40% !important; 
-    }
-    .elementor-element-5391c8d { 
-        width: 55% !important; 
-        flex: 0 0 55% !important; 
-    }
+  /* 1. Main About Us Section */
+  .elementor-element-3683a39>.e-con-inner {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    /* Critical: Allows the button to wrap to the bottom */
+    align-items: flex-start !important;
+    justify-content: space-between !important;
+  }
 
-    /* Force the image to expand to fill the full 55% container width */
-    .elementor-element-5391c8d img {
-        width: 100% !important;
-        height: auto !important;
-    }
+  /* Assign correct desktop column widths to prevent squishing (40% Text, 55% Image) */
+  .elementor-element-b108e7a {
+    width: 40% !important;
+    flex: 0 0 40% !important;
+  }
 
-    /* Force the button to wrap below the text column */
-    .elementor-element-61e1dcf {
-        width: 100% !important;
-        flex: 0 0 100% !important;
-        margin-top: 30px !important;
-    }
+  .elementor-element-5391c8d {
+    width: 55% !important;
+    flex: 0 0 55% !important;
+  }
 
-    /* Compress the massive text block to reduce vertical scrolling */
-    .elementor-element-095dcbd .elementor-widget-container p {
-        font-size: 15px !important;
-        line-height: 1.6 !important;
-        margin-bottom: 14px !important;
-        color: #475569 !important;
-    }
+  /* Force the image to expand to fill the full 55% container width */
+  .elementor-element-5391c8d img {
+    width: 100% !important;
+    height: auto !important;
+  }
 
-    /* Standard Facilities Grid */
-    .elementor-element-05f2dff > .e-con-inner {
-        display: flex !important;
-        flex-direction: row !important;
-        flex-wrap: nowrap !important;
-        align-items: center !important;
-        justify-content: space-between !important;
-        gap: 5% !important; 
-    }
-    .elementor-element-05f2dff > .e-con-inner > .e-child {
-        flex: 1 1 0% !important; 
-        min-width: 0 !important;
-    }
+  /* Force the button to wrap below the text column */
+  .elementor-element-61e1dcf {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+    margin-top: 30px !important;
+  }
 
-    /* 2. Mission & Vision Tabs (HTML has Image first, force Image to Right with row-reverse) */
-    .elementor-element-189e6c0 {
-        display: flex !important;
-        flex-direction: row-reverse !important; /* Text Left, Image Right */
-        flex-wrap: nowrap !important;
-        align-items: center !important;
-        gap: 5% !important;
-    }
+  /* Compress the massive text block to reduce vertical scrolling */
+  .elementor-element-095dcbd .elementor-widget-container p {
+    font-size: 15px !important;
+    line-height: 1.6 !important;
+    margin-bottom: 14px !important;
+    color: #475569 !important;
+  }
 
-    .elementor-element-189e6c0 > .e-child {
-        flex: 1 1 0% !important; 
-        min-width: 0 !important;
-    }
+  /* Standard Facilities Grid */
+  .elementor-element-05f2dff>.e-con-inner {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    gap: 5% !important;
+  }
 
-    /* Scale up the Mission/Vision images to fill their columns */
-    .elementor-element-189e6c0 img {
-        width: 100% !important;
-        height: auto !important;
-    }
+  .elementor-element-05f2dff>.e-con-inner>.e-child {
+    flex: 1 1 0% !important;
+    min-width: 0 !important;
+  }
 
-    /* 3. CTA Banner */
-    .elementor-element-fce399b > .e-con-inner {
-        display: flex !important;
-        flex-direction: row !important;
-        flex-wrap: nowrap !important;
-        align-items: center !important;
-        justify-content: center !important;
-        gap: 20px !important;
-    }
+  /* 2. Mission & Vision Tabs (HTML has Image first, force Image to Right with row-reverse) */
+  .elementor-element-189e6c0 {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    /* Text Left, Image Right */
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    gap: 5% !important;
+  }
+
+  .elementor-element-189e6c0>.e-child {
+    flex: 1 1 0% !important;
+    min-width: 0 !important;
+  }
+
+  /* Scale up the Mission/Vision images to fill their columns */
+  .elementor-element-189e6c0 img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* 3. CTA Banner */
+  .elementor-element-fce399b>.e-con-inner {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 20px !important;
+  }
 }
 
 @media (max-width: 991px) {
-    /* Safely stack on Tablet/Mobile */
-    .elementor-element-3683a39 > .e-con-inner,
-    .elementor-element-05f2dff > .e-con-inner,
-    .elementor-element-189e6c0,
-    .elementor-element-fce399b > .e-con-inner {
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 30px !important;
-    }
-    
-    .elementor-element-b108e7a,
-    .elementor-element-5391c8d,
-    .elementor-element-61e1dcf,
-    .elementor-element-05f2dff > .e-con-inner > .e-child,
-    .elementor-element-189e6c0 > .e-child {
-        width: 100% !important;
-        flex: none !important;
-    }
+
+  /* Safely stack on Tablet/Mobile */
+  .elementor-element-3683a39>.e-con-inner,
+  .elementor-element-05f2dff>.e-con-inner,
+  .elementor-element-189e6c0,
+  .elementor-element-fce399b>.e-con-inner {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 30px !important;
+  }
+
+  .elementor-element-b108e7a,
+  .elementor-element-5391c8d,
+  .elementor-element-61e1dcf,
+  .elementor-element-05f2dff>.e-con-inner>.e-child,
+  .elementor-element-189e6c0>.e-child {
+    width: 100% !important;
+    flex: none !important;
+  }
 }
 
 /* Hide unwanted social media icons above Hub items on the About Page */
 .team-body .elementor-widget-social-icons {
-    display: none !important;
+  display: none !important;
 }
 
 
 /* Fix the squished icon boxes in the "Professionals dedicated" section */
 /* Make the parent container stack vertically */
-.elementor-element-05f2dff > .e-con-inner {
-    display: flex !important;
-    flex-direction: column !important;
-    gap: 40px !important;
-    align-items: center !important;
+.elementor-element-05f2dff>.e-con-inner {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 40px !important;
+  align-items: center !important;
 }
 
 /* Ensure the child columns take full width */
-.elementor-element-05f2dff > .e-con-inner > .e-child {
-    width: 100% !important;
-    max-width: 1200px !important;
+.elementor-element-05f2dff>.e-con-inner>.e-child {
+  width: 100% !important;
+  max-width: 1200px !important;
 }
 
 /* Make the 3 icon boxes sit side-by-side horizontally on desktop */
 .elementor-element-8f1985f {
-    display: flex !important;
-    flex-direction: row !important;
-    flex-wrap: wrap !important;
-    gap: 30px !important;
-    justify-content: center !important;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 30px !important;
+  justify-content: center !important;
 }
 
 /* Ensure the individual icon boxes take equal width (approx 30% each) */
 .elementor-element-8f1985f .our-facility-item {
-    width: 30% !important;
-    min-width: 300px !important;
-    flex: 1 1 30% !important;
+  width: 30% !important;
+  min-width: 300px !important;
+  flex: 1 1 30% !important;
 }
 
 @media (max-width: 991px) {
-    .elementor-element-8f1985f {
-        flex-direction: column !important;
-    }
-    .elementor-element-8f1985f .our-facility-item {
-        width: 100% !important;
-    }
+  .elementor-element-8f1985f {
+    flex-direction: column !important;
+  }
+
+  .elementor-element-8f1985f .our-facility-item {
+    width: 100% !important;
+  }
 }
 
 
@@ -451,138 +488,224 @@ body {
 
 /* The main header container - Floating Pill Shape */
 .elementor-3822 .elementor-element-8e961d2 {
-    background: rgba(255, 255, 255, 0.98) !important;
-    backdrop-filter: blur(12px) !important;
-    -webkit-backdrop-filter: blur(12px) !important;
-    border-radius: 50px !important;
-    margin: 15px auto !important; /* Slightly tighter top margin */
-    padding: 0px 25px !important; /* Made thinner */
-    max-width: 92% !important; /* Float symmetrically in the center */
-    position: fixed !important; /* Now it scrolls with the page! */
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 9999 !important;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08) !important; /* Lighter shadow for white bg */
-    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+  background: rgba(255, 255, 255, 0.98) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border-radius: 50px !important;
+  margin: 15px auto !important;
+  /* Slightly tighter top margin */
+  padding: 0px 25px !important;
+  /* Made thinner */
+  max-width: 92% !important;
+  /* Float symmetrically in the center */
+  position: fixed !important;
+  /* Now it scrolls with the page! */
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9999 !important;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08) !important;
+  /* Lighter shadow for white bg */
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
 }
 
 /* Force the logo to stay a reasonable size but larger than before */
 .elementor-3822 .ata-site-logo-img {
-    max-height: 48px !important;
-    width: auto !important;
+  max-height: 48px !important;
+  width: auto !important;
 }
 
 /* Ensure inner columns are vertically centered */
-.elementor-3822 .elementor-element-8e961d2 > .e-con-inner {
-    align-items: center !important;
-    justify-content: space-between !important;
+.elementor-3822 .elementor-element-8e961d2>.e-con-inner {
+  align-items: center !important;
+  justify-content: space-between !important;
 }
 
 /* Nav Menu Items Typography - Exact match to screenshot */
 .elementor-3822 .ekit-menu-nav-link {
-    color: #1e293b !important; /* Dark text for white background */
-    text-transform: uppercase !important;
-    font-size: 13px !important;
-    font-weight: 600 !important;
-    letter-spacing: 1.2px !important;
-    padding: 4px 15px !important; /* Ultra thin padding */
+  color: #1e293b !important;
+  /* Dark text for white background */
+  text-transform: uppercase !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  letter-spacing: 1.2px !important;
+  padding: 4px 15px !important;
+  /* Ultra thin padding */
 }
 
 .elementor-3822 .ekit-menu-nav-link:hover {
-    color: #F5B027 !important; /* Premium gold hover */
+  color: #F5B027 !important;
+  /* Premium gold hover */
 }
 
 /* Submenu dropdown fix for floating header */
 .elementor-3822 .elementskit-dropdown {
-    border-radius: 12px !important;
-    overflow: hidden !important;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.2) !important;
-    margin-top: 20px !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2) !important;
+  margin-top: 20px !important;
 }
 
 /* The CTA Button (Match the bright yellow/orange rounded button) */
 .elementor-3822 .elementor-button {
-    background-color: #F8AE22 !important; /* Screenshot-accurate vibrant yellow-orange */
-    color: #111111 !important;
-    border-radius: 50px !important;
-    padding: 10px 24px !important; /* Slimmer button padding */
-    font-weight: 600 !important;
-    font-size: 14px !important; /* Slightly smaller text */
-    border: none !important;
-    transition: all 0.3s ease !important;
+  background-color: #F8AE22 !important;
+  /* Screenshot-accurate vibrant yellow-orange */
+  color: #111111 !important;
+  border-radius: 50px !important;
+  padding: 10px 24px !important;
+  /* Slimmer button padding */
+  font-weight: 600 !important;
+  font-size: 14px !important;
+  /* Slightly smaller text */
+  border: none !important;
+  transition: all 0.3s ease !important;
 }
 
 .elementor-3822 .elementor-button:hover {
-    background-color: #e59d1c !important;
-    transform: translateY(-2px) !important;
-    box-shadow: 0 8px 20px rgba(248, 174, 34, 0.3) !important;
+  background-color: #e59d1c !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 20px rgba(248, 174, 34, 0.3) !important;
 }
 
 /* Remove default background colors from standard containers to let pill show */
 .elementor-3822 .elementor-element-8e961d2.bg-section {
-    background-color: transparent !important;
-    background-image: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
 }
 
 /* Force the navigation menu to stay on ONE line and prevent wrapping */
 .elementor-3822 .elementskit-navbar-nav {
-    display: flex !important;
-    flex-wrap: nowrap !important;
-    align-items: center !important;
-    margin: 0 !important;
-    padding: 0 !important;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 /* Ensure inner columns dont have excess padding causing height issues */
 .elementor-3822 .elementor-element-8e961d2 .e-con,
 .elementor-3822 .elementor-element-8e961d2 .e-con-inner {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    min-height: 0 !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 0 !important;
 }
 
 /* Make nav links even smaller and tighter so they fit horizontally */
 .elementor-3822 .ekit-menu-nav-link {
-    font-size: 11px !important;
-    padding: 2px 7px !important;
-    letter-spacing: 0.5px !important;
-    white-space: nowrap !important; /* Fix ABOUT US / CONTACT US wrapping */
+  font-size: 11px !important;
+  padding: 2px 7px !important;
+  letter-spacing: 0.5px !important;
+  white-space: nowrap !important;
+  /* Fix ABOUT US / CONTACT US wrapping */
 }
 
 /* Make the CTA button even slimmer to reduce overall height */
 .elementor-3822 .elementor-button {
-    padding: 8px 18px !important;
-    font-size: 13px !important;
-    line-height: 1 !important;
+  padding: 8px 18px !important;
+  font-size: 13px !important;
+  line-height: 1 !important;
 }
 
 /* Ensure the central menu container can shrink/grow as needed */
 .elementor-3822 .elementor-element-e2b5f2c {
-    flex-grow: 1 !important;
-    justify-content: center !important;
+  flex-grow: 1 !important;
+  justify-content: center !important;
 }
 
 
 /* Footer Social Media Alignment and Visibility */
-.ekit_social_media { display: flex !important; flex-direction: row !important; flex-wrap: nowrap !important; align-items: center !important; gap: 15px !important; padding: 0 !important; margin: 0 !important; list-style: none !important; }
-.ekit_social_media li { display: inline-block !important; margin: 0 !important; padding: 0 !important; }
-.ekit_social_media a { display: flex !important; align-items: center !important; justify-content: center !important; width: 40px !important; height: 40px !important; background-color: rgba(255, 255, 255, 0.1) !important; border: 1px solid rgba(255, 255, 255, 0.2) !important; border-radius: 50% !important; color: #ffffff !important; text-decoration: none !important; transition: all 0.3s ease !important; }
-.ekit_social_media a i { font-size: 16px !important; color: #ffffff !important; opacity: 1 !important; }
-.ekit_social_media a:hover { background-color: #F8AE22 !important; border-color: #F8AE22 !important; color: #111111 !important; transform: translateY(-3px) !important; }
-.ekit_social_media a:hover i { color: #111111 !important; }
+.ekit_social_media {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  gap: 15px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  list-style: none !important;
+}
+
+.ekit_social_media li {
+  display: inline-block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.ekit_social_media a {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 40px !important;
+  height: 40px !important;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+  border-radius: 50% !important;
+  color: #ffffff !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease !important;
+}
+
+.ekit_social_media a i {
+  font-size: 16px !important;
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+.ekit_social_media a:hover {
+  background-color: #F8AE22 !important;
+  border-color: #F8AE22 !important;
+  color: #111111 !important;
+  transform: translateY(-3px) !important;
+}
+
+.ekit_social_media a:hover i {
+  color: #111111 !important;
+}
 
 /* Invisible bridge to fix hover gap issue on dropdown */
-.elementor-3822 .elementskit-navbar-nav > li.elementskit-dropdown-has {
-    position: relative !important;
+.elementor-3822 .elementskit-navbar-nav>li.elementskit-dropdown-has {
+  position: relative !important;
 }
-.elementor-3822 .elementskit-navbar-nav > li.elementskit-dropdown-has::after {
-    content: '' !important;
-    position: absolute !important;
-    bottom: -25px !important;
-    left: 0 !important;
-    width: 100% !important;
-    height: 30px !important;
-    background: transparent !important;
-    z-index: 99 !important;
+
+.elementor-3822 .elementskit-navbar-nav>li.elementskit-dropdown-has::after {
+  content: '' !important;
+  position: absolute !important;
+  bottom: -25px !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 30px !important;
+  background: transparent !important;
+  z-index: 99 !important;
+}
+
+
+/* Apply unified curved top borders to all Hero Banners across the site */
+.top-hero-banner,
+.elementor-element.elementor-element-ac92a47,
+.elementor-element.elementor-element-bef7d76,
+.elementor-element.elementor-element-0d2b752 {
+  border-radius: 40px 40px 0 0 !important;
+  overflow: hidden !important;
+  margin-top: 15px !important;
+}
+
+
+/* Ensure header Contact Us button text is white */
+.ekit-template-content-header .elementor-button-text {
+  color: #ffffff !important;
+}
+
+/* Ensure page-header text (e.g. Our Blogs) is white and visible */
+.page-header .entry-title,
+.page-header .breadcrumb-trail span,
+.page-header .breadcrumb-trail a span {
+  color: #ffffff !important;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8) !important;
+}
+
+/* Apply the same curved hero styling to .page-header */
+.page-header.bg-section {
+  border-radius: 40px 40px 0 0 !important;
+  margin-top: 15px !important;
+  overflow: hidden !important;
 }
