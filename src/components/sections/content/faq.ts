@@ -15,7 +15,7 @@ export const FAQ_HTML = `<div class="elementor-element elementor-element-b93f3c2
 				</div>
 				<div class="elementor-element elementor-element-9e738a9 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="9e738a9" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Here to make your experience as seamless as possible—explore answers to common questions about our services, policies, and patient care.</p>								</div>
+									<p>Here to make your experience as seamless as possible—explore answers to common questions about our services, policies, and pharmaceutical care.</p>								</div>
 				</div>
 		<div class="elementor-element elementor-element-463711b e-con-full faq-cta-box e-flex elementor-invisible e-con e-child" data-id="463711b" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInUp&quot;,&quot;animation_delay&quot;:200}">
 		<div class="elementor-element elementor-element-a8401d6 e-con-full e-flex e-con e-child" data-id="a8401d6" data-element_type="container" data-e-type="container">

@@ -9,11 +9,11 @@ export const WHY_CHOOSE_HTML = `<div class="elementor-element elementor-element-
 				</div>
 				<div class="elementor-element elementor-element-eaaca4c elementor-widget-tablet__width-inherit at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading" data-id="eaaca4c" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Why patients trust us with their care</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">Why customers trust our medicines</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-a9b6bbd elementor-widget-tablet__width-inherit elementor-invisible elementor-widget elementor-widget-text-editor" data-id="a9b6bbd" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Our commitment to excellence, compassion, and personalized treatment has earned the trust of countless patients. Discover what sets our care apart. Discover what sets our care apart.</p>								</div>
+									<p>Our commitment to excellence, quality, and rigorous testing has earned the trust of countless clients. Discover what sets our medicines apart. Discover what sets our care apart.</p>								</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-d1eb132 e-con-full e-flex e-con e-child" data-id="d1eb132" data-element_type="container" data-e-type="container">
@@ -23,22 +23,22 @@ export const WHY_CHOOSE_HTML = `<div class="elementor-element elementor-element-
 							<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 11C0 4.92487 4.92487 0 11 0C17.0751 0 22 4.92487 22 11C22 17.0751 17.0751 22 11 22C4.92487 22 0 17.0751 0 11ZM9.70711 15.7071L17.7071 7.70711L16.2929 6.29289L9 13.5858L6.20711 10.7929L4.79289 12.2071L8.29289 15.7071C8.68342 16.0976 9.31658 16.0976 9.70711 15.7071Z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">We offer flexible hours to fit your busy schedule.</span>
+										<span class="elementor-icon-list-text">We offer flexible supply chains to fit your schedule.</span>
 									</li>
 								<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 11C0 4.92487 4.92487 0 11 0C17.0751 0 22 4.92487 22 11C22 17.0751 17.0751 22 11 22C4.92487 22 0 17.0751 0 11ZM9.70711 15.7071L17.7071 7.70711L16.2929 6.29289L9 13.5858L6.20711 10.7929L4.79289 12.2071L8.29289 15.7071C8.68342 16.0976 9.31658 16.0976 9.70711 15.7071Z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Team is committed to making you feel comfortable.</span>
+										<span class="elementor-icon-list-text">Team is committed to providing top-quality pharmaceutical products.</span>
 									</li>
 								<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 11C0 4.92487 4.92487 0 11 0C17.0751 0 22 4.92487 22 11C22 17.0751 17.0751 22 11 22C4.92487 22 0 17.0751 0 11ZM9.70711 15.7071L17.7071 7.70711L16.2929 6.29289L9 13.5858L6.20711 10.7929L4.79289 12.2071L8.29289 15.7071C8.68342 16.0976 9.31658 16.0976 9.70711 15.7071Z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">We ensure you receive prompt and effective care.</span>
+										<span class="elementor-icon-list-text">We ensure you receive prompt and effective deliveries.</span>
 									</li>
 								<li class="elementor-icon-list-item">
 											<span class="elementor-icon-list-icon">
 							<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M0 11C0 4.92487 4.92487 0 11 0C17.0751 0 22 4.92487 22 11C22 17.0751 17.0751 22 11 22C4.92487 22 0 17.0751 0 11ZM9.70711 15.7071L17.7071 7.70711L16.2929 6.29289L9 13.5858L6.20711 10.7929L4.79289 12.2071L8.29289 15.7071C8.68342 16.0976 9.31658 16.0976 9.70711 15.7071Z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Helping you manage your health at every stage of life.</span>
+										<span class="elementor-icon-list-text">Providing reliable medical products for every need.</span>
 									</li>
 						</ul>
 						</div>
@@ -76,11 +76,11 @@ export const WHY_CHOOSE_HTML = `<div class="elementor-element elementor-element-
 
 									<h3 class="elementor-icon-box-title">
 						<span  >
-							50+ Expert Doctor						</span>
+							50+ Expert Pharmacists						</span>
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						Our team includes over 50 highly skilled doctors.					</p>
+						Our team includes over 50 highly skilled pharmacists and researchers.					</p>
 				
 			</div>
 			
@@ -104,7 +104,7 @@ export const WHY_CHOOSE_HTML = `<div class="elementor-element elementor-element-
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						Our team includes over 50 highly skilled doctors.					</p>
+						Our team includes over 50 highly skilled pharmacists and researchers.					</p>
 				
 			</div>
 			
@@ -124,11 +124,11 @@ export const WHY_CHOOSE_HTML = `<div class="elementor-element elementor-element-
 
 									<h3 class="elementor-icon-box-title">
 						<span  >
-							Expert Medical Team						</span>
+							Expert Research Team						</span>
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						Our team includes over 50 highly skilled doctors.					</p>
+						Our team includes over 50 highly skilled pharmacists and researchers.					</p>
 				
 			</div>
 			

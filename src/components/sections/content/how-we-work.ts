@@ -10,11 +10,11 @@ export const HOW_WE_WORK_HTML = `<div class="elementor-element elementor-element
 				</div>
 				<div class="elementor-element elementor-element-1165417 at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading" data-id="1165417" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">We work to achieve better health outcomes</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">We work to manufacture better medicines</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-d06d3a0 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="d06d3a0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>We are committed to improving health outcomes through personalized care, innovative treatments, and a focus on prevention.</p>								</div>
+									<p>We are committed to improving healthcare through quality manufacturing, innovative formulas, and a focus on reliability.</p>								</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-a444fd9 demo e-flex e-con-boxed e-con e-child" data-id="a444fd9" data-element_type="container" data-e-type="container">
@@ -37,7 +37,7 @@ export const HOW_WE_WORK_HTML = `<div class="elementor-element elementor-element
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						Join our community by creating an account today.					</p>
+						Join our network of trusted pharmaceutical partners today.					</p>
 				
 			</div>
 			
@@ -59,11 +59,11 @@ export const HOW_WE_WORK_HTML = `<div class="elementor-element elementor-element
 
 									<h3 class="elementor-icon-box-title">
 						<span  >
-							Search Doctor						</span>
+							Search Products						</span>
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						Join our community by creating an account today.					</p>
+						Join our network of trusted pharmaceutical partners today.					</p>
 				
 			</div>
 			
@@ -85,11 +85,11 @@ export const HOW_WE_WORK_HTML = `<div class="elementor-element elementor-element
 
 									<h3 class="elementor-icon-box-title">
 						<span  >
-							Schedule Appointment						</span>
+							Place Order						</span>
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						Join our community by creating an account today.					</p>
+						Join our network of trusted pharmaceutical partners today.					</p>
 				
 			</div>
 			
@@ -111,11 +111,11 @@ export const HOW_WE_WORK_HTML = `<div class="elementor-element elementor-element
 
 									<h3 class="elementor-icon-box-title">
 						<span  >
-							Start Consultation						</span>
+							Track Delivery						</span>
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						Join our community by creating an account today.					</p>
+						Join our network of trusted pharmaceutical partners today.					</p>
 				
 			</div>
 			

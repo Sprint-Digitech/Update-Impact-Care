@@ -51,7 +51,7 @@ export const ABOUT_HTML = `<div class="elementor-element elementor-element-18efd
           </div>
                         <div class="box-body">
                             <h3 class="elementskit-info-box-title">
-                    Specialist Doctors                </h3>
+                    Specialist Pharmacists                </h3>
                         		  	<p>Putting you at the heart of everything we do. Our patient-centered approach ensures personalized.</p>
                                 </div>
         

@@ -118,7 +118,7 @@ export const HERO_HTML = `<div class="elementor-element elementor-element-ac92a4
 		<div class="elementor-element elementor-element-d6f7d1d e-con-full e-flex e-con e-child" data-id="d6f7d1d" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-6a47206 elementor-widget elementor-widget-text-editor" data-id="6a47206" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Talk to our 48+ Doctors</p>								</div>
+									<p>Talk to our 48+ Pharmacists</p>								</div>
 				</div>
 				</div>
 				</div>

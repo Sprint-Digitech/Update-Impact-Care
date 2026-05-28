@@ -55,7 +55,9 @@ export function parseHomeSliderLayout(html: string, elementorClass: string = '.e
   let lowerContent = "";
   mainContent.children().each((i, el) => {
     if (i > 0) {
-      lowerContent += $.html(el);
+      const clone = cheerio.load($.html(el), null, false);
+      clone('.ekit-template-content-footer').remove();
+      lowerContent += clone.html();
     }
   });
 

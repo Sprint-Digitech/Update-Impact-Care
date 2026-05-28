@@ -4,15 +4,15 @@ export const TEAM_HTML = `<div class="elementor-element elementor-element-fefcfe
 		<div class="elementor-element elementor-element-3921e95 e-con-full e-flex e-con e-child" data-id="3921e95" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-b0884cd section-title at-heading-animation at-animation-heading-none elementor-invisible elementor-widget elementor-widget-heading" data-id="b0884cd" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">Team Members</h3>				</div>
+					<h3 class="elementor-heading-title elementor-size-default">Our Expertise</h3>				</div>
 				</div>
 				<div class="elementor-element elementor-element-d865daa at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading" data-id="d865daa" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Compassionate experts you can trust</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default">Quality medicine you can trust</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-ef3ee50 elementor-invisible elementor-widget elementor-widget-text-editor" data-id="ef3ee50" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Our team brings together a wealth of experience, passion, and a dedication to excellence in patient care.</p>								</div>
+									<p>Our team brings together a wealth of experience, precision, and a dedication to excellence in pharmaceutical production.</p>								</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-1fadb02 e-con-full e-flex e-con e-child" data-id="1fadb02" data-element_type="container" data-e-type="container">
@@ -52,11 +52,11 @@ export const TEAM_HTML = `<div class="elementor-element elementor-element-fefcfe
 
 									<h3 class="elementor-icon-box-title">
 						<a href="/our-team/dr-esther-howard/" >
-							Dr. Esther Howard						</a>
+							West Africa Hub						</a>
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						Ophthalmology					</p>
+						Burkina Faso, Côte d'Ivoire, Senegal, Togo, Benin, Guinea, Mali, Niger, Gabon					</p>
 				
 			</div>
 			
@@ -101,11 +101,11 @@ export const TEAM_HTML = `<div class="elementor-element elementor-element-fefcfe
 
 									<h3 class="elementor-icon-box-title">
 						<a href="/our-team/dr-jenny-wilson/" >
-							Dr. Jenny Wilson						</a>
+							Southeast Asia Hub						</a>
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						Anesthesiology					</p>
+						Vietnam, Myanmar, Cambodia					</p>
 				
 			</div>
 			
@@ -150,11 +150,11 @@ export const TEAM_HTML = `<div class="elementor-element elementor-element-fefcfe
 
 									<h3 class="elementor-icon-box-title">
 						<a href="/our-team/dr-kristin-watson/" >
-							Dr. Kristin Watson						</a>
+							Middle East Operations						</a>
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						Infectious Disease					</p>
+						Oman and regional partners					</p>
 				
 			</div>
 			
@@ -199,11 +199,11 @@ export const TEAM_HTML = `<div class="elementor-element elementor-element-fefcfe
 
 									<h3 class="elementor-icon-box-title">
 						<a href="/our-team/dr-arlene-mccoy/" >
-							Dr. Arlene Mccoy						</a>
+							European Logistics						</a>
 					</h3>
 				
 									<p class="elementor-icon-box-description">
-						Cardiology					</p>
+						Strategic partnerships & distribution, Belgium					</p>
 				
 			</div>
 			

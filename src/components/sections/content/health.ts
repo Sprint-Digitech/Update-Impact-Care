@@ -12,7 +12,7 @@ export const HEALTH_HTML = `<div class="elementor-element elementor-element-1b5c
 				</div>
 				<div class="elementor-element elementor-element-271deff elementor-invisible elementor-widget elementor-widget-text-editor" data-id="271deff" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Excellence in healthcare is our standard, and our numbers back it up. From patient satisfaction rates to successful treatment outcomes.</p>								</div>
+									<p>Excellence in pharmaceutical manufacturing is our standard, and our numbers back it up. From product quality rates to successful distribution outcomes.</p>								</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-7efb303 e-con-full e-flex e-con e-child" data-id="7efb303" data-element_type="container" data-e-type="container">

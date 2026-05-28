@@ -28,7 +28,7 @@ export const FOOTER_HTML = `<div class="ekit-template-content-markup ekit-templa
 					<div class="ekit-wid-con">        <div 
             class="ekit-vertical-main-menu-wraper   badge-position-left"
         >
-                        <div class="ekit-vertical-menu-container"><ul id="menu-footer-healthcare-menu" class="ekit-vertical-navbar-nav submenu-click-on-icon"><li id="menu-item-4635" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4635 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Doctors</a></li>
+                        <div class="ekit-vertical-menu-container"><ul id="menu-footer-healthcare-menu" class="ekit-vertical-navbar-nav submenu-click-on-icon"><li id="menu-item-4635" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4635 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Pharmacists</a></li>
 <li id="menu-item-4636" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4636 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Diagnostics</a></li>
 <li id="menu-item-4637" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4637 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Caregiver</a></li>
 <li id="menu-item-4638" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4638 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Hospitality</a></li>

@@ -48,10 +48,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (urlPath === "/about-us") {
     return {
       title: "Know About the Best West African Healthcare Solution",
-      description: "We are committed to providing Medical Healthcare supplies. Our Mission & Vision include Custom Formulation, Contract Manufacturing, & Quality Control Testing.",
+      description: "We are committed to providing Medical Healthcare supplies. Our Mission & Vision include Custom Formulation, Contract Manufacturing, & Burkina Faso, Côte d'Ivoire, Senegal, Togo, Benin, Guinea, Mali, Niger, Gabon Testing.",
       openGraph: {
         title: "Know About the Best West African Healthcare Solution",
-        description: "We are committed to providing Medical Healthcare supplies. Our Mission & Vision include Custom Formulation, Contract Manufacturing, & Quality Control Testing.",
+        description: "We are committed to providing Medical Healthcare supplies. Our Mission & Vision include Custom Formulation, Contract Manufacturing, & Burkina Faso, Côte d'Ivoire, Senegal, Togo, Benin, Guinea, Mali, Niger, Gabon Testing.",
         type: "article",
       }
     };
@@ -71,10 +71,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (urlPath === "/manufacturing") {
     return {
       title: "Impact Health Care - Medicine manufacturing company",
-      description: "Impact Health Care - medicine manufacturing company offers fast delivery, custom formulation, contract manufacturing, quality control in West Africa",
+      description: "Impact Health Care - medicine manufacturing company offers fast delivery, custom formulation, contract manufacturing, Burkina Faso, Côte d'Ivoire, Senegal, Togo, Benin, Guinea, Mali, Niger, Gabon in West Africa",
       openGraph: {
         title: "Impact Health Care - Medicine manufacturing company",
-        description: "Impact Health Care - medicine manufacturing company offers fast delivery, custom formulation, contract manufacturing, quality control in West Africa",
+        description: "Impact Health Care - medicine manufacturing company offers fast delivery, custom formulation, contract manufacturing, Burkina Faso, Côte d'Ivoire, Senegal, Togo, Benin, Guinea, Mali, Niger, Gabon in West Africa",
         type: "article",
       }
     };

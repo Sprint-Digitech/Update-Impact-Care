@@ -12,7 +12,7 @@ export const BLOG_HTML = `<div class="elementor-element elementor-element-cf3ac5
 				</div>
 				<div class="elementor-element elementor-element-eb1373e elementor-invisible elementor-widget elementor-widget-text-editor" data-id="eb1373e" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;_animation_delay&quot;:100,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Get the latest information on health topics, wellness tips, and advancements in patient care.</p>								</div>
+									<p>Get the latest information on health topics, wellness tips, and advancements in pharmaceutical care.</p>								</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-5a6b26a e-con-full e-flex e-con e-child" data-id="5a6b26a" data-element_type="container" data-e-type="container">
@@ -29,7 +29,7 @@ export const BLOG_HTML = `<div class="elementor-element elementor-element-cf3ac5
                                     <div class="elementskit-post-image-card">
                         <div class="elementskit-entry-header">
                                                             <a href="/research-breakthrough-in-heart-disease-treatment/" class="elementskit-entry-thumb">
-                                    <img decoding="async" src="/wp-content/uploads/2024/12/post-1.jpg" alt="Research Breakthrough in Heart Disease Treatment">
+                                    <img decoding="async" src="/wp-content/uploads/2024/12/post-1.jpg" alt="New Quality Standards in Pharmaceutical Manufacturing">
                                 </a><!-- .elementskit-entry-thumb END -->
                                                             
                             
@@ -54,7 +54,7 @@ export const BLOG_HTML = `<div class="elementor-element elementor-element-cf3ac5
                                         
                                         										                <h2 class="entry-title">
                     <a href="/research-breakthrough-in-heart-disease-treatment/">
-                            Research Breakthrough in Heart Disease Treatment                    </a>
+                            New Quality Standards in Pharmaceutical Manufacturing                    </a>
                 </h2>
                                                     </div><!-- .elementskit-post-body END -->
                     </div>
@@ -103,7 +103,7 @@ export const BLOG_HTML = `<div class="elementor-element elementor-element-cf3ac5
                                     <div class="elementskit-post-image-card">
                         <div class="elementskit-entry-header">
                                                             <a href="/your-trusted-partner-in-comprehensive-medical-care/" class="elementskit-entry-thumb">
-                                    <img decoding="async" src="/wp-content/uploads/2024/12/post-3.jpg" alt="Your Trusted Partner in Comprehensive Medical Care">
+                                    <img decoding="async" src="/wp-content/uploads/2024/12/post-3.jpg" alt="Streamlining Production for Generic Medicines">
                                 </a><!-- .elementskit-entry-thumb END -->
                                                             
                             
@@ -128,7 +128,7 @@ export const BLOG_HTML = `<div class="elementor-element elementor-element-cf3ac5
                                         
                                         										                <h2 class="entry-title">
                     <a href="/your-trusted-partner-in-comprehensive-medical-care/">
-                            Your Trusted Partner in Comprehensive Medical Care                    </a>
+                            Streamlining Production for Generic Medicines                    </a>
                 </h2>
                                                     </div><!-- .elementskit-post-body END -->
                     </div>
