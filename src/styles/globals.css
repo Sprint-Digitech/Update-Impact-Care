@@ -63,7 +63,10 @@ body {
 /* Refine CTA Button Proportion */
 .ekit-template-content-header .elementor-button {
   padding: 12px 28px !important;
-  font-size: 14px !important;
+  font-size: 11px !important;
+    letter-spacing: 0px !important;
+    padding-left: 6px !important;
+    padding-right: 6px !important;
   font-weight: 600 !important;
   border-radius: 6px !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
@@ -743,7 +746,9 @@ body {
   /* Mobile Logo Size Adjustment */
   .elementor-3822 .elementor-element-0ce231e img,
   .elementor-3822 .ata-site-logo-img {
-    transform: scale(1.4) !important;
+    transform: none !important;
+    max-width: 130px !important;
+    height: auto !important;
   }
 
   /* Hide the top contact info bar on mobile */
@@ -755,9 +760,9 @@ body {
   .elementor-3822 .elementor-element-8e961d2 {
     background: #fbfbfb !important;
     border-radius: 50px !important;
-    margin: 15px !important;
-    padding: 8px 25px !important;
-    max-width: calc(100% - 30px) !important;
+    margin: 10px !important;
+    padding: 8px 12px !important;
+    max-width: calc(100% - 20px) !important;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
   }
 
@@ -768,6 +773,7 @@ body {
     justify-content: space-between !important;
     align-items: center !important;
     width: 100% !important;
+    gap: 8px !important;
   }
 
   /* Logo container - Left */
@@ -803,14 +809,15 @@ body {
 
   /* Style the Contact Us button for mobile so it looks balanced */
   .elementor-3822 .elementor-element-071fc9d .elementor-button {
-    padding: 10px 15px !important;
-    font-size: 11px !important;
+    padding: 8px 12px !important;
+    font-size: 10px !important;
     font-weight: 700 !important;
     border-radius: 0px !important;
     background-color: #f39c12 !important;
     color: #111 !important;
     text-transform: uppercase !important;
     letter-spacing: 0.5px !important;
+    white-space: nowrap !important;
   }
 
   /* Ensure the hamburger button itself is styled like the reference (transparent, 3 lines) */
@@ -1100,4 +1107,83 @@ body {
     height: auto !important;
     object-fit: contain !important;
   }
+}
+/* ========================================= */
+/* ========================================= */
+@media (min-width: 768px) and (max-width: 1250px) {
+  /* Let containers size automatically so they fit perfectly */
+  .elementor-3822 .elementor-element-8e961d2 { flex-wrap: nowrap !important; }
+  .elementor-3822 .elementor-element-0ce231e { width: auto !important; flex: 0 0 auto !important; }
+  .elementor-3822 .elementor-element-e2b5f2c { width: auto !important; flex: 1 1 auto !important; justify-content: center !important; }
+  .elementor-3822 .elementor-element-071fc9d { width: auto !important; flex: 0 0 auto !important; }
+
+  /* Reduce spacing slightly to ensure all links fit on smaller tablet screens */
+  .elementor-3822 .elementskit-navbar-nav > li > a {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    font-size: 14px !important;
+  }
+}
+
+/* ========================================= */
+/* PERFECT DESKTOP HEADER FOR 150% ZOOM      */
+/* ========================================= */
+@media (min-width: 768px) {
+  /* Force the main row to stay on one line and align middle */
+  .elementor-3822 .elementor-element-8e961d2 {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+  
+  /* Logo */
+  .elementor-3822 .elementor-element-0ce231e {
+    width: auto !important;
+    flex: 0 0 auto !important;
+    min-width: 150px !important;
+  }
+  
+  /* Navigation Container */
+  .elementor-3822 .elementor-element-e2b5f2c {
+    width: auto !important;
+    flex: 1 1 auto !important;
+    justify-content: center !important;
+  }
+  
+  /* Force navigation list to stay in one line */
+  .elementor-3822 .elementskit-navbar-nav {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: center !important;
+    width: 100% !important;
+  }
+  
+  /* Contact Button */
+  .elementor-3822 .elementor-element-071fc9d {
+    width: auto !important;
+    flex: 0 0 auto !important;
+  }
+}
+
+/* Shrink menu items specifically for zoomed screens to ensure they fit */
+@media (min-width: 768px) and (max-width: 1250px) {
+  .elementor-3822 .elementskit-navbar-nav > li > a {
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+    font-size: 11px !important;
+    white-space: nowrap !important;
+  }
+  .elementor-3822 .elementor-element-071fc9d .elementor-button {
+    padding: 10px 15px !important;
+    font-size: 11px !important;
+    white-space: nowrap !important;
+  }
+}
+
+/* Remove the purple background from the menu container on tablet screens */
+@media (max-width: 1024px) {
+    .elementor-3822 .elementor-element.elementor-element-78b1cea .elementskit-menu-container {
+        background-color: transparent !important;
+    }
 }

@@ -123,7 +123,7 @@ export const HEADER_HTML = `<div class="ekit-template-content-markup ekit-templa
 		<div class="elementor-element elementor-element-e2b5f2c e-con-full e-flex e-con e-child" data-id="e2b5f2c" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-78b1cea header-menu-items elementor-widget elementor-widget-ekit-nav-menu" data-id="78b1cea" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="ekit-nav-menu.default">
 				<div class="elementor-widget-container">
-							<nav class="ekit-wid-con ekit_menu_responsive_tablet"
+							<nav class="ekit-wid-con ekit_menu_responsive_mobile"
 			data-hamburger-icon=""
 			data-hamburger-icon-type="icon"
 			data-responsive-breakpoint="767">
