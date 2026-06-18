@@ -64,9 +64,9 @@ body {
 .ekit-template-content-header .elementor-button {
   padding: 12px 28px !important;
   font-size: 11px !important;
-    letter-spacing: 0px !important;
-    padding-left: 6px !important;
-    padding-right: 6px !important;
+  letter-spacing: 0px !important;
+  padding-left: 6px !important;
+  padding-right: 6px !important;
   font-weight: 600 !important;
   border-radius: 6px !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
@@ -489,6 +489,11 @@ body {
 /* PREMIUM FLOATING PILL HEADER NAVIGATION   */
 /* ========================================= */
 
+/* Add padding to the body so the fixed header doesn't cover the top video/content */
+body {
+  padding-top: 110px !important;
+}
+
 /* The main header container - Floating Pill Shape */
 .elementor-3822 .elementor-element-8e961d2 {
   background: rgba(255, 255, 255, 0.98) !important;
@@ -502,10 +507,10 @@ body {
   max-width: 92% !important;
   /* Float symmetrically in the center */
   position: fixed !important;
-  /* Now it scrolls with the page! */
+  /* Fixed so it stays on screen forever when scrolling */
   left: 0;
   right: 0;
-  top: 0;
+  top: 0 !important;
   z-index: 9999 !important;
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08) !important;
   /* Lighter shadow for white bg */
@@ -856,6 +861,7 @@ body {
   .elementor-3822 .elementskit-menu-container:not(.active) .elementskit-navbar-nav {
     display: none !important;
   }
+
   /* Offcanvas container - Full Screen Style matching Screenshot */
   .elementor-3822 .elementskit-menu-container {
     position: fixed !important;
@@ -1129,17 +1135,34 @@ body {
     object-fit: contain !important;
   }
 }
+
 /* ========================================= */
 /* ========================================= */
 @media (min-width: 768px) and (max-width: 1250px) {
+
   /* Let containers size automatically so they fit perfectly */
-  .elementor-3822 .elementor-element-8e961d2 { flex-wrap: nowrap !important; }
-  .elementor-3822 .elementor-element-0ce231e { width: auto !important; flex: 0 0 auto !important; }
-  .elementor-3822 .elementor-element-e2b5f2c { width: auto !important; flex: 1 1 auto !important; justify-content: center !important; }
-  .elementor-3822 .elementor-element-071fc9d { width: auto !important; flex: 0 0 auto !important; }
+  .elementor-3822 .elementor-element-8e961d2 {
+    flex-wrap: nowrap !important;
+  }
+
+  .elementor-3822 .elementor-element-0ce231e {
+    width: auto !important;
+    flex: 0 0 auto !important;
+  }
+
+  .elementor-3822 .elementor-element-e2b5f2c {
+    width: auto !important;
+    flex: 1 1 auto !important;
+    justify-content: center !important;
+  }
+
+  .elementor-3822 .elementor-element-071fc9d {
+    width: auto !important;
+    flex: 0 0 auto !important;
+  }
 
   /* Reduce spacing slightly to ensure all links fit on smaller tablet screens */
-  .elementor-3822 .elementskit-navbar-nav > li > a {
+  .elementor-3822 .elementskit-navbar-nav>li>a {
     padding-left: 10px !important;
     padding-right: 10px !important;
     font-size: 14px !important;
@@ -1150,6 +1173,7 @@ body {
 /* PERFECT DESKTOP HEADER FOR 150% ZOOM      */
 /* ========================================= */
 @media (min-width: 768px) {
+
   /* Force the main row to stay on one line and align middle */
   .elementor-3822 .elementor-element-8e961d2 {
     display: flex !important;
@@ -1157,21 +1181,21 @@ body {
     align-items: center !important;
     justify-content: space-between !important;
   }
-  
+
   /* Logo */
   .elementor-3822 .elementor-element-0ce231e {
     width: auto !important;
     flex: 0 0 auto !important;
     min-width: 150px !important;
   }
-  
+
   /* Navigation Container */
   .elementor-3822 .elementor-element-e2b5f2c {
     width: auto !important;
     flex: 1 1 auto !important;
     justify-content: center !important;
   }
-  
+
   /* Force navigation list to stay in one line */
   .elementor-3822 .elementskit-navbar-nav {
     display: flex !important;
@@ -1179,7 +1203,7 @@ body {
     justify-content: center !important;
     width: 100% !important;
   }
-  
+
   /* Contact Button */
   .elementor-3822 .elementor-element-071fc9d {
     width: auto !important;
@@ -1189,12 +1213,13 @@ body {
 
 /* Shrink menu items specifically for zoomed screens to ensure they fit */
 @media (min-width: 768px) and (max-width: 1250px) {
-  .elementor-3822 .elementskit-navbar-nav > li > a {
+  .elementor-3822 .elementskit-navbar-nav>li>a {
     padding-left: 6px !important;
     padding-right: 6px !important;
     font-size: 11px !important;
     white-space: nowrap !important;
   }
+
   .elementor-3822 .elementor-element-071fc9d .elementor-button {
     padding: 10px 15px !important;
     font-size: 11px !important;
@@ -1204,12 +1229,12 @@ body {
 
 /* Remove the purple background from the menu container on tablet screens */
 @media (max-width: 1024px) {
-    .elementor-3822 .elementor-element.elementor-element-78b1cea .elementskit-menu-container {
-        background-color: transparent !important;
-    }
-    
-    /* FIX: Ensure the offcanvas menu has a white background when open */
-    .elementor-3822 .elementor-element.elementor-element-78b1cea .elementskit-menu-container.active {
-        background-color: #ffffff !important;
-    }
+  .elementor-3822 .elementor-element.elementor-element-78b1cea .elementskit-menu-container {
+    background-color: transparent !important;
+  }
+
+  /* FIX: Ensure the offcanvas menu has a white background when open */
+  .elementor-3822 .elementor-element.elementor-element-78b1cea .elementskit-menu-container.active {
+    background-color: #ffffff !important;
+  }
 }
