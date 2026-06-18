@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 import { EXTERNAL_SCRIPTS } from "@/config/scripts";
 import {
   EKIT_CONFIG,
@@ -75,4 +76,34 @@ export function useThemeScripts() {
       cancelled = true;
     };
   }, []);
+
+  // Update active menu item based on current URL
+  const pathname = usePathname();
+  useEffect(() => {
+    const updateActiveMenu = () => {
+      // Remove hardcoded active classes
+      document.querySelectorAll('.elementskit-navbar-nav .nav-item').forEach(li => {
+        li.classList.remove('current-menu-item', 'current-menu-ancestor', 'current-menu-parent', 'active');
+        const a = li.querySelector('a');
+        if (a) a.classList.remove('active');
+      });
+      
+      // Add active class to the correct item based on current pathname
+      document.querySelectorAll('.elementskit-navbar-nav .nav-item > a').forEach(a => {
+        const href = a.getAttribute('href');
+        if (!href || href === '#') return;
+        
+        // Match exact or trailing slash variations
+        if (href === pathname || href === pathname + '/' || href + '/' === pathname) {
+          a.classList.add('active');
+          a.parentElement?.classList.add('current-menu-item');
+        }
+      });
+    };
+
+    updateActiveMenu();
+    // Re-run after a small delay in case ElementsKit JS modifies the DOM
+    setTimeout(updateActiveMenu, 100);
+    setTimeout(updateActiveMenu, 500);
+  }, [pathname]);
 }
