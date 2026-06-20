@@ -19,6 +19,20 @@ export function HtmlBlock({
   const innerHTML = useMemo(() => ({ __html: html }), [html]);
   const router = useRouter();
 
+  React.useEffect(() => {
+    if (window.location.hash) {
+      // Add a slight delay to ensure DOM is fully injected and painted
+      const timer = setTimeout(() => {
+        const el = document.querySelector(window.location.hash);
+        if (el) {
+          el.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 100);
+      return () => clearTimeout(timer);
+    }
+  }, [html]); // Re-run when HTML content changes (e.g. page navigation)
+
+
   const handleClick = (e: React.MouseEvent<HTMLElement>) => {
     const target = e.target as HTMLElement;
 
@@ -80,24 +94,52 @@ export function HtmlBlock({
     // Handle same origin internal navigation
     if (href.startsWith("/") && !href.startsWith("//")) {
       e.preventDefault();
-      const cleanHref = href.split("?")[0].replace(/\/$/, "") || "/";
+      
+      const url = new URL(href, window.location.origin);
+      const cleanHref = url.pathname.replace(/\/$/, "") || "/";
       const cleanPath = window.location.pathname.replace(/\/$/, "") || "/";
+      
       if (cleanHref === cleanPath) {
-        window.scrollTo({ top: 0, behavior: "smooth" });
+        // Same page navigation
+        if (url.hash) {
+          const el = document.querySelector(url.hash);
+          if (el) {
+            el.scrollIntoView({ behavior: "smooth" });
+            window.history.pushState(null, "", href);
+          } else {
+            router.push(href);
+          }
+        } else {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+          window.history.pushState(null, "", href);
+        }
       } else {
-        window.scrollTo(0, 0);
+        // Different page navigation
+        // Let router handle scroll to top or hash
         router.push(href);
       }
     } else if (href.startsWith(window.location.origin)) {
       e.preventDefault();
-      const relativeHref = href.replace(window.location.origin, "") || "/";
-      const cleanHref = relativeHref.split("?")[0].replace(/\/$/, "") || "/";
+      
+      const url = new URL(href);
+      const cleanHref = url.pathname.replace(/\/$/, "") || "/";
       const cleanPath = window.location.pathname.replace(/\/$/, "") || "/";
+      
       if (cleanHref === cleanPath) {
-        window.scrollTo({ top: 0, behavior: "smooth" });
+        if (url.hash) {
+          const el = document.querySelector(url.hash);
+          if (el) {
+            el.scrollIntoView({ behavior: "smooth" });
+            window.history.pushState(null, "", href);
+          } else {
+            router.push(url.pathname + url.search + url.hash);
+          }
+        } else {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+          window.history.pushState(null, "", href);
+        }
       } else {
-        window.scrollTo(0, 0);
-        router.push(relativeHref);
+        router.push(url.pathname + url.search + url.hash);
       }
     }
   };

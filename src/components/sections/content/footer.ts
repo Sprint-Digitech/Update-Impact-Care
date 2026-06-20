@@ -10,7 +10,7 @@ export const FOOTER_HTML = `<div class="ekit-template-content-markup ekit-templa
 		<div class="elementor-element elementor-element-bfc54a3 e-con-full e-flex e-con e-child" data-id="bfc54a3" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-522973c at-image-animation at-animation-image-none elementor-widget elementor-widget-image" data-id="522973c" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="184" height="51" src="/wp-content/uploads/2024/12/footer-logo.svg" class="attachment-full size-full wp-image-8193" alt="" />															</div>
+															<img width="184" height="51" src="/wp-content/uploads/2024/12/footer-logo.svg" class="attachment-full size-full wp-image-8193" alt="">															</div>
 				</div>
 				<div class="elementor-element elementor-element-77bf7f1 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="77bf7f1" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -25,14 +25,12 @@ export const FOOTER_HTML = `<div class="ekit-template-content-markup ekit-templa
 				</div>
 				<div class="elementor-element elementor-element-a81493e footer-links elementor-widget elementor-widget-ekit-vertical-menu" data-id="a81493e" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="ekit-vertical-menu.default">
 				<div class="elementor-widget-container">
-					<div class="ekit-wid-con">        <div 
-            class="ekit-vertical-main-menu-wraper   badge-position-left"
-        >
-                        <div class="ekit-vertical-menu-container"><ul id="menu-footer-healthcare-menu" class="ekit-vertical-navbar-nav submenu-click-on-icon"><li id="menu-item-4635" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4635 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Pharmacists</a></li>
-<li id="menu-item-4636" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4636 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Diagnostics</a></li>
-<li id="menu-item-4637" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4637 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Caregiver</a></li>
-<li id="menu-item-4638" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4638 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Hospitality</a></li>
-<li id="menu-item-4639" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4639 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Emergency</a></li>
+					<div class="ekit-wid-con">        <div class="ekit-vertical-main-menu-wraper   badge-position-left">
+                        <div class="ekit-vertical-menu-container"><ul id="menu-footer-healthcare-menu" class="ekit-vertical-navbar-nav submenu-click-on-icon"><li id="menu-item-4635" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4635 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="#" class="ekit-menu-nav-link">Pharmacists</a></li>
+<li id="menu-item-4636" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4636 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="#" class="ekit-menu-nav-link">Diagnostics</a></li>
+<li id="menu-item-4637" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4637 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="#" class="ekit-menu-nav-link">Caregiver</a></li>
+<li id="menu-item-4638" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4638 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="#" class="ekit-menu-nav-link">Hospitality</a></li>
+<li id="menu-item-4639" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4639 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="#" class="ekit-menu-nav-link">Emergency</a></li>
 </ul></div>        </div>
         </div>				</div>
 				</div>
@@ -44,14 +42,12 @@ export const FOOTER_HTML = `<div class="ekit-template-content-markup ekit-templa
 				</div>
 				<div class="elementor-element elementor-element-fd55830 footer-links elementor-widget elementor-widget-ekit-vertical-menu" data-id="fd55830" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="ekit-vertical-menu.default">
 				<div class="elementor-widget-container">
-					<div class="ekit-wid-con">        <div 
-            class="ekit-vertical-main-menu-wraper   badge-position-left"
-        >
-                        <div class="ekit-vertical-menu-container"><ul id="menu-footer-menu" class="ekit-vertical-navbar-nav submenu-click-on-icon"><li id="menu-item-4261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-13 current_page_item menu-item-4261 nav-item elementskit-mobile-builder-content active" data-vertical-menu=750px><a href="/" class="ekit-menu-nav-link active">Home</a></li>
-<li id="menu-item-4263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4263 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/about-us/" class="ekit-menu-nav-link">About Us</a></li>
-<li id="menu-item-4643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4643 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/faqs/" class="ekit-menu-nav-link">FAQS</a></li>
-<li id="menu-item-4262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4262 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/blog/" class="ekit-menu-nav-link">Blog</a></li>
-<li id="menu-item-4644" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4644 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="/our-team/" class="ekit-menu-nav-link">Our Team</a></li>
+					<div class="ekit-wid-con">        <div class="ekit-vertical-main-menu-wraper   badge-position-left">
+                        <div class="ekit-vertical-menu-container"><ul id="menu-footer-menu" class="ekit-vertical-navbar-nav submenu-click-on-icon"><li id="menu-item-4261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-13 current_page_item menu-item-4261 nav-item elementskit-mobile-builder-content active" data-vertical-menu="750px"><a href="/" class="ekit-menu-nav-link active">Home</a></li>
+<li id="menu-item-4263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4263 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/about-us/" class="ekit-menu-nav-link">About Us</a></li>
+<li id="menu-item-4643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4643 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/faqs/" class="ekit-menu-nav-link">FAQS</a></li>
+<li id="menu-item-4262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4262 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/blog/" class="ekit-menu-nav-link">Blog</a></li>
+<li id="menu-item-4644" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4644 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/our-team/" class="ekit-menu-nav-link">Our Team</a></li>
 </ul></div>        </div>
         </div>				</div>
 				</div>
@@ -63,7 +59,7 @@ export const FOOTER_HTML = `<div class="ekit-template-content-markup ekit-templa
 				</div>
 				<div class="elementor-element elementor-element-4812770 footer-contact-item  ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="4812770" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
 				<div class="elementor-widget-container">
-					<div class="ekit-wid-con" >        <!-- link opening -->
+					<div class="ekit-wid-con">        <!-- link opening -->
                 <a href="mailto:%20info@domain.com" class="ekit_global_links">
                 <!-- end link opening -->
 
@@ -85,7 +81,7 @@ export const FOOTER_HTML = `<div class="ekit-template-content-markup ekit-templa
 				</div>
 				<div class="elementor-element elementor-element-792d019 footer-contact-item  ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="792d019" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
 				<div class="elementor-widget-container">
-					<div class="ekit-wid-con" >        <!-- link opening -->
+					<div class="ekit-wid-con">        <!-- link opening -->
                 <a href="tel:+1%20(213)%20465%20789" class="ekit_global_links">
                 <!-- end link opening -->
 
@@ -107,10 +103,10 @@ export const FOOTER_HTML = `<div class="ekit-template-content-markup ekit-templa
 				</div>
 				<div class="elementor-element elementor-element-8efbe37 footer-contact-item  ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="8efbe37" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
 				<div class="elementor-widget-container">
-					<div class="ekit-wid-con" >        <!-- link opening -->
+					<div class="ekit-wid-con">        <!-- link opening -->
                 <!-- end link opening -->
 
-        <div class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
+        <a href="/contact-us#map" class="ekit_global_links"><div class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
                     <div class="elementskit-box-header elementor-animation-">
                 <div class="elementskit-info-box-icon  text-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><path d="M14.9999 27C14.9999 27 24.3913 18.6522 24.3913 12.3913C24.3913 7.20463 20.1866 3 14.9999 3C9.81327 3 5.60864 7.20463 5.60864 12.3913C5.60864 18.6522 14.9999 27 14.9999 27Z" stroke="currentColor" stroke-width="2"></path><path d="M18.0003 12.0002C18.0003 13.657 16.6572 15.0002 15.0003 15.0002C13.3435 15.0002 12.0003 13.657 12.0003 12.0002C12.0003 10.3433 13.3435 9.00019 15.0003 9.00019C16.6572 9.00019 18.0003 10.3433 18.0003 12.0002Z" stroke="currentColor" stroke-width="2"></path></svg>
@@ -122,7 +118,7 @@ export const FOOTER_HTML = `<div class="ekit-template-content-markup ekit-templa
                                             </div>
         
         
-                </div>
+                </div></a>
         </div>				</div>
 				</div>
 				</div>
@@ -141,24 +137,21 @@ export const FOOTER_HTML = `<div class="ekit-template-content-markup ekit-templa
 		<div class="elementor-element elementor-element-5cfd6a3 e-con-full e-flex e-con e-child" data-id="5cfd6a3" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-662b311 footer-social-link elementor-widget elementor-widget-elementskit-social-media" data-id="662b311" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-social-media.default">
 				<div class="elementor-widget-container">
-					<div class="ekit-wid-con" >			 <ul class="ekit_social_media">
+					<div class="ekit-wid-con">			 <ul class="ekit_social_media">
 														<li class="elementor-repeater-item-268fce3">
-					    <a
-						href="#" aria-label="" class="dribbble" >
+					    <a href="#" aria-label="" class="dribbble">
 							
 							<i aria-hidden="true" class="fab fa-dribbble"></i>
                                                                                                             </a>
                     </li>
                     														<li class="elementor-repeater-item-d017926">
-					    <a
-						href="#" aria-label="" class="facebook" >
+					    <a href="#" aria-label="" class="facebook">
 							
 							<i aria-hidden="true" class="icon icon-facebook"></i>
                                                                                                             </a>
                     </li>
                     														<li class="elementor-repeater-item-ee668cc">
-					    <a
-						href="#" aria-label="" class="instagram" >
+					    <a href="#" aria-label="" class="instagram">
 							
 							<i aria-hidden="true" class="fab fa-instagram"></i>
                                                                                                             </a>
@@ -188,11 +181,9 @@ export const FOOTER_HTML = `<div class="ekit-template-content-markup ekit-templa
 		<div class="elementor-element elementor-element-fa57236 e-con-full e-flex e-con e-child" data-id="fa57236" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-d939481 privacy-policy-links elementor-widget elementor-widget-ekit-vertical-menu" data-id="d939481" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="ekit-vertical-menu.default">
 				<div class="elementor-widget-container">
-					<div class="ekit-wid-con">        <div 
-            class="ekit-vertical-main-menu-wraper   badge-position-left"
-        >
-                        <div class="ekit-vertical-menu-container"><ul id="menu-privacy-policy-menu" class="ekit-vertical-navbar-nav submenu-click-on-icon"><li id="menu-item-5088" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5088 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Privacy Policy</a></li>
-<li id="menu-item-5092" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5092 nav-item elementskit-mobile-builder-content" data-vertical-menu=750px><a href="#" class="ekit-menu-nav-link">Terms &#038; Conditions</a></li>
+					<div class="ekit-wid-con">        <div class="ekit-vertical-main-menu-wraper   badge-position-left">
+                        <div class="ekit-vertical-menu-container"><ul id="menu-privacy-policy-menu" class="ekit-vertical-navbar-nav submenu-click-on-icon"><li id="menu-item-5088" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5088 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="#" class="ekit-menu-nav-link">Privacy Policy</a></li>
+<li id="menu-item-5092" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5092 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="#" class="ekit-menu-nav-link">Terms &amp; Conditions</a></li>
 </ul></div>        </div>
         </div>				</div>
 				</div>

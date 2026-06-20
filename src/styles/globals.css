@@ -1,6 +1,6 @@
 /* Minimal reset – theme + Elementor CSS provide all visual styles */
 html {
-  scroll-behavior: auto;
+  scroll-behavior: smooth;
 }
 
 body {
