@@ -41,7 +41,7 @@ export function ProductCard({ product }: { product: Product }) {
       >
         <Link href={`/products/${product.slug}`} style={{ display: "block", width: "100%", textAlign: "center" }}>
           <img
-            src={product.img}
+            src={product.imgSource ? `/assets/uploads/products/${product.imgSource}` : '/assets/uploads/products/tablet_mockup.png'}
             alt={product.title}
             style={{
               width: "100%",
