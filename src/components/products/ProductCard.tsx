@@ -104,7 +104,7 @@ export function ProductCard({ product }: { product: Product }) {
           </h3>
         </Link>
 
-        {/* Composition Snippet */}
+        {/* Description Snippet */}
         <p
           style={{
             margin: "0 0 20px 0",
@@ -114,12 +114,12 @@ export function ProductCard({ product }: { product: Product }) {
             lineHeight: 1.5,
             flexGrow: 1,
             display: "-webkit-box",
-            WebkitLineClamp: 2,
+            WebkitLineClamp: 3,
             WebkitBoxOrient: "vertical",
             overflow: "hidden"
           }}
         >
-          {product.composition} | {product.dosageForm}
+          {product.description || "No description available."}
         </p>
 
         {/* Action Button */}

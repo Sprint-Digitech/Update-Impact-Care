@@ -1,10 +1,10 @@
 [
   {
     "id": 1,
-    "title": "R-LUME Suspension",
+    "title": "R-LUME SUSPENSION",
     "slug": "r-lume-suspension",
     "category": "Syrups & Suspensions",
-    "dosageForm": "Tablet",
+    "dosageForm": "Syrup/Suspension",
     "composition": "Each  5ml of R-Lume Susp contains :-\n\n      Artemether 180mg + Lumefantrine 1080mg",
     "packDetail": "60ml",
     "description": "R-LUME Suspension is an effective antimalarial formulation containing the combination of Artemether and Lumefantrine, recommended for the treatment of uncomplicated malaria caused by Plasmodium falciparum. Artemether acts rapidly to reduce the malaria parasite load, while Lumefantrine provides sustained action to eliminate residual parasites and prevent recurrence. This combination therapy offers fast symptom relief, high cure rates, and improved treatment outcomes. R-LUME Suspension is especially suitable for pediatric patients due to its easy-to-administer liquid formulation. It should be taken as prescribed by a healthcare professional, preferably with food or milk to enhance absorption and maximize effectiveness.",
@@ -12,29 +12,29 @@
   },
   {
     "id": 2,
-    "title": "IZ – 500 Tablets",
-    "slug": "iz-500-tablets",
+    "title": "IZ – 500mg Tablets",
+    "slug": "iz-500mg-tablets",
     "category": "Tablets",
     "dosageForm": "Tablet",
     "composition": "Each film Coated tablet contains :-\n\n    Azithromycin Dihydrate USP  \n    Equivalent to Azithromycin…………………………… 500mg",
     "packDetail": "1 X 3 Tablets",
     "description": "IZ 500 Tablet (Azithromycin 500 mg) is a broad-spectrum macrolide antibiotic used for the treatment of various bacterial infections, including respiratory tract infections, tonsillitis, sinusitis, ear infections, skin and soft tissue infections, and certain sexually transmitted diseases. It works by inhibiting bacterial protein synthesis, thereby stopping the growth and spread of bacteria. IZ 500 offers the advantages of once-daily dosing, good tissue penetration, and a shorter treatment duration, which helps improve patient compliance. It should be taken only as prescribed by a healthcare professional, and the full course must be completed to prevent antibiotic resistance and recurrence of infection.",
-    "imgSource": "iz-500-tablets.jpeg"
+    "imgSource": "iz-500mg-tablets.jpeg"
   },
   {
     "id": 3,
-    "title": "Levoray 500 Tablets",
-    "slug": "levoray-500-tablets",
+    "title": "LEVORAY 500mg Tablets",
+    "slug": "levoray-500mg-tablets",
     "category": "Tablets",
     "dosageForm": "Tablet",
     "composition": "Each film coated tablet contains: \nLevofloxacin Hemihydrate \nEquivalent to Levofloxacin………………………….… 500 mg",
     "packDetail": "1 X 5 Tablets",
     "description": "Levoray 500 Tablet contains Levofloxacin 500 mg, a broad-spectrum fluoroquinolone antibiotic used to treat a wide range of bacterial infections. It is effective in managing respiratory tract infections, urinary tract infections, skin and soft tissue infections, gastrointestinal infections, and certain other bacterial diseases. Levofloxacin works by inhibiting bacterial DNA replication, leading to the destruction of susceptible bacteria. Levoray 500 offers excellent tissue penetration, convenient once-daily dosing, and high clinical efficacy. It should be used only under medical supervision and the full prescribed course should be completed to ensure successful treatment and help prevent antibiotic resistance.",
-    "imgSource": "levoray-500-tablets.jpeg"
+    "imgSource": "levoray-500mg-tablets.jpeg"
   },
   {
     "id": 4,
-    "title": "FEKEY Syrup",
+    "title": "FEKEY SYRUP",
     "slug": "fekey-syrup",
     "category": "Syrups & Suspensions",
     "dosageForm": "Syrup/Suspension",
@@ -67,18 +67,18 @@
   },
   {
     "id": 7,
-    "title": "R-LUME Injection",
-    "slug": "r-lume-injection",
+    "title": "R-LUME 80mg Injection",
+    "slug": "r-lume-80mg-injection",
     "category": "Injections",
     "dosageForm": "Injection",
     "composition": "Each  1ml of R-Lume Injection contains :-\n\n      Artemether 80mg",
     "packDetail": "1ml X 6 Ampoules",
     "description": "R-LUME® Injection (Artemether Injection 80 mg/ml) is a fast-acting antimalarial indicated for the initial treatment of severe and complicated malaria, especially infections caused by Plasmodium falciparum. Administered via intramuscular injection, artemether rapidly reduces parasite load by generating free radicals that damage essential parasite proteins and membranes, leading to parasite death. Its rapid onset of action helps control severe symptoms and stabilize patients until oral antimalarial therapy can be initiated. R-LUME Injection is well tolerated, provides reliable efficacy, and plays a vital role in reducing malaria-related morbidity and mortality when used according to recommended treatment guidelines.",
-    "imgSource": "r-lume-injection.jpeg"
+    "imgSource": "r-lume-80mg-injection.jpeg"
   },
   {
     "id": 8,
-    "title": "AMLOCLASS - AT Tablets",
+    "title": "AMLOCLASS AT Tablets",
     "slug": "amloclass-at-tablets",
     "category": "Tablets",
     "dosageForm": "Tablet",
@@ -89,14 +89,14 @@
   },
   {
     "id": 9,
-    "title": "IPOZOLE Capsules",
-    "slug": "ipozole-capsules",
-    "category": "Capsules",
-    "dosageForm": "Capsule",
+    "title": "IPOZOLE 20mg Tablets",
+    "slug": "ipozole-20mg-tablets",
+    "category": "Tablets",
+    "dosageForm": "Tablet",
     "composition": "Each Hard gelatin capsule contains:\nOmeprazole USP………20 mg (As Enteric Coated capsules) \nExcipients………………..q.s",
     "packDetail": "3 X 10 Capsules",
     "description": "IPOZOLE® Capsules (Omeprazole 20 mg) is a proton pump inhibitor (PPI) indicated for the treatment and prevention of acid-related gastrointestinal disorders, including gastroesophageal reflux disease (GERD), gastric and duodenal ulcers, erosive esophagitis, and Zollinger–Ellison syndrome. Omeprazole works by irreversibly inhibiting the gastric proton pump (H⁺/K⁺-ATPase), providing potent and long-lasting suppression of gastric acid secretion. IPOZOLE effectively relieves symptoms such as heartburn and acid reflux, promotes ulcer healing, and helps prevent recurrence. With convenient once-daily dosing, it offers reliable symptom control, improves patient comfort, and enhances overall gastrointestinal health and quality of life.",
-    "imgSource": "ipozole-capsules.jpeg"
+    "imgSource": "ipozole-20mg-tablets.jpeg"
   },
   {
     "id": 10,
@@ -111,14 +111,14 @@
   },
   {
     "id": 11,
-    "title": "FIZO Tablets",
-    "slug": "fizo-tablets",
+    "title": "FIZO 20mg Tablets",
+    "slug": "fizo-20mg-tablets",
     "category": "Tablets",
     "dosageForm": "Tablet",
     "composition": "Each enteric-coated tablet contains:\nRabeprazole Sodium …………………………20 mg\nExcipients………………………………………….q.s",
     "packDetail": "3 X 10 Tablets",
     "description": "FIZO® Tablets (Rabeprazole Sodium 20 mg) is a proton pump inhibitor (PPI) indicated for the treatment and prevention of acid-related gastrointestinal disorders, including gastroesophageal reflux disease (GERD), gastric and duodenal ulcers, erosive esophagitis, and Helicobacter pylori eradication when used in combination with appropriate antibiotics. Rabeprazole works by irreversibly inhibiting the gastric H⁺/K⁺-ATPase (proton pump), providing rapid, potent, and sustained suppression of gastric acid secretion. FIZO effectively relieves heartburn, acid reflux, and ulcer-related symptoms while promoting mucosal healing. With convenient once-daily dosing and excellent tolerability, FIZO improves patient comfort, supports long-term gastrointestinal health, and enhances quality of life.",
-    "imgSource": "fizo-tablets.jpeg"
+    "imgSource": "fizo-20mg-tablets.jpeg"
   },
   {
     "id": 12,
@@ -133,40 +133,29 @@
   },
   {
     "id": 13,
-    "title": "R-LUME 80/480 Tablets",
-    "slug": "r-lume-80480-tablets",
+    "title": "R -LUME 80mg/480mg Tablets",
+    "slug": "r-lume-80mg480mg-tablets",
     "category": "Tablets",
     "dosageForm": "Tablet",
     "composition": "Each  coated tablet of R-Lume 80/480 contains :-\n\n      Artemether 80mg + Lumifentron 480mg",
     "packDetail": "1 X 6 Tablets",
     "description": "R-LUME® 80/480 Tablets (Artemether 80 mg + Lumefantrine 480 mg) is a high-strength artemisinin-based combination therapy (ACT) indicated for the treatment of uncomplicated Plasmodium falciparum malaria, including infections caused by multidrug-resistant strains. Artemether rapidly reduces parasite burden through free radical-mediated parasite destruction, while lumefantrine, with its longer half-life, eliminates residual parasites and helps prevent recrudescence. This complementary dual mechanism ensures rapid symptom relief, high cure rates, and reduced risk of resistance. R-LUME 80/480 offers a convenient dosing regimen for adults, excellent tolerability, and reliable efficacy, supporting complete parasite clearance and improved patient recovery.",
-    "imgSource": "r-lume-80480-tablets.jpeg"
+    "imgSource": "r-lume-80mg480mg-tablets.jpeg"
   },
   {
     "id": 14,
-    "title": "SIDEGRA 50 Tablets",
-    "slug": "sidegra-50-tablets",
+    "title": "SIDEGRA 50mg/100mg",
+    "slug": "sidegra-50mg100mg",
     "category": "Tablets",
     "dosageForm": "Tablet",
-    "composition": "Each film coated contains :-\nSildenafil Citrate\nEquivalent to Sildenafil……………………………. 50 mg\nExcipients…………………………………………….q.s",
-    "packDetail": "1 X 4 Tablets",
+    "composition": "Each film coated contains :-\nSildenafil Citrate\nEquivalent to Sildenafil……………………………. 50 mg\nExcipients…………………………………………….q.s\n\n---\n\nEach film coated contains :-\nSildenafil Citrate\nEquivalent to Sildenafil……………………………. 100 mg\nExcipients…………………………………………….q.s",
+    "packDetail": "1 X 4 Tablets\n\n1 X 4 Tablets",
     "description": "SIDEGRA® 50/100 Tablets (Sildenafil Citrate 50 mg & 100 mg) is a phosphodiesterase type-5 (PDE-5) inhibitor indicated for the treatment of erectile dysfunction (ED) in adult men. Sildenafil enhances the natural erectile response by inhibiting PDE-5, increasing cyclic guanosine monophosphate (cGMP) levels, and promoting smooth muscle relaxation with improved blood flow to the penile tissues during sexual stimulation. SIDEGRA helps achieve and maintain a firm erection, improves sexual performance, and enhances confidence and quality of life. Available in 50 mg and 100 mg strengths, it offers flexible dosing, rapid onset of action, and a well-established safety and efficacy profile when used as directed.",
-    "imgSource": "sidegra-50-tablets.jpeg"
+    "imgSource": "sidegra-50mg100mg.jpeg"
   },
   {
     "id": 15,
-    "title": "SIDEGRA 100 Tablets",
-    "slug": "sidegra-100-tablets",
-    "category": "Tablets",
-    "dosageForm": "Tablet",
-    "composition": "Each film coated contains :-\nSildenafil Citrate\nEquivalent to Sildenafil……………………………. 100 mg\nExcipients…………………………………………….q.s",
-    "packDetail": "1 X 4 Tablets",
-    "description": "SIDEGRA® 50/100 Tablets (Sildenafil Citrate 50 mg & 100 mg) is a phosphodiesterase type-5 (PDE-5) inhibitor indicated for the treatment of erectile dysfunction (ED) in adult men. Sildenafil enhances the natural erectile response by inhibiting PDE-5, increasing cyclic guanosine monophosphate (cGMP) levels, and promoting smooth muscle relaxation with improved blood flow to the penile tissues during sexual stimulation. SIDEGRA helps achieve and maintain a firm erection, improves sexual performance, and enhances confidence and quality of life. Available in 50 mg and 100 mg strengths, it offers flexible dosing, rapid onset of action, and a well-established safety and efficacy profile when used as directed.",
-    "imgSource": "sidegra-100-tablets.jpeg"
-  },
-  {
-    "id": 16,
-    "title": "Applift Syrup",
+    "title": "AppLIFT Syrup",
     "slug": "applift-syrup",
     "category": "Syrups & Suspensions",
     "dosageForm": "Syrup/Suspension",
@@ -176,8 +165,8 @@
     "imgSource": "applift-syrup.jpeg"
   },
   {
-    "id": 17,
-    "title": "KIDJOY Syrup",
+    "id": 16,
+    "title": "KIDJOY SYRUP",
     "slug": "kidjoy-syrup",
     "category": "Syrups & Suspensions",
     "dosageForm": "Syrup/Suspension",
@@ -187,216 +176,139 @@
     "imgSource": "kidjoy-syrup.jpeg"
   },
   {
+    "id": 17,
+    "title": "AMLOCLASS 5mg/10mg Tablets",
+    "slug": "amloclass-5mg10mg-tablets",
+    "category": "Tablets",
+    "dosageForm": "Tablet",
+    "composition": "Each uncoated tablet contains:\n Amlodipine Besilate BP\n Eq. to Amlodipine……………………………………………….5 mg\nExcipients………………………………………………………….q.s\n\n---\n\nEach uncoated tablet contains:\n Amlodipine Besilate BP\n Eq. to Amlodipine……………………………………………….10 mg\nExcipients………………………………………………………….q.s",
+    "packDetail": "3 X 10 Tablets\n\n3 X 10 Tablets",
+    "description": "AMLOCLASS® 5/10 Tablets (Amlodipine Besilate 5 mg & 10 mg) is a long-acting calcium channel blocker indicated for the treatment of hypertension and chronic stable or vasospastic angina. Amlodipine works by relaxing vascular smooth muscle, causing peripheral vasodilation that lowers blood pressure and improves blood flow to the heart. This reduces cardiac workload, relieves angina symptoms, and decreases the risk of cardiovascular complications such as stroke and heart attack. Available in 5 mg and 10 mg strengths, AMLOCLASS offers flexible dose titration, convenient once-daily administration, sustained 24-hour blood pressure control, excellent tolerability, and effective long-term cardiovascular protection for a wide range of patients.",
+    "imgSource": "amloclass-5mg10mg-tablets.jpeg"
+  },
+  {
     "id": 18,
-    "title": "AMLOCLASS 5mg Tablets",
-    "slug": "amloclass-5mg-tablets",
-    "category": "Tablets",
-    "dosageForm": "Tablet",
-    "composition": "Each uncoated tablet contains:\n Amlodipine Besilate BP\n Eq. to Amlodipine……………………………………………….5 mg\nExcipients………………………………………………………….q.s",
-    "packDetail": "3 X 10 Tablets",
-    "description": "AMLOCLASS® 5/10 Tablets (Amlodipine Besilate 5 mg & 10 mg) is a long-acting calcium channel blocker indicated for the treatment of hypertension and chronic stable or vasospastic angina. Amlodipine works by relaxing vascular smooth muscle, causing peripheral vasodilation that lowers blood pressure and improves blood flow to the heart. This reduces cardiac workload, relieves angina symptoms, and decreases the risk of cardiovascular complications such as stroke and heart attack. Available in 5 mg and 10 mg strengths, AMLOCLASS offers flexible dose titration, convenient once-daily administration, sustained 24-hour blood pressure control, excellent tolerability, and effective long-term cardiovascular protection for a wide range of patients.",
-    "imgSource": "amloclass-5mg-tablets.jpeg"
-  },
-  {
-    "id": 19,
-    "title": "AMLOCLASS 10mg Tablets",
-    "slug": "amloclass-10mg-tablets",
-    "category": "Tablets",
-    "dosageForm": "Tablet",
-    "composition": "Each uncoated tablet contains:\n Amlodipine Besilate BP\n Eq. to Amlodipine……………………………………………….10 mg\nExcipients………………………………………………………….q.s",
-    "packDetail": "3 X 10 Tablets",
-    "description": "AMLOCLASS® 5/10 Tablets (Amlodipine Besilate 5 mg & 10 mg) is a long-acting calcium channel blocker indicated for the treatment of hypertension and chronic stable or vasospastic angina. Amlodipine works by relaxing vascular smooth muscle, causing peripheral vasodilation that lowers blood pressure and improves blood flow to the heart. This reduces cardiac workload, relieves angina symptoms, and decreases the risk of cardiovascular complications such as stroke and heart attack. Available in 5 mg and 10 mg strengths, AMLOCLASS offers flexible dose titration, convenient once-daily administration, sustained 24-hour blood pressure control, excellent tolerability, and effective long-term cardiovascular protection for a wide range of patients.",
-    "imgSource": "amloclass-10mg-tablets.jpeg"
-  },
-  {
-    "id": 20,
-    "title": "IMUCLAV 1125 Tablets",
-    "slug": "imuclav-1125-tablets",
+    "title": "IMUCLAVE 1125mg Tablets",
+    "slug": "imuclave-1125mg-tablets",
     "category": "Tablets",
     "dosageForm": "Tablet",
     "composition": "Each film coated tablet Contains:                                          Amoxicillin Trihydrate BP                                                                            eq. to Amoxicillin…………………………………………….1000 mg                                                             Diluted BP Potassium Clavulanate                                                          eq. to Clavulanic Acid……………………………………..125 mg Excipients……………………………………………………..         q.s",
     "packDetail": "2 X 6 Tabs",
     "description": "IMUCLAV® 1125 Tablets (Amoxicillin 1000 mg + Potassium Clavulanate 125 mg) is a broad-spectrum antibiotic combination indicated for the treatment of susceptible bacterial infections, including respiratory tract, ear, nose and throat, urinary tract, skin and soft tissue, dental, and bone and joint infections. Amoxicillin inhibits bacterial cell wall synthesis, while clavulanate protects it from degradation by beta-lactamase enzymes, extending its antibacterial spectrum. This synergistic combination provides reliable coverage against beta-lactamase–producing bacteria, ensuring effective infection control. IMUCLAV 1125 offers high clinical efficacy, excellent tissue penetration, and convenient dosing, promoting faster recovery, reducing complications, and improving overall patient outcomes.",
-    "imgSource": "imuclav-1125-tablets.jpeg"
+    "imgSource": "imuclave-1125mg-tablets.jpeg"
   },
   {
-    "id": 21,
-    "title": "AFSC KIT",
-    "slug": "afsc-kit",
-    "category": "Kits",
-    "dosageForm": "Tablet",
+    "id": 19,
+    "title": "AFSC KIT Tablets",
+    "slug": "afsc-kit-tablets",
+    "category": "Tablets",
+    "dosageForm": "Kit",
     "composition": "Each Combikit Contains :-\nA. 2 tablets of Secnidazole 1 g \nEach tablet contains Secnidazole 1 g \nB. 1 tablet of Azithromycin \nEach film-coated tablet contains: \nAzithromycin USP \n       Equivalent to Azithromycin 1 g \nC. 1 tablet of Fluconazole 150 mg \nEach tablet contains Fluconazole USP 150 mg",
     "packDetail": "1 X 4 Tablets",
     "description": "AFSC KIT® (Secnidazole + Azithromycin + Fluconazole) is a convenient fixed-dose combination therapy indicated for the syndromic management of mixed genital and reproductive tract infections, including bacterial, protozoal, and fungal infections. Secnidazole eliminates anaerobic bacteria and Trichomonas vaginalis, Azithromycin provides broad-spectrum antibacterial coverage against susceptible sexually transmitted pathogens, and Fluconazole effectively treats Candida infections. This triple-action combination offers comprehensive coverage in a single treatment regimen, improving patient compliance and clinical outcomes. AFSC KIT helps achieve rapid symptom relief, effective eradication of causative organisms, reduced recurrence, and supports better reproductive and sexual health when used as prescribed.",
-    "imgSource": "afsc-kit.jpeg"
+    "imgSource": "afsc-kit-tablets.jpeg"
   },
   {
-    "id": 22,
-    "title": "CEFEZONE – S 1.5g",
-    "slug": "cefezone-s-15g",
-    "category": "Tablets",
-    "dosageForm": "Tablet",
+    "id": 20,
+    "title": "CEFEZONE – S 1.5g Injection",
+    "slug": "cefezone-s-15g-injection",
+    "category": "Injections",
+    "dosageForm": "Injection",
     "composition": "Each Vial Contains:\nSterile Ceftriaxone Sodium USP \nEquivalent to Anhydrous Ceftriaxone……………… 1000 mg \nSterile Sulbactam Sodium USP \nEquivalent to Anhydrous Sulbactam………………… 500 mg",
     "packDetail": "1 Vial",
     "description": "CEFEZONE-S® Injection 1.5 g (Ceftriaxone 1 g + Sulbactam 0.5 g) is a broad-spectrum injectable antibiotic combination indicated for the treatment of moderate to severe bacterial infections, including respiratory tract, urinary tract, intra-abdominal, skin and soft tissue, bone and joint infections, septicemia, and gynecological infections. Ceftriaxone inhibits bacterial cell wall synthesis, while Sulbactam is a beta-lactamase inhibitor that protects ceftriaxone from enzymatic degradation, extending its antibacterial spectrum against resistant organisms. Administered via IV or IM route, CEFEZONE-S provides excellent tissue penetration, reliable clinical efficacy, and convenient once-daily dosing in many cases, promoting faster recovery and improved patient outcomes.",
-    "imgSource": "cefezone-s-15g.jpeg"
+    "imgSource": "cefezone-s-15g-injection.jpeg"
   },
   {
-    "id": 23,
+    "id": 21,
     "title": "KOLICURE Drops",
     "slug": "kolicure-drops",
-    "category": "Syrups & Suspensions",
-    "dosageForm": "Syrup/Suspension",
+    "category": "Drops",
+    "dosageForm": "Drops",
     "composition": "Each mL contains:\nSimethicone USP\nEq. to Simethicone 40 mg\nDill Oil BP – 0.005 mL\nFennel Oil USP NF – 0.0007 mL",
     "packDetail": "15ml",
     "description": "Kolicure Drops (Simethicone + Dill Oil + Fennel Oil) is a gentle pediatric formulation specially designed to relieve infantile colic, gas, bloating, abdominal discomfort, and excessive crying caused by trapped air in the digestive tract. Simethicone helps break down gas bubbles for easy elimination, while Dill Oil and Fennel Oil provide natural carminative and antispasmodic effects that soothe the digestive system. Kolicure Drops offer fast and effective relief from tummy discomfort, promote comfortable digestion, and help infants feed and sleep better. With its pleasant taste and easy-to-administer drop formulation, Kolicure Drops support infant comfort and provide reassurance for parents and caregivers.",
     "imgSource": "kolicure-drops.jpeg"
   },
   {
-    "id": 24,
-    "title": "ATROCLASS 10mg Tablet",
-    "slug": "atroclass-10mg-tablet",
+    "id": 22,
+    "title": "ATROCLASS 10mg/20mg",
+    "slug": "atroclass-10mg20mg",
     "category": "Tablets",
     "dosageForm": "Tablet",
-    "composition": "Each film-coated tablet contains:\nAtorvastatin Calcium Trihydrate BP \nEquivalent to Atorvastatin……………………………. 20 mg\nExcipients…………………………………………………q.s",
-    "packDetail": "3 X 10 Tablets",
+    "composition": "Each film-coated tablet contains:\nAtorvastatin Calcium Trihydrate BP \nEquivalent to Atorvastatin……………………………. 20 mg\nExcipients…………………………………………………q.s\n\n---\n\nEach film-coated tablet contains:\nAtorvastatin Calcium Trihydrate BP \nEquivalent to Atorvastatin……………………………. 20 mg\nExcipients…………………………………………………q.s",
+    "packDetail": "3 X 10 Tablets\n\n3 X 10 Tablets",
     "description": "ATROCLASS® Tablets (Atorvastatin 10 mg & 20 mg) is a potent HMG-CoA reductase inhibitor (statin) indicated for the management of hypercholesterolemia, mixed dyslipidemia, and the prevention of cardiovascular disease. Atorvastatin effectively lowers LDL cholesterol and triglycerides while increasing HDL cholesterol, helping reduce the risk of heart attack, stroke, and other cardiovascular events. Available in 10 mg and 20 mg strengths, ATROCLASS offers flexible dose titration to meet individual patient needs. With convenient once-daily dosing, proven efficacy, and excellent tolerability, ATROCLASS supports long-term lipid control, cardiovascular protection, and improved overall heart health.",
-    "imgSource": "atroclass-10mg-tablet.jpeg"
+    "imgSource": "atroclass-10mg20mg.jpeg"
   },
   {
-    "id": 25,
-    "title": "ATROCLASS 10mg Tablet",
-    "slug": "atroclass-10mg-tablet",
-    "category": "Tablets",
-    "dosageForm": "Tablet",
-    "composition": "Each film-coated tablet contains:\nAtorvastatin Calcium Trihydrate BP \nEquivalent to Atorvastatin……………………………. 20 mg\nExcipients…………………………………………………q.s",
-    "packDetail": "3 X 10 Tablets",
-    "description": "ATROCLASS® Tablets (Atorvastatin 10 mg & 20 mg) is a potent HMG-CoA reductase inhibitor (statin) indicated for the management of hypercholesterolemia, mixed dyslipidemia, and the prevention of cardiovascular disease. Atorvastatin effectively lowers LDL cholesterol and triglycerides while increasing HDL cholesterol, helping reduce the risk of heart attack, stroke, and other cardiovascular events. Available in 10 mg and 20 mg strengths, ATROCLASS offers flexible dose titration to meet individual patient needs. With convenient once-daily dosing, proven efficacy, and excellent tolerability, ATROCLASS supports long-term lipid control, cardiovascular protection, and improved overall heart health.",
-    "imgSource": "atroclass-10mg-tablet.jpeg"
-  },
-  {
-    "id": 26,
-    "title": "Lapipera 4.5g",
-    "slug": "lapipera-45g",
-    "category": "Tablets",
-    "dosageForm": "Tablet",
+    "id": 23,
+    "title": "LAPIPERA 4.5g Injection",
+    "slug": "lapipera-45g-injection",
+    "category": "Injections",
+    "dosageForm": "Injection",
     "composition": "Each Vial Contains:\nSterile Piperacillin Sodium USP \nEquivalent to Anhydrous Piperacillin……………… 4000 mg \nSterile Tazobactam Sodium \nEquivalent to Anhydrous Tazobactam………………. 500 mg",
     "packDetail": "1 Vial",
     "description": "LAPIPERA® 4.5 g Injection (Piperacillin 4 g + Tazobactam 0.5 g) is a broad-spectrum antibiotic combination indicated for the treatment of moderate to severe bacterial infections, including hospital-acquired pneumonia, complicated urinary tract and intra-abdominal infections, skin and soft tissue infections, gynecological infections, and septicemia. Piperacillin inhibits bacterial cell wall synthesis, while Tazobactam is a beta-lactamase inhibitor that protects piperacillin from enzymatic degradation, extending its activity against resistant organisms. Administered by intravenous infusion, LAPIPERA provides broad antimicrobial coverage, excellent tissue penetration, and reliable clinical efficacy, helping achieve rapid infection control, reduce complications, and improve patient outcomes.",
-    "imgSource": "lapipera-45g.jpeg"
+    "imgSource": "lapipera-45g-injection.jpeg"
   },
   {
-    "id": 27,
-    "title": "METCLASS SR 500mg Tablet",
-    "slug": "metclass-sr-500mg-tablet",
+    "id": 24,
+    "title": "METCLASS SR 500mg /SR 1000mg",
+    "slug": "metclass-sr-500mg-sr-1000mg",
     "category": "Tablets",
     "dosageForm": "Tablet",
-    "composition": "Each uncoated sustained Release Tablet contains: - \nMetformin Hydrochloride USP…………………………….500 mg\nExipients…………………………………………………………q.s",
-    "packDetail": "3 X 10 Tablets",
+    "composition": "Each uncoated sustained Release Tablet contains: - \nMetformin Hydrochloride USP…………………………….500 mg\nExipients…………………………………………………………q.s\n\n---\n\nEach uncoated sustained Release Tablet contains: - \nMetformin Hydrochloride USP…………………………1000 mg\nExipients…………………………………………………………q.s",
+    "packDetail": "3 X 10 Tablets\n\n3 X 10 Tablets",
     "description": "METCLASS SR® 500/SR 1000 Tablets (Metformin Hydrochloride Sustained Release 500 mg & 1000 mg) is a sustained-release antidiabetic medication indicated for the management of Type 2 Diabetes Mellitus alongside diet and exercise. Metformin reduces hepatic glucose production, improves insulin sensitivity, and enhances peripheral glucose uptake without stimulating insulin secretion, resulting in a low risk of hypoglycemia. The sustained-release formulation provides prolonged glycemic control with improved gastrointestinal tolerability and convenient once-daily dosing, promoting better patient adherence. Available in 500 mg and 1000 mg strengths, METCLASS SR effectively helps achieve optimal blood glucose control, supports long-term metabolic health, and reduces the risk of diabetes-related complications.",
-    "imgSource": "metclass-sr-500mg-tablet.jpeg"
+    "imgSource": "metclass-sr-500mg-sr-1000mg.jpeg"
   },
   {
-    "id": 28,
-    "title": "METCLASS SR 1000mg Tablet",
-    "slug": "metclass-sr-1000mg-tablet",
-    "category": "Tablets",
-    "dosageForm": "Tablet",
-    "composition": "Each uncoated sustained Release Tablet contains: - \nMetformin Hydrochloride USP…………………………1000 mg\nExipients…………………………………………………………q.s",
-    "packDetail": "3 X 10 Tablets",
-    "description": "METCLASS SR® 500/SR 1000 Tablets (Metformin Hydrochloride Sustained Release 500 mg & 1000 mg) is a sustained-release antidiabetic medication indicated for the management of Type 2 Diabetes Mellitus alongside diet and exercise. Metformin reduces hepatic glucose production, improves insulin sensitivity, and enhances peripheral glucose uptake without stimulating insulin secretion, resulting in a low risk of hypoglycemia. The sustained-release formulation provides prolonged glycemic control with improved gastrointestinal tolerability and convenient once-daily dosing, promoting better patient adherence. Available in 500 mg and 1000 mg strengths, METCLASS SR effectively helps achieve optimal blood glucose control, supports long-term metabolic health, and reduces the risk of diabetes-related complications.",
-    "imgSource": "metclass-sr-1000mg-tablet.jpeg"
-  },
-  {
-    "id": 29,
-    "title": "IMUCLAV 1.2g",
-    "slug": "imuclav-12g",
-    "category": "Tablets",
-    "dosageForm": "Tablet",
+    "id": 25,
+    "title": "IMUCLAV 1.2g Injection",
+    "slug": "imuclav-12g-injection",
+    "category": "Injections",
+    "dosageForm": "Injection",
     "composition": "Each Vial Contains:                                                                       Amoxicillin Sodium BP eq. to Amoxicillin…………1000 mg Potassium Clavulanate BP eq. to Clavulanic Acid.200 mg Excipients…………………………………………………….. q.s",
     "packDetail": "1 Vial",
     "description": "IMUCLAV® 1.2 g Injection (Amoxicillin 1000 mg + Clavulanic Acid 200 mg) is a broad-spectrum injectable antibiotic combination indicated for the treatment of moderate to severe bacterial infections, including respiratory tract, urinary tract, skin and soft tissue, intra-abdominal, bone and joint infections, and septicemia. Amoxicillin inhibits bacterial cell wall synthesis, while Clavulanic Acid is a beta-lactamase inhibitor that protects amoxicillin from enzymatic degradation, extending its activity against resistant bacteria. Administered by IV injection or infusion, IMUCLAV 1.2 g provides rapid and effective infection control, excellent tissue penetration, reliable clinical efficacy, and supports faster recovery with improved patient outcomes.",
-    "imgSource": "imuclav-12g.jpeg"
+    "imgSource": "imuclav-12g-injection.jpeg"
   },
   {
-    "id": 30,
-    "title": "R-LUME 20/120 Tablets",
-    "slug": "r-lume-20120-tablets",
+    "id": 26,
+    "title": "R-LUME (20/120mg)/(40/240mg)",
+    "slug": "r-lume-20120mg40240mg",
     "category": "Tablets",
     "dosageForm": "Tablet",
-    "composition": "Each  coated tablet of R-Lume 20/120 contains :-\n\n      Artemether 20mg + Lumefantrine 120mg",
-    "packDetail": "1 X 6 Tablets",
+    "composition": "Each  coated tablet of R-Lume 20/120 contains :-\n\n      Artemether 20mg + Lumefantrine 120mg\n\n---\n\nEach  coated tablet of R-Lume 40/240 contains :-\n\n      Artemether 40mg + Lumefantrine 240mg",
+    "packDetail": "1 X 6 Tablets\n\n1 X 6 Tablets",
     "description": "R-LUME® 20/120 & 40/240 Tablets (Artemether + Lumefantrine) are artemisinin-based combination therapies (ACTs) indicated for the treatment of uncomplicated Plasmodium falciparum malaria, including infections caused by multidrug-resistant strains. Artemether rapidly reduces parasite burden through free radical-mediated parasite destruction, while Lumefantrine, with its longer half-life, eliminates residual parasites and helps prevent recrudescence. This complementary dual-action provides rapid fever clearance, high cure rates, and reduces the risk of resistance development. Available in 20/120 mg and 40/240 mg strengths, R-LUME offers age-appropriate dosing, excellent tolerability, and reliable efficacy, ensuring complete parasite clearance, faster recovery, and improved patient outcomes.",
-    "imgSource": "r-lume-20120-tablets.jpeg"
+    "imgSource": "r-lume-20120mg40240mg.jpeg"
   },
   {
-    "id": 31,
-    "title": "R-LUME 40/240 Tablets",
-    "slug": "r-lume-40240-tablets",
-    "category": "Tablets",
-    "dosageForm": "Tablet",
-    "composition": "Each  coated tablet of R-Lume 40/240 contains :-\n\n      Artemether 40mg + Lumefantrine 240mg",
-    "packDetail": "1 X 6 Tablets",
-    "description": "R-LUME® 20/120 & 40/240 Tablets (Artemether + Lumefantrine) are artemisinin-based combination therapies (ACTs) indicated for the treatment of uncomplicated Plasmodium falciparum malaria, including infections caused by multidrug-resistant strains. Artemether rapidly reduces parasite burden through free radical-mediated parasite destruction, while Lumefantrine, with its longer half-life, eliminates residual parasites and helps prevent recrudescence. This complementary dual-action provides rapid fever clearance, high cure rates, and reduces the risk of resistance development. Available in 20/120 mg and 40/240 mg strengths, R-LUME offers age-appropriate dosing, excellent tolerability, and reliable efficacy, ensuring complete parasite clearance, faster recovery, and improved patient outcomes.",
-    "imgSource": "r-lume-40240-tablets.jpeg"
-  },
-  {
-    "id": 32,
-    "title": "MEROCLASS 500mg Injection",
-    "slug": "meroclass-500mg-injection",
+    "id": 27,
+    "title": "MEROCLASS 500mg/1000mg Injections",
+    "slug": "meroclass-500mg1000mg-injections",
     "category": "Injections",
     "dosageForm": "Injection",
-    "composition": "Each Vial contains :-\nSterile Meropenem USP\nEq. to Anhydrous Meropenem……………………….500mg\nExcipients……………………………………………………..q.s",
-    "packDetail": "1 Vial",
+    "composition": "Each Vial contains :-\nSterile Meropenem USP\nEq. to Anhydrous Meropenem……………………….500mg\nExcipients……………………………………………………..q.s\n\n---\n\nEach Vial contains :-\nSterile Meropenem USP\nEq. to Anhydrous Meropenem……………………….1000mg\nExcipients……………………………………………………..q.s",
+    "packDetail": "1 Vial\n\n1 Vial",
     "description": "MEROCLASS® 500 mg & 1 g Injection (Meropenem for Injection USP) is a broad-spectrum carbapenem antibiotic indicated for the treatment of severe and complicated bacterial infections, including pneumonia, intra-abdominal infections, urinary tract infections, skin and soft tissue infections, septicemia, bacterial meningitis, and infections caused by multidrug-resistant organisms. Meropenem works by inhibiting bacterial cell wall synthesis, resulting in rapid bactericidal activity against a wide range of Gram-positive, Gram-negative, and anaerobic bacteria. Available in 500 mg and 1 g strengths, MEROCLASS provides excellent tissue penetration, proven clinical efficacy, and reliable intravenous therapy for critically ill patients, helping achieve rapid infection control and improved clinical outcomes.",
-    "imgSource": "meroclass-500mg-injection.jpeg"
+    "imgSource": "meroclass-500mg1000mg-injections.jpeg"
   },
   {
-    "id": 33,
-    "title": "MEROCLASS 1000mg Injection",
-    "slug": "meroclass-1000mg-injection",
-    "category": "Injections",
-    "dosageForm": "Injection",
-    "composition": "Each Vial contains :-\nSterile Meropenem USP\nEq. to Anhydrous Meropenem……………………….1000mg\nExcipients……………………………………………………..q.s",
-    "packDetail": "1 Vial",
-    "description": "MEROCLASS® 500 mg & 1 g Injection (Meropenem for Injection USP) is a broad-spectrum carbapenem antibiotic indicated for the treatment of severe and complicated bacterial infections, including pneumonia, intra-abdominal infections, urinary tract infections, skin and soft tissue infections, septicemia, bacterial meningitis, and infections caused by multidrug-resistant organisms. Meropenem works by inhibiting bacterial cell wall synthesis, resulting in rapid bactericidal activity against a wide range of Gram-positive, Gram-negative, and anaerobic bacteria. Available in 500 mg and 1 g strengths, MEROCLASS provides excellent tissue penetration, proven clinical efficacy, and reliable intravenous therapy for critically ill patients, helping achieve rapid infection control and improved clinical outcomes.",
-    "imgSource": "meroclass-1000mg-injection.jpeg"
-  },
-  {
-    "id": 34,
-    "title": "GLIMSY 1mg Tablets",
-    "slug": "glimsy-1mg-tablets",
+    "id": 28,
+    "title": "GLIMSY 1mg/2mg/4mg Tablets",
+    "slug": "glimsy-1mg2mg4mg-tablets",
     "category": "Tablets",
     "dosageForm": "Tablet",
-    "composition": "Each uncoated Tablet Contains :-\nGlimepride USP………………………………………………1mg",
-    "packDetail": "3 X 10 Tablets",
+    "composition": "Each uncoated Tablet Contains :-\nGlimepride USP………………………………………………1mg\n\n---\n\nEach uncoated Tablet Contains :-\nGlimepride USP………………………………………………2mg\n\n---\n\nEach uncoated Tablet Contains :-\nGlimepride USP………………………………………………4mg",
+    "packDetail": "3 X 10 Tablets\n\n3 X 10 Tablets\n\n3 X 10 Tablets",
     "description": "GLIMSY® 1 mg, 2 mg & 4 mg Tablets (Glimepiride USP) is a once-daily sulfonylurea indicated for the management of Type 2 Diabetes Mellitus as an adjunct to diet and exercise. Glimepiride stimulates pancreatic beta cells to increase insulin secretion and improves peripheral glucose utilization, helping achieve effective glycemic control. Available in 1 mg, 2 mg, and 4 mg strengths, GLIMSY allows flexible dose titration according to individual patient needs. It effectively lowers fasting and postprandial blood glucose levels, supports long-term diabetes management, and helps reduce the risk of diabetes-related complications while offering convenient dosing, proven efficacy, and good patient tolerability.",
-    "imgSource": "glimsy-1mg-tablets.jpeg"
+    "imgSource": "glimsy-1mg2mg4mg-tablets.jpeg"
   },
   {
-    "id": 35,
-    "title": "GLIMSY 2mg Tablets",
-    "slug": "glimsy-2mg-tablets",
-    "category": "Tablets",
-    "dosageForm": "Tablet",
-    "composition": "Each uncoated Tablet Contains :-\nGlimepride USP………………………………………………2mg",
-    "packDetail": "3 X 10 Tablets",
-    "description": "GLIMSY® 1 mg, 2 mg & 4 mg Tablets (Glimepiride USP) is a once-daily sulfonylurea indicated for the management of Type 2 Diabetes Mellitus as an adjunct to diet and exercise. Glimepiride stimulates pancreatic beta cells to increase insulin secretion and improves peripheral glucose utilization, helping achieve effective glycemic control. Available in 1 mg, 2 mg, and 4 mg strengths, GLIMSY allows flexible dose titration according to individual patient needs. It effectively lowers fasting and postprandial blood glucose levels, supports long-term diabetes management, and helps reduce the risk of diabetes-related complications while offering convenient dosing, proven efficacy, and good patient tolerability.",
-    "imgSource": "glimsy-2mg-tablets.jpeg"
-  },
-  {
-    "id": 36,
-    "title": "GLIMSY 4mg Tablets",
-    "slug": "glimsy-4mg-tablets",
-    "category": "Tablets",
-    "dosageForm": "Tablet",
-    "composition": "Each uncoated Tablet Contains :-\nGlimepride USP………………………………………………4mg",
-    "packDetail": "3 X 10 Tablets",
-    "description": "GLIMSY® 1 mg, 2 mg & 4 mg Tablets (Glimepiride USP) is a once-daily sulfonylurea indicated for the management of Type 2 Diabetes Mellitus as an adjunct to diet and exercise. Glimepiride stimulates pancreatic beta cells to increase insulin secretion and improves peripheral glucose utilization, helping achieve effective glycemic control. Available in 1 mg, 2 mg, and 4 mg strengths, GLIMSY allows flexible dose titration according to individual patient needs. It effectively lowers fasting and postprandial blood glucose levels, supports long-term diabetes management, and helps reduce the risk of diabetes-related complications while offering convenient dosing, proven efficacy, and good patient tolerability.",
-    "imgSource": "glimsy-4mg-tablets.jpeg"
-  },
-  {
-    "id": 37,
+    "id": 29,
     "title": "GLOW ACT Cream",
     "slug": "glow-act-cream",
     "category": "Creams & Ointments",
@@ -407,19 +319,19 @@
     "imgSource": "glow-act-cream.jpeg"
   },
   {
-    "id": 38,
-    "title": "MONSIEUR Capsules",
-    "slug": "monsieur-capsules",
-    "category": "Capsules",
-    "dosageForm": "Capsule",
+    "id": 30,
+    "title": "MONSIEUR Capules",
+    "slug": "monsieur-capules",
+    "category": "Tablets",
+    "dosageForm": "Tablet",
     "composition": "Preservative:\nSodium Benzoate – 0.020 mg",
     "packDetail": "1 X 10 Capsules",
     "description": "Monsieur Capsules are a premium herbal formulation specially designed to support male vitality, stamina, and overall sexual wellness. Enriched with carefully selected natural ingredients, they help improve energy levels, physical performance, and confidence while promoting healthy reproductive function. The capsules may assist in enhancing libido, supporting erectile function, increasing endurance, and helping manage premature ejaculation. Their antioxidant and rejuvenating properties contribute to overall well-being and reduce fatigue associated with stress and an active lifestyle. Suitable for adult men, Monsieur Capsules are formulated to provide safe, effective, and long-lasting support for maintaining strength, vitality, and a satisfying quality of life when used regularly.",
-    "imgSource": "monsieur-capsules.jpeg"
+    "imgSource": "monsieur-capules.jpeg"
   },
   {
-    "id": 39,
-    "title": "Cough Off Syrup",
+    "id": 31,
+    "title": "COUGH-OFF Syrup",
     "slug": "cough-off-syrup",
     "category": "Syrups & Suspensions",
     "dosageForm": "Syrup/Suspension",
@@ -429,62 +341,40 @@
     "imgSource": "cough-off-syrup.jpeg"
   },
   {
-    "id": 40,
-    "title": "METCLASS G1 Tablet",
-    "slug": "metclass-g1-tablet",
+    "id": 32,
+    "title": "METCLASS G1/G2 Tablets",
+    "slug": "metclass-g1g2-tablets",
     "category": "Tablets",
     "dosageForm": "Tablet",
     "composition": "",
-    "packDetail": "3 X 10 Tablets",
+    "packDetail": "3 X 10 Tablets\n\n3 X 10 Tablets",
     "description": "Metclass G1 and Metclass G2 are oral antidiabetic tablets formulated to help achieve effective glycemic control in adults with Type 2 diabetes mellitus. They combine Glimepiride with Metformin Hydrochloride to provide dual-action blood glucose management by enhancing insulin release and reducing hepatic glucose production while improving insulin sensitivity. These formulations help control both fasting and postprandial blood sugar levels, support long-term HbA1c reduction, and may lower the risk of diabetes-related complications when used alongside a healthy diet and regular exercise. Metclass G1 and G2 should be taken only under the guidance of a qualified healthcare professional.",
-    "imgSource": "metclass-g1-tablet.jpeg"
+    "imgSource": "metclass-g1g2-tablets.jpeg"
   },
   {
-    "id": 41,
-    "title": "METCLASS G2 Tablet",
-    "slug": "metclass-g2-tablet",
-    "category": "Tablets",
-    "dosageForm": "Tablet",
-    "composition": "",
-    "packDetail": "3 X 10 Tablets",
-    "description": "Metclass G1 and Metclass G2 are oral antidiabetic tablets formulated to help achieve effective glycemic control in adults with Type 2 diabetes mellitus. They combine Glimepiride with Metformin Hydrochloride to provide dual-action blood glucose management by enhancing insulin release and reducing hepatic glucose production while improving insulin sensitivity. These formulations help control both fasting and postprandial blood sugar levels, support long-term HbA1c reduction, and may lower the risk of diabetes-related complications when used alongside a healthy diet and regular exercise. Metclass G1 and G2 should be taken only under the guidance of a qualified healthcare professional.",
-    "imgSource": "metclass-g2-tablet.jpeg"
-  },
-  {
-    "id": 42,
-    "title": "IMUCLAV DUO Dry Syrup",
-    "slug": "imuclav-duo-dry-syrup",
+    "id": 33,
+    "title": "IMUCLAV DUO/ULTRA Dry Syrup",
+    "slug": "imuclav-duoultra-dry-syrup",
     "category": "Syrups & Suspensions",
     "dosageForm": "Syrup/Suspension",
-    "composition": "When reconstituted as directed,                                                           Each 5 ml. of the reconstituted suspension contains : \nAmoxicillin Trihydrate BP                                                                equivalent to Amoxicillin.................................100 mg \nDiluted Potassium Clavulanate BP                                           equivalent to Clavulanate Acid...................12.5 mg\n\n Excipients q.s. In a flavoured syrupy base.",
-    "packDetail": "60 ml",
+    "composition": "When reconstituted as directed,                                                           Each 5 ml. of the reconstituted suspension contains : \nAmoxicillin Trihydrate BP                                                                equivalent to Amoxicillin.................................100 mg \nDiluted Potassium Clavulanate BP                                           equivalent to Clavulanate Acid...................12.5 mg\n\n Excipients q.s. In a flavoured syrupy base.\n\n---\n\nWhen reconstituted as directed,                                                          Each 5 ml. of the reconstituted suspension contains : \nAmoxicillin Trihydrate BP                                                             equivalent to Amoxicillin.................................250 mg \nDiluted Potassium Clavulanate BP                                        equivalent to\n Clavulanate Acid...................31.25 mg\n\n Excipients q.s. In a flavoured syrupy base",
+    "packDetail": "60 ml\n\n60 ml",
     "description": "IMUCLAV DUO and IMUCLAV ULTRA are broad-spectrum antibiotic dry syrups containing Amoxicillin and Clavulanic Acid, formulated to effectively treat a wide range of bacterial infections in children. The combination works by eliminating infection-causing bacteria while overcoming bacterial resistance through the action of clavulanic acid. These formulations are commonly prescribed for respiratory tract infections, ear, nose and throat infections, urinary tract infections, skin and soft tissue infections, and dental infections. Available in pleasant-tasting pediatric formulations for easy administration, IMUCLAV DUO and ULTRA help ensure reliable infection control and faster recovery when used under the guidance of a qualified healthcare professional.",
-    "imgSource": "imuclav-duo-dry-syrup.jpeg"
+    "imgSource": "imuclav-duoultra-dry-syrup.jpeg"
   },
   {
-    "id": 43,
-    "title": "IMUCLAV ULTRA Dry Syrup",
-    "slug": "imuclav-ultra-dry-syrup",
-    "category": "Syrups & Suspensions",
-    "dosageForm": "Syrup/Suspension",
-    "composition": "When reconstituted as directed,                                                          Each 5 ml. of the reconstituted suspension contains : \nAmoxicillin Trihydrate BP                                                             equivalent to Amoxicillin.................................250 mg \nDiluted Potassium Clavulanate BP                                        equivalent to\n Clavulanate Acid...................31.25 mg\n\n Excipients q.s. In a flavoured syrupy base",
-    "packDetail": "60 ml",
-    "description": "IMUCLAV DUO and IMUCLAV ULTRA are broad-spectrum antibiotic dry syrups containing Amoxicillin and Clavulanic Acid, formulated to effectively treat a wide range of bacterial infections in children. The combination works by eliminating infection-causing bacteria while overcoming bacterial resistance through the action of clavulanic acid. These formulations are commonly prescribed for respiratory tract infections, ear, nose and throat infections, urinary tract infections, skin and soft tissue infections, and dental infections. Available in pleasant-tasting pediatric formulations for easy administration, IMUCLAV DUO and ULTRA help ensure reliable infection control and faster recovery when used under the guidance of a qualified healthcare professional.",
-    "imgSource": "imuclav-ultra-dry-syrup.jpeg"
-  },
-  {
-    "id": 44,
-    "title": "IZ 200 Syrup",
-    "slug": "iz-200-syrup",
+    "id": 34,
+    "title": "IZ – 200mg Syrup",
+    "slug": "iz-200mg-syrup",
     "category": "Syrups & Suspensions",
     "dosageForm": "Syrup/Suspension",
     "composition": "When reconstituted as directed,                                                    \nEach 5 ml. of the reconstituted suspension contains : \nAzithromycin(as dihydrate) USP                                                                \neq. to anhydrous Azithromycin...........................................200 mg \n Excipients…………………………………………………………………. q.s.\n In a flavoured syrupy base.",
     "packDetail": "15 ml",
     "description": "IZ-200 is an Azithromycin for Oral Suspension USP specially formulated for pediatric use to treat a wide range of bacterial infections. It belongs to the macrolide class of antibiotics and works by inhibiting bacterial protein synthesis, effectively stopping the growth of susceptible bacteria. IZ-200 is commonly prescribed for respiratory tract infections, ear, nose and throat infections, skin and soft tissue infections, and certain other bacterial illnesses. Its pleasant lime flavor and easy-to-reconstitute suspension improve compliance in children. IZ-200 should be used only under the supervision of a qualified healthcare professional and completed as prescribed to ensure effective treatment and reduce antibiotic resistance.",
-    "imgSource": "iz-200-syrup.jpeg"
+    "imgSource": "iz-200mg-syrup.jpeg"
   },
   {
-    "id": 45,
+    "id": 35,
     "title": "PKG Cream",
     "slug": "pkg-cream",
     "category": "Creams & Ointments",
@@ -495,25 +385,25 @@
     "imgSource": "pkg-cream.jpeg"
   },
   {
-    "id": 46,
-    "title": "FITJOY Capsule",
-    "slug": "fitjoy-capsule",
+    "id": 36,
+    "title": "FITJOY Capsules",
+    "slug": "fitjoy-capsules",
     "category": "Capsules",
     "dosageForm": "Capsule",
     "composition": "Composition (per capsule) Each Capsule contains:-",
     "packDetail": "3X10 Capsules",
     "description": "FITJOY Capsules are a herbal weight management formulation designed to support healthy and gradual weight loss without causing weakness or fatigue. Enriched with carefully selected natural ingredients, they help boost metabolism, promote fat breakdown, reduce excess appetite, and support better digestion. FITJOY may assist in managing obesity associated with sedentary lifestyles, hormonal imbalances, thyroid disorders, diabetes, hypertension, and other metabolic conditions when combined with a balanced diet and regular physical activity. The capsules help improve energy levels while maintaining overall wellness, making them a safe and effective option for individuals seeking sustainable weight management under the guidance of a healthcare professional.",
-    "imgSource": "fitjoy-capsule.jpeg"
+    "imgSource": "fitjoy-capsules.jpeg"
   },
   {
-    "id": 47,
-    "title": "IMUCLAV 1000 Tablets",
-    "slug": "imuclav-1000-tablets",
+    "id": 37,
+    "title": "IMUCLAV 1000mg Tablets",
+    "slug": "imuclav-1000mg-tablets",
     "category": "Tablets",
     "dosageForm": "Tablet",
     "composition": "Each film coated tablet Contains:                                          Amoxicillin Trihydrate BP                                                                            eq. to Amoxicillin…………………………………………….875 mg                                                             Diluted BP Potassium Clavulanate                                                          eq. to Clavulanic Acid……………………………………..125 mg Excipients……………………………………………………..         q.s",
     "packDetail": "2 X 6 Tabs",
     "description": "IMUCLAV-1000 is a broad-spectrum antibiotic tablet containing Amoxicillin 875 mg and Potassium Clavulanate 125 mg, formulated to treat a wide range of bacterial infections. This combination effectively kills susceptible bacteria while clavulanic acid inhibits beta-lactamase enzymes, helping overcome bacterial resistance and enhancing the antibiotic's effectiveness. IMUCLAV-1000 is commonly prescribed for respiratory tract infections, ear, nose and throat infections, urinary tract infections, skin and soft tissue infections, dental infections, and bone and joint infections. It helps provide rapid symptom relief and promotes faster recovery when taken as prescribed. IMUCLAV-1000 should be used only under the supervision of a qualified healthcare professional.",
-    "imgSource": "imuclav-1000-tablets.jpeg"
+    "imgSource": "imuclav-1000mg-tablets.jpeg"
   }
 ]
