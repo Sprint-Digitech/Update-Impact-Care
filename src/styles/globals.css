@@ -1429,3 +1429,157 @@ body {
     height: 400px;
   }
 }
+
+/* Fix Header Overlap */
+.ekit-template-content-markup,
+.ekit-template-content-header,
+.ekit-template-content-theme-support,
+.elementor-3822 {
+    position: relative !important;
+    background-color: #ffffff !important;
+    z-index: 100 !important;
+}
+
+.elementor-10179,
+.elementor-10179 > .elementor-element-bef7d76 {
+    margin-top: 100px !important;
+}
+
+/* Reduce Hero Section Height */
+.elementor-10179 .elementor-element-01bbc35 {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    min-height: 250px !important;
+}
+/* Chairman Message Section */
+.chairman-message-section {
+    padding: 60px 20px;
+    background-color: #f7fbff;
+    display: flex;
+    justify-content: center;
+}
+
+.chairman-container {
+    max-width: 1140px;
+    width: 100%;
+}
+
+.chairman-card {
+    background-color: #f2f7fc;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 0;
+    overflow: hidden;
+    gap: 40px;
+}
+
+.chairman-image-col {
+    flex: 0 0 350px;
+    display: flex;
+}
+
+.chairman-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.chairman-content-col {
+    flex: 1;
+    padding: 40px 40px 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chairman-subtitle {
+    color: #2b3a8c;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-family: 'Inter', sans-serif;
+}
+
+.chairman-quote-icon {
+    color: #172886;
+    font-size: 70px;
+    font-family: serif;
+    font-weight: 900;
+    line-height: 0.8;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+.chairman-text {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+.chairman-signature {
+    height: 40px;
+    margin: 20px 0 10px 0;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+    align-self: flex-start;
+}
+
+.chairman-name {
+    color: #172886;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 2px;
+}
+
+.chairman-designation {
+    color: #666;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .chairman-card {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+    
+    .chairman-image-col {
+        flex: none;
+        width: 100%;
+        height: 350px;
+    }
+    
+    .chairman-content-col {
+        padding: 10px 0;
+    }
+}
+
+.chairman-company-logo {
+    height: 45px;
+    margin-top: 20px;
+    object-fit: contain;
+    align-self: flex-start;
+}
+
+.chairman-image-logo {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(5px);
+    padding: 8px 12px;
+    border-radius: 8px;
+    max-width: 130px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
