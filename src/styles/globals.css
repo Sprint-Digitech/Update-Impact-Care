@@ -491,7 +491,7 @@ body {
 
 /* Add padding to the body so the fixed header doesn't cover the top video/content */
 body {
-  padding-top: 110px !important;
+  padding-top: 0 !important;
 }
 
 /* The main header container - Floating Pill Shape */
@@ -645,7 +645,8 @@ body {
   justify-content: center !important;
   width: 40px !important;
   height: 40px !important;
-  background-color: #0d1b2a !important; /* Solid dark background to hide overlapping divider line */
+  background-color: #0d1b2a !important;
+  /* Solid dark background to hide overlapping divider line */
   border: 1px solid rgba(255, 255, 255, 0.2) !important;
   border-radius: 50% !important;
   color: #ffffff !important;
@@ -694,7 +695,7 @@ body {
 .elementor-element.elementor-element-ac92a47,
 .elementor-element.elementor-element-bef7d76,
 .elementor-element.elementor-element-0d2b752 {
-  border-radius: 40px 40px 0 0 !important;
+  border-radius: 0 !important;
   overflow: hidden !important;
   margin-top: 0 !important;
 }
@@ -749,6 +750,9 @@ body {
 /* MOBILE HEADER & HAMBURGER FIXES           */
 /* ========================================= */
 @media (max-width: 767px) {
+  body {
+    padding-top: 0 !important;
+  }
 
   /* Mobile Logo Size Adjustment */
   .elementor-3822 .elementor-element-0ce231e img,
@@ -770,6 +774,10 @@ body {
     margin: 10px !important;
     padding: 8px 12px !important;
     max-width: calc(100% - 20px) !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 1000 !important;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) !important;
   }
 
@@ -1278,9 +1286,11 @@ body {
   0% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(-15px);
   }
+
   100% {
     transform: translateY(0);
   }
@@ -1289,4 +1299,4 @@ body {
 .elementor-element-2f5529d {
   padding-left: 20px !important;
   box-sizing: border-box !important;
-}
+}
