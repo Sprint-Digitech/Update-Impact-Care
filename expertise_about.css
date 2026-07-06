@@ -1,0 +1,162 @@
+
+/* =========================================
+   WHAT WE DO (EXPERTISE) SECTION STYLES
+   ========================================= */
+
+.expertise-section-wrapper {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    padding: 100px 20px;
+    color: #1e293b;
+    overflow: hidden;
+}
+
+.expertise-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+/* Left Column: Content */
+.expertise-content-col {
+    padding-right: 20px;
+}
+
+.expertise-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #1e293b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.expertise-badge-dot {
+    width: 8px;
+    height: 8px;
+    background: #f97316; /* Brand Orange */
+}
+
+.expertise-heading {
+    font-size: 42px;
+    font-weight: 800;
+    color: #0f172a;
+    line-height: 1.15;
+    margin-bottom: 25px;
+    letter-spacing: -0.02em;
+}
+
+.expertise-desc {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.7;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+/* Cards Grid */
+.expertise-cards-grid {
+    display: flex;
+    gap: 30px;
+}
+
+.expertise-card {
+    background: #f8fafc;
+    border-radius: 12px;
+    padding: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.expertise-card-icon {
+    width: 50px;
+    height: 50px;
+    background: #00b853; /* Brand Green */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.expertise-card-icon svg { width: 24px; height: 24px; }
+
+.expertise-card-title {
+    font-size: 18px;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 15px;
+}
+
+.expertise-card-desc {
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.7;
+    margin-bottom: 25px;
+    flex-grow: 1;
+}
+
+.expertise-card-divider {
+    height: 1px;
+    background: #e2e8f0;
+    margin-bottom: 20px;
+}
+
+.expertise-card-footer {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    font-size: 13px;
+    color: #475569;
+    font-weight: 600;
+}
+
+.expertise-footer-dot {
+    width: 6px;
+    height: 6px;
+    background: #f97316; /* Brand Orange */
+    flex-shrink: 0;
+}
+
+/* Right Column: Image */
+.expertise-image-col {
+    position: relative;
+    height: 650px;
+    border-top-left-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+}
+
+.expertise-image-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Floating element */
+.expertise-floating-dot {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 12px;
+    height: 12px;
+    background: #00b853;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .expertise-container { grid-template-columns: 1fr; gap: 40px; }
+    .expertise-content-col { padding-right: 0; }
+    .expertise-cards-grid { flex-direction: column; }
+    .expertise-image-col { height: 450px; border-top-left-radius: 20px; }
+}

@@ -1,0 +1,306 @@
+
+/* =========================================
+   PREMIUM ABOUT US PAGE STYLES
+   ========================================= */
+
+.about-premium-wrapper {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    color: #1e293b;
+    overflow: hidden;
+}
+
+/* Typography & Utilities */
+.premium-heading {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 24px;
+    color: #1e293b;
+    letter-spacing: -0.02em;
+}
+
+.premium-paragraph {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #475569;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.text-accent { color: #00b853; }
+.text-white { color: #ffffff !important; }
+.text-light { color: rgba(255, 255, 255, 0.8) !important; }
+
+/* 1. Hero Section */
+.about-hero-section {
+    position: relative;
+    padding: 100px 20px;
+    background: linear-gradient(135deg, #081028 0%, #172886 100%);
+    text-align: center;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-bottom: 60px;
+}
+
+.about-hero-overlay {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: url('/assets/images/pattern-dot.png') repeat;
+    opacity: 0.1;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.about-hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-page-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #00b853;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 32px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.3;
+}
+
+.about-hero-badge svg {
+    width: 32px;
+    height: 32px;
+    color: #00b853;
+}
+
+/* Container */
+.about-content-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* 2. Intro Section */
+.premium-intro-section {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 100px;
+}
+
+.premium-intro-text {
+    flex: 1;
+}
+
+.premium-intro-image {
+    flex: 1;
+    position: relative;
+}
+
+.premium-intro-image img {
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(8, 16, 40, 0.15);
+    object-fit: cover;
+    height: 500px;
+}
+
+.premium-floating-card {
+    position: absolute;
+    bottom: -30px;
+    left: -30px;
+    background: #ffffff;
+    padding: 25px 35px;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    border-left: 5px solid #00b853;
+    animation: float 6s ease-in-out infinite;
+}
+
+.floating-stat {
+    font-size: 36px;
+    font-weight: 800;
+    color: #172886;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.floating-text {
+    font-size: 14px;
+    font-weight: 600;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0px); }
+}
+
+/* 3. Quality Section */
+.premium-quality-section {
+    background: #172886;
+    border-radius: 30px;
+    padding: 80px 60px;
+    margin-bottom: 100px;
+    box-shadow: 0 30px 60px rgba(8, 16, 40, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.premium-quality-section::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(0,184,83,0.15) 0%, rgba(0,184,83,0) 70%);
+    border-radius: 50%;
+}
+
+.quality-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quality-badges {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.quality-badge {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 15px 25px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #ffffff;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.quality-badge:hover {
+    background: #00b853;
+    border-color: #00b853;
+    transform: translateY(-5px);
+}
+
+.badge-icon {
+    background: #ffffff;
+    color: #172886;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+/* 4. Bento Section */
+.premium-bento-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.bento-card {
+    padding: 50px;
+    border-radius: 24px;
+    transition: all 0.3s ease;
+}
+
+.bento-card h3 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+.bento-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bento-icon svg {
+    width: 30px;
+    height: 30px;
+}
+
+.bento-product {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+}
+
+.bento-product:hover {
+    box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+    border-color: #cbd5e1;
+}
+
+.bento-product h3 { color: #1e293b; }
+.bento-product p { color: #475569; font-size: 16px; line-height: 1.7; font-weight: 500; }
+.bento-product .bento-icon { background: #e0f2fe; color: #0284c7; }
+
+.bento-vision {
+    background: #081028;
+    color: #ffffff;
+    box-shadow: 0 20px 40px rgba(8, 16, 40, 0.3);
+}
+
+.bento-vision:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 30px 50px rgba(8, 16, 40, 0.4);
+}
+
+.bento-vision h3 { color: #ffffff; }
+.bento-vision p { color: rgba(255, 255, 255, 0.8); font-size: 16px; line-height: 1.7; font-weight: 400; }
+.bento-vision .bento-icon { background: rgba(255, 255, 255, 0.1); color: #00b853; }
+
+/* Responsive */
+@media (max-width: 992px) {
+    .premium-intro-section, .premium-bento-section {
+        grid-template-columns: 1fr;
+        flex-direction: column;
+    }
+    .premium-floating-card {
+        bottom: 20px; left: 20px;
+    }
+    .premium-quality-section {
+        padding: 50px 30px;
+    }
+    .about-hero-badge {
+        font-size: 24px;
+    }
+    .premium-heading {
+        font-size: 32px;
+    }
+}

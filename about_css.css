@@ -1,0 +1,31 @@
+
+/* NEW ABOUT US PAGE STYLES */
+.about-page-wrapper { font-family: 'Inter', sans-serif; padding: 60px 0; background: #ffffff; }
+.about-intro-section { display: flex; align-items: center; justify-content: center; padding: 40px 20px; gap: 60px; max-width: 1200px; margin: 0 auto; }
+.about-intro-content { flex: 1; }
+.about-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(43, 58, 140, 0.08); padding: 8px 16px; border-radius: 30px; font-weight: 700; color: #2b3a8c; font-size: 14px; text-transform: uppercase; margin-bottom: 20px; border: 1px solid rgba(43, 58, 140, 0.1); }
+.about-badge svg { fill: #2b3a8c; width: 18px; height: 18px; }
+.about-intro-title { font-size: 38px; font-weight: 800; color: #1e293b; line-height: 1.2; margin-bottom: 25px; }
+.about-intro-text { font-size: 16px; color: #475569; line-height: 1.7; font-weight: 500; margin-bottom: 30px; }
+.about-intro-image-col { flex: 1; position: relative; }
+.about-intro-img { width: 100%; border-radius: 20px; box-shadow: 0 20px 40px rgba(0,0,0,0.1); object-fit: cover; height: 450px; }
+.about-quality-section { background: #f2f7fc; padding: 80px 20px; margin-top: 60px; text-align: center; }
+.about-quality-container { max-width: 1000px; margin: 0 auto; }
+.about-quality-text { font-size: 18px; color: #334155; line-height: 1.8; font-weight: 500; margin-bottom: 50px; }
+.about-cert-grid { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; }
+.about-cert-card { background: #ffffff; border-radius: 16px; padding: 25px 30px; box-shadow: 0 10px 25px rgba(43, 58, 140, 0.05); display: flex; flex-direction: column; align-items: center; width: 220px; border: 1px solid #e2e8f0; transition: transform 0.3s ease; }
+.about-cert-card:hover { transform: translateY(-5px); border-color: #2b3a8c; }
+.about-cert-icon { width: 60px; height: 60px; background: #e0f2fe; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin-bottom: 15px; color: #0284c7; }
+.about-cert-icon svg { width: 30px; height: 30px; }
+.about-cert-title { font-weight: 700; color: #1e293b; font-size: 16px; text-align: center; }
+.about-vision-section { max-width: 1200px; margin: 80px auto; padding: 0 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.about-bento-card { border-radius: 24px; padding: 50px 40px; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; }
+.bento-light { background: #ffffff; border: 1px solid #e2e8f0; box-shadow: 0 15px 35px rgba(0,0,0,0.03); }
+.bento-dark { background: #2b3a8c; color: #ffffff; box-shadow: 0 20px 40px rgba(43, 58, 140, 0.2); }
+.bento-title { font-size: 28px; font-weight: 800; margin-bottom: 20px; }
+.bento-light .bento-title { color: #1e293b; }
+.bento-text { font-size: 16px; line-height: 1.7; font-weight: 500; position: relative; z-index: 2; }
+.bento-light .bento-text { color: #475569; }
+.bento-dark .bento-text { color: rgba(255, 255, 255, 0.9); }
+.bento-dark::before { content: ""; position: absolute; right: -50px; bottom: -50px; width: 250px; height: 250px; border-radius: 50%; background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 100%); }
+@media (max-width: 992px) { .about-intro-section, .about-vision-section { grid-template-columns: 1fr; flex-direction: column; } .about-intro-img { height: 350px; } }
