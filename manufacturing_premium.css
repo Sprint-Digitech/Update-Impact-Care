@@ -1,0 +1,224 @@
+
+/* =========================================
+   MANUFACTURING PAGE PREMIUM STYLES
+   ========================================= */
+
+/* 1. Hero Intro Section */
+.mfg-hero-wrapper {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background-color: #f1f5f9;
+    overflow: hidden;
+}
+
+.mfg-hero-bg {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.mfg-hero-overlay {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: linear-gradient(90deg, rgba(15,23,42,0.95) 0%, rgba(15,23,42,0.7) 50%, rgba(15,23,42,0.2) 100%);
+    z-index: 2;
+}
+
+.mfg-hero-container {
+    position: relative;
+    z-index: 3;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.mfg-hero-content {
+    max-width: 650px;
+}
+
+.mfg-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(5px);
+    padding: 8px 20px;
+    border-radius: 30px;
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.mfg-badge-dot {
+    width: 8px;
+    height: 8px;
+    background: #00b853; /* Brand Green */
+    border-radius: 50%;
+}
+
+.mfg-hero-title {
+    font-size: 64px;
+    font-weight: 900;
+    color: #ffffff;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    letter-spacing: -0.02em;
+}
+
+.mfg-hero-desc {
+    font-size: 20px;
+    color: #cbd5e1;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+
+/* 2. Core Strengths (Bento Grid) */
+.mfg-strengths-wrapper {
+    background: #ffffff;
+    padding: 120px 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.mfg-strengths-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.mfg-section-title {
+    font-size: 42px;
+    font-weight: 800;
+    color: #1e293b;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.mfg-bento-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.mfg-bento-card {
+    background: #f8fafc;
+    border-radius: 16px;
+    padding: 35px 25px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid #e2e8f0;
+    position: relative;
+    overflow: hidden;
+}
+
+.mfg-bento-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+    border-color: #00b853;
+}
+
+.mfg-bento-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 4px;
+    background: #00b853;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+    transform-origin: left;
+}
+
+.mfg-bento-card:hover::before {
+    transform: scaleX(1);
+}
+
+.mfg-card-icon {
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    color: #f97316; /* Brand Orange */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.mfg-card-icon svg { width: 28px; height: 28px; }
+
+.mfg-card-text {
+    font-size: 16px;
+    font-weight: 600;
+    color: #334155;
+    line-height: 1.6;
+}
+
+
+/* 3. The Conclusion (Impact Section) */
+.mfg-impact-wrapper {
+    background-color: #00b853; /* Brand Green */
+    padding: 120px 20px;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.mfg-impact-wrapper::before {
+    content: '';
+    position: absolute;
+    top: -50%; left: -10%; width: 50%; height: 200%;
+    background: rgba(255,255,255,0.05);
+    transform: rotate(30deg);
+}
+
+.mfg-impact-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.mfg-impact-icon {
+    width: 80px;
+    height: 80px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 40px;
+    color: #00b853;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+.mfg-impact-icon svg { width: 36px; height: 36px; }
+
+.mfg-impact-text {
+    font-size: 32px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .mfg-bento-grid { grid-template-columns: repeat(2, 1fr); }
+    .mfg-hero-title { font-size: 48px; }
+}
+
+@media (max-width: 768px) {
+    .mfg-bento-grid { grid-template-columns: 1fr; }
+    .mfg-hero-title { font-size: 36px; }
+    .mfg-impact-text { font-size: 24px; }
+    .mfg-impact-wrapper { padding: 80px 20px; }
+}
