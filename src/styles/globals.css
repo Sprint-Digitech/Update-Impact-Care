@@ -4019,3 +4019,219 @@ body {
     .mfg-impact-container { padding: 60px 20px; }
     .mfg-impact-text { font-size: 24px; }
 }
+
+/* =========================================
+   R&D PAGE: AWAKEN THEMES PREMIUM STYLE
+   ========================================= */
+
+/* 1. Intro Section (Split Layout) */
+.rd-awaken-intro {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+    padding: 100px 20px;
+    color: #1e293b;
+    overflow: hidden;
+}
+
+.rd-awaken-intro-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.rd-awaken-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #00b853; /* Brand Green */
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+    background: #f0fdf4;
+    padding: 6px 16px;
+    border-radius: 30px;
+}
+
+.rd-badge-dot {
+    width: 8px;
+    height: 8px;
+    background: #f97316; /* Brand Orange */
+    border-radius: 50%;
+}
+
+.rd-awaken-heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #2b3a8c; /* Brand Dark Blue */
+    line-height: 1.15;
+    margin-bottom: 25px;
+    letter-spacing: -0.02em;
+}
+
+.rd-awaken-subheading {
+    font-size: 22px;
+    font-weight: 600;
+    color: #f97316; /* Orange emphasis */
+    margin-bottom: 20px;
+}
+
+.rd-awaken-desc {
+    font-size: 17px;
+    color: #475569;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.rd-awaken-image-col {
+    position: relative;
+    height: 550px;
+}
+
+.rd-awaken-main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 40px 150px 40px 150px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+}
+
+
+/* 2. R&D Philosophy (Full Width Glassmorphism Center Box) */
+.rd-awaken-philosophy {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    padding: 140px 20px;
+    background-image: url('/wp-content/uploads/2024/12/happy-client-img-2.jpg'); /* Or any dark tech image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.rd-awaken-philosophy::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(15, 23, 42, 0.85); /* Deep dark overlay */
+}
+
+.rd-philosophy-glass-box {
+    position: relative;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 30px;
+    padding: 70px 60px;
+    max-width: 1000px;
+    text-align: center;
+    box-shadow: 0 40px 80px rgba(0,0,0,0.2);
+    border-top: 5px solid #f97316; /* Orange Accent */
+}
+
+.rd-philosophy-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.rd-philosophy-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #00b853; /* Green Accent */
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.rd-philosophy-text {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+
+/* 3. Manufacturing Infrastructure (Bento Grid) */
+.rd-bento-section {
+    background-color: #f8fafc;
+    padding: 120px 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+.rd-bento-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rd-section-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 800;
+    color: #1e293b;
+    margin-bottom: 60px;
+}
+
+.rd-bento-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.rd-bento-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 40px 30px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.03);
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.rd-bento-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.08);
+    border-color: #00b853;
+}
+
+.rd-bento-icon {
+    width: 55px;
+    height: 55px;
+    background: #f0fdf4;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00b853;
+    margin-bottom: 25px;
+}
+
+.rd-bento-icon svg { width: 26px; height: 26px; }
+
+.rd-bento-text {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0f172a;
+    line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .rd-bento-grid { grid-template-columns: repeat(2, 1fr); }
+    .rd-philosophy-glass-box { padding: 50px 40px; }
+}
+
+@media (max-width: 768px) {
+    .rd-awaken-intro-container { grid-template-columns: 1fr; }
+    .rd-bento-grid { grid-template-columns: 1fr; }
+    .rd-philosophy-glass-box { padding: 40px 20px; }
+}

@@ -33,6 +33,125 @@
             color: rgba(255, 255, 255, 0.90) !important;
         }
     </style>
+    <style id="mfg-responsive-styles">
+        /* Premium Global Enhancements */
+        .mfg-page-wrapper {
+            background: #fdfcfc;
+        }
+        .mfg-grid-container {
+            display: grid !important;
+            grid-template-columns: 1fr 1fr !important;
+            gap: 80px;
+            align-items: center;
+            width: 100%;
+        }
+        .mfg-image-wrapper img {
+            transition: transform 0.5s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
+        }
+        .mfg-image-wrapper:hover img {
+            transform: translateY(-6px);
+            box-shadow: 0 25px 50px rgba(0, 169, 157, 0.15) !important;
+        }
+        .hover-box {
+            transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+            border: 1px solid rgba(0, 169, 157, 0.06) !important;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02) !important;
+            background: linear-gradient(180deg, #ffffff 0%, #fcfcfc 100%) !important;
+        }
+        .hover-box:hover {
+            transform: translateY(-8px) !important;
+            box-shadow: 0 20px 40px rgba(0, 169, 157, 0.08) !important;
+            border-color: rgba(0, 169, 157, 0.2) !important;
+        }
+        
+        /* Premium Mobile CSS */
+        @media (max-width: 768px) {
+            .mfg-grid-container {
+                grid-template-columns: 1fr !important;
+                gap: 40px !important;
+            }
+            .mfg-grid-container.reverse .mfg-text-wrapper {
+                order: 2;
+            }
+            .mfg-grid-container.reverse .mfg-image-wrapper {
+                order: 1;
+            }
+            .mfg-page-wrapper {
+                gap: 50px !important;
+                padding-bottom: 40px !important;
+            }
+            /* Elegant Headings */
+            .mfg-text-wrapper h2 {
+                font-size: 28px !important;
+                line-height: 1.3 !important;
+                letter-spacing: -0.5px !important;
+                margin-bottom: 20px !important;
+            }
+            /* Highly readable body text */
+            .mfg-text-wrapper p {
+                font-size: 16px !important;
+                line-height: 1.6 !important;
+                color: #222 !important; /* Darker for better contrast */
+                font-weight: 500 !important; /* Thicker weight to fix thin rendering */
+                letter-spacing: 0 !important;
+            }
+            /* Tests Conducted Mobile Refinement */
+            .tests-conducted-container {
+                padding: 40px 20px !important;
+                border-radius: 24px !important;
+                box-shadow: inset 0 0 40px rgba(0,0,0,0.01) !important;
+                background: linear-gradient(180deg, #f8fbfa 0%, #ffffff 100%) !important;
+            }
+            .tests-conducted-container h2 {
+                font-size: 20px !important; /* Scaled down for long country list */
+                margin-bottom: 24px !important;
+                line-height: 1.5 !important;
+            }
+            .tests-conducted-badges {
+                gap: 16px !important;
+                flex-direction: column !important;
+                align-items: stretch !important;
+                width: 100% !important;
+            }
+            .tests-conducted-badges > div {
+                width: 100% !important;
+                justify-content: flex-start !important;
+                padding: 16px 24px !important;
+                border-radius: 16px !important;
+                background: linear-gradient(145deg, #ffffff, #f9fafb) !important;
+                border: 1px solid rgba(0,0,0,0.04) !important;
+                box-shadow: 0 4px 15px rgba(0,0,0,0.02) !important;
+            }
+            .tests-conducted-badges span {
+                font-size: 16px !important;
+            }
+            .hover-box {
+                padding: 30px 24px !important;
+                border-radius: 20px !important;
+                text-align: left !important;
+            }
+            .hover-box > div:first-child {
+                margin: 0 0 20px 0 !important; /* Move icon to the left */
+                width: 60px !important;
+                height: 60px !important;
+            }
+            .hover-box > div:first-child i {
+                font-size: 24px !important;
+            }
+            .hover-box h3 {
+                font-size: 22px !important;
+                text-align: left !important;
+            }
+            .hover-box p {
+                text-align: left !important;
+                font-size: 16px !important;
+                line-height: 1.6 !important;
+                color: #222 !important;
+                font-weight: 500 !important;
+                letter-spacing: 0 !important;
+            }
+        }
+    </style>
     <div class="preloader">
 		<div class="loading-container">
 			<div class="loading"></div>
@@ -100,7 +219,7 @@
 											</li>
 										</ul>
 										<div class="mobile-menu-quote-btn-wrapper">
-											<a href="/contact-us/" class="mobile-menu-quote-btn">Get in Touch</a>
+											<a href="/contact-us/" class="mobile-menu-quote-btn">Contact Us</a>
 										</div>
 										<div class="elementskit-nav-identity-panel"><button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button></div>
 									</div>
@@ -117,7 +236,7 @@
 								<div class="elementor-button-wrapper">
 									<a class="elementor-button elementor-button-link elementor-size-sm" href="/contact-us/">
 										<span class="elementor-button-content-wrapper">
-											<span class="elementor-button-text">Get in Touch</span>
+											<span class="elementor-button-text">Contact Us</span>
 										</span>
 									</a>
 								</div>
@@ -129,95 +248,123 @@
 		</div>
 	</div>
 
-			<div data-elementor-type="wp-page" data-elementor-id="4582" class="elementor elementor-4582">
-				<div class="elementor-element elementor-element-6599e83 e-flex e-con-boxed e-con e-parent" data-id="6599e83" data-element_type="container" data-e-type="container">
+			<div data-elementor-type="wp-page" data-elementor-id="282" class="elementor elementor-282">
+				<div class="elementor-element elementor-element-11af3d9 e-flex e-con-boxed e-con e-parent" data-id="11af3d9" data-element_type="container" data-e-type="container">
 					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-b67ae09 bg-section e-flex e-con-boxed e-con e-child top-hero-banner" data-id="b67ae09" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="background-image: url('/assets/uploads/images/pharma_hero_banner_3d.png') !important; background-size: cover !important; background-position: center center !important; background-repeat: no-repeat !important; position: relative !important; min-height: 250px;">
+		<div class="elementor-element elementor-element-31536b2 bg-section e-flex e-con-boxed e-con e-child top-hero-banner" data-id="31536b2" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="background-image: url(&quot;/assets/images/rd-hero-banner.png&quot;) !important; background-size: cover !important; background-position: center center !important; background-repeat: no-repeat !important; position: relative !important; min-height: 250px;">
 					<div class="e-con-inner">
-				<div class="elementor-element elementor-element-014c07a at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading" data-id="014c07a" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
+				<div class="elementor-element elementor-element-3822550 at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading" data-id="3822550" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h1 class="elementor-heading-title elementor-size-default">Careers</h1>				</div>
+					<h1 class="elementor-heading-title elementor-size-default">Research &amp; Development</h1>				</div>
 				</div>
-				<div class="elementor-element elementor-element-f7442a8  elementor-widget elementor-widget-elementskit-breadcrumb" data-id="f7442a8" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-breadcrumb.default">
+				<div class="elementor-element elementor-element-b158537  elementor-widget elementor-widget-elementskit-breadcrumb" data-id="b158537" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-breadcrumb.default">
 				<div class="elementor-widget-container">
-					<div class="ekit-wid-con"><ol class="ekit-breadcrumb"><li class="ekit_breadcrumbs_start"><a href="">Home</a></li> <li class="brd_sep"><span class="separate_icon"><svg xmlns="http://www.w3.org/2000/svg" width="5" height="11" viewBox="0 0 5 11"><path d="M0 10.4183L1.35051 5.27192L2.70102 0.125522L4.05688 0L1.35586 10.2928L0 10.4183Z" fill="white"></path></svg></span></li>  <li>Careers</li></ol></div>				</div>
+					<div class="ekit-wid-con"><ol class="ekit-breadcrumb"><li class="ekit_breadcrumbs_start"><a href="">Home</a></li> <li class="brd_sep"><span class="separate_icon"><svg xmlns="http://www.w3.org/2000/svg" width="5" height="11" viewBox="0 0 5 11"><path d="M0 10.4183L1.35051 5.27192L2.70102 0.125522L4.05688 0L1.35586 10.2928L0 10.4183Z" fill="white"></path></svg></span></li>  <li>Research &amp; Development</li></ol></div>				</div>
 				</div>
 					</div>
 				</div>
 					</div>
 				</div>
 		
-<div class="elementor-element e-con-full e-flex e-con e-parent" style="background-color: #fcfcfc; padding: 60px 0;">
-  <div class="container my-5">
-    
-    <!-- Section 1: Work With Us -->
-    <div class="row align-items-stretch mb-5 bg-white shadow-sm overflow-hidden" style="border-radius: 20px !important;">
-      <div class="col-md-6 p-0 d-flex align-items-center justify-content-center bg-white" style="min-height: 400px;">
-        <img src="/assets/uploads/images/careers_work_with_us.png" alt="Work With Us" style="width: 100%; height: 100%; object-fit: cover;">
-      </div>
-      <div class="col-md-6 p-5 text-white" style="background: linear-gradient(135deg, #1fa2ff 0%, #12d8fa 50%, #1793d1 100%); display: flex; flex-direction: column; justify-content: center; position: relative;">
-        <!-- Add a subtle overlay pattern for texture -->
-        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.1; background-image: radial-gradient(circle at 2px 2px, white 1px, transparent 0); background-size: 20px 20px;"></div>
-        <div style="position: relative; z-index: 2;">
-            <h2 class="mb-4 text-white" style="font-weight: 600; font-size: 2.5rem; color: #ffffff !important;">Work With Us</h2>
-            <p style="font-size: 16px; line-height: 1.8; margin-bottom: 0; color: rgba(255, 255, 255, 0.95) !important;">
-              Our people are our most valuable asset. We have built an employee-friendly environment for our gender-diverse workforce that is comparable to the best in the world. The organization is often addressed as Impact Family, which reflects the bonding amongst the employees. We are committed to hiring exceptionally talented people and nurture them professionally. If you are interested in joining a dynamic, creative and diversified work environment then email your resume to <strong>info@impactcare.co.in</strong>. Our open, enabling and trust-based culture will offer you an exciting environment to work and grow.
-            </p>
+		
+		
+		
+		
+		
+<!-- Main Wrapper -->
+
+
+		
+		
+		
+				
+<!-- AWAKEN MANUFACTURING SECTIONS -->
+<!-- Section 1: Intro Split -->
+
+
+<!-- Section 2: Glassmorphism Core Strengths -->
+
+
+<!-- Section 3: Impact Overlap -->
+
+<!-- Section 3: Impact Conclusion (Redesigned) -->
+
+<!-- Section 3: Impact Conclusion (Centered Premium Banner) -->
+
+
+
+<!-- END AWAKEN MANUFACTURING SECTIONS -->
+
+<!-- R&D SECTION 1: INTRO (SPLIT) -->
+<div class="rd-awaken-intro">
+    <div class="rd-awaken-intro-container">
+        <div class="rd-awaken-content-col">
+            <div class="rd-awaken-badge">
+                <div class="rd-badge-dot"></div>
+                Research &amp; Development (R&amp;D)
+            </div>
+            <h2 class="rd-awaken-heading">Innovating Today for a Healthier Tomorrow</h2>
+            <p class="rd-awaken-desc">Research and Development is a key driver of our growth and commitment to healthcare excellence. We continuously work towards identifying market needs, developing innovative formulations, and improving existing products to provide effective, safe, and affordable healthcare solutions.</p>
+            <p class="rd-awaken-desc">Through collaboration with experienced scientists, formulation experts, and internationally compliant manufacturing partners, we strive to bring high-quality pharmaceutical, nutraceutical, and herbal products to healthcare professionals and patients worldwide.</p>
         </div>
-      </div>
+        <div class="rd-awaken-image-col">
+            <img src="/wp-content/uploads/2024/12/health-item-img-3.jpg" alt="Innovating Today" class="rd-awaken-main-img" onerror="this.src='/assets/images/rd-hero-banner.png'">
+        </div>
     </div>
-
-    <!-- Spacer -->
-    <div style="height: 60px;"></div>
-
-    <!-- Section 2: Life@Impact & Current Openings -->
-    <div class="row mt-5">
-      <!-- Left side: Life@Impact -->
-      <div class="col-md-6 pe-md-5 d-flex flex-column justify-content-center">
-        <h2 class="mb-4" style="color: #212529; font-weight: 600; font-size: 2.5rem;">Life@Impact</h2>
-        <p style="font-size: 16px; line-height: 1.8; color: #555;">
-          We take great pride in our human resources. Impact Healthcare professes to become a professionally managed, performance driven, learning organization to create happy and successful employees, who will become pillars of success for the organization. We value our people and strive to become a company that people love to work with.
-        </p>
-        <div class="mt-5 text-center position-relative">
-          <div style="position: absolute; top: -10px; left: 10%; width: 80%; height: 100%; background: linear-gradient(135deg, #12d8fa, #1793d1); border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; z-index: 0; opacity: 0.2; transform: rotate(-5deg);"></div>
-          <img src="/assets/uploads/images/careers_life_impact.png" alt="Life at Impact" style="width: 100%; max-width: 400px; border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; box-shadow: 0 15px 35px rgba(0,0,0,0.15); position: relative; z-index: 1;">
-        </div>
-      </div>
-
-      <!-- Right side: Current Openings Form -->
-      <div class="col-md-6 mt-5 mt-md-0">
-        <div class="card shadow-lg border-0 p-5" style="border-radius: 20px !important; background-color: #fff;">
-          <div class="card-body p-0">
-            <h2 class="text-center mb-3" style="color: #000; font-weight: 600; font-size: 2.2rem;">Current Openings</h2>
-            <p class="text-center mb-5 text-muted" style="font-size: 15px;">For current openings email us on:</p>
-            
-            <form action="#" method="post" enctype="multipart/form-data">
-              <div class="mb-4">
-                <input type="text" class="form-control form-control-lg bg-transparent" placeholder="Name*" required="" style="border: 1px solid #e1e1e1; font-size: 15px; border-radius: 8px;">
-              </div>
-              <div class="mb-4">
-                <input type="email" class="form-control form-control-lg bg-transparent" placeholder="Email*" required="" style="border: 1px solid #e1e1e1; font-size: 15px; border-radius: 8px;">
-              </div>
-              <div class="mb-4">
-                <input type="tel" class="form-control form-control-lg bg-transparent" placeholder="Phone Number*" required="" style="border: 1px solid #e1e1e1; font-size: 15px; border-radius: 8px;">
-              </div>
-              <div class="mb-4">
-                <textarea class="form-control form-control-lg bg-transparent" placeholder="Enquiry In Brief*" rows="4" required="" style="border: 1px solid #e1e1e1; font-size: 15px; border-radius: 8px;"></textarea>
-              </div>
-              <div class="mb-4">
-                <label class="form-label text-muted mb-2" style="font-size: 13px;">Upload Your Resume (File types: pdf|doc|docx|jpg|png|jpeg)</label>
-                <input type="file" class="form-control p-2" accept=".pdf,.doc,.docx,.jpg,.png,.jpeg" style="border: 1px solid #e1e1e1; font-size: 14px; border-radius: 8px;">
-              </div>
-              <button type="submit" class="btn w-100 py-3 text-white mt-3" style="background-color: #1a73e8; font-weight: 600; border-radius: 8px; font-size: 16px; transition: background-color 0.3s; border: none;">Send message</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-  </div>
 </div>
-<div class="ekit-template-content-markup ekit-template-content-footer ekit-template-content-theme-support">
+
+<!-- R&D SECTION 2: PHILOSOPHY (GLASSMORPHISM) -->
+<div class="rd-awaken-philosophy">
+    <div class="rd-philosophy-glass-box">
+        <h2 class="rd-philosophy-title">Our R&amp;D Philosophy</h2>
+        <div class="rd-philosophy-subtitle">Innovation, Quality, and Patient-Centric Development</div>
+        <p class="rd-philosophy-text">Our research activities focus on creating products that offer improved efficacy, better patient compliance, enhanced stability, and superior therapeutic outcomes.</p>
+        <p class="rd-philosophy-text">We believe that meaningful innovation is achieved by combining scientific expertise, market insights, regulatory compliance, and quality-driven development processes.</p>
+    </div>
+</div>
+
+<!-- R&D SECTION 3: INFRASTRUCTURE (BENTO GRID) -->
+<div class="rd-bento-section">
+    <div class="rd-bento-container">
+        <h2 class="rd-section-title">Manufacturing Infrastructure</h2>
+        <p style="text-align:center; color:#475569; font-size:18px; margin-bottom:50px;">Our manufacturing infrastructure are equipped with:</p>
+        
+        <div class="rd-bento-grid">
+            <!-- Item 1 -->
+            <div class="rd-bento-card">
+                <div class="rd-bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><circle cx="12" cy="14" r="4"></circle><line x1="12" y1="6" x2="12.01" y2="6"></line></svg></div>
+                <div class="rd-bento-text">Automated Production Equipment</div>
+            </div>
+            <!-- Item 2 -->
+            <div class="rd-bento-card">
+                <div class="rd-bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div>
+                <div class="rd-bento-text">Controlled Manufacturing Environment</div>
+            </div>
+            <!-- Item 3 -->
+            <div class="rd-bento-card">
+                <div class="rd-bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg></div>
+                <div class="rd-bento-text">Modern Quality Control Laboratories</div>
+            </div>
+            <!-- Item 4 -->
+            <div class="rd-bento-card">
+                <div class="rd-bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg></div>
+                <div class="rd-bento-text">Stability Study Chambers</div>
+            </div>
+            <!-- Item 5 -->
+            <div class="rd-bento-card">
+                <div class="rd-bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg></div>
+                <div class="rd-bento-text">Microbiology Laboratories</div>
+            </div>
+            <!-- Item 6 -->
+            <div class="rd-bento-card">
+                <div class="rd-bento-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line><path d="M19 4h-1V2h-4v2H10V2H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2z"></path></svg></div>
+                <div class="rd-bento-text">High-Speed Packaging Lines</div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+		<div class="ekit-template-content-markup ekit-template-content-footer ekit-template-content-theme-support">
 		<div data-elementor-type="wp-post" data-elementor-id="4466" class="elementor elementor-4466">
 				<div class="elementor-element elementor-element-0151cb0 e-flex e-con-boxed e-con e-parent" data-id="0151cb0" data-element_type="container" data-e-type="container">
 					<div class="e-con-inner">
@@ -232,11 +379,7 @@
 				</div>
 				<div class="elementor-element elementor-element-77bf7f1 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="77bf7f1" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>
-            210-302, Maharaja Agrasen Shopping Complex, L.S.C.7, Sector 9, Rohini, Delhi - 110085. INDIA<br>
-            +(91) 8595-872-604<br>
-            info@impactcare.co.in
-        </p>								</div>
+									<p>Impact Health Care holds ISO and WHO-GMP certifications, guaranteeing that our manufacturing standards meet global requirements. Our primary focus is complete client satisfaction through rigorous testing and a reliable supply chain.</p>								</div>
 				</div>
 				</div>
 				</div>
@@ -273,7 +416,7 @@
 				<div class="elementor-widget-container">
 					<div class="ekit-wid-con">        <div class="ekit-vertical-main-menu-wraper   badge-position-left">
                         <div class="ekit-vertical-menu-container"><ul id="menu-footer-menu" class="ekit-vertical-navbar-nav submenu-click-on-icon"><li id="menu-item-4261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-4261 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/" class="ekit-menu-nav-link">Home</a></li>
-<li id="menu-item-4263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4263 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/about-us/" class="ekit-menu-nav-link">About Us</a></li>
+<li id="menu-item-4263" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-282 current_page_item menu-item-4263 nav-item elementskit-mobile-builder-content active" data-vertical-menu="750px"><a href="/about-us/" class="ekit-menu-nav-link active">About Us</a></li>
 <li id="menu-item-4643" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4643 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/faqs/" class="ekit-menu-nav-link">FAQS</a></li>
 <li id="menu-item-4262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4262 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/blog/" class="ekit-menu-nav-link">Blog</a></li>
 
@@ -289,7 +432,7 @@
 				<div class="elementor-element elementor-element-4812770 footer-contact-item  ekit-equal-height-disable elementor-widget elementor-widget-elementskit-icon-box" data-id="4812770" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="elementskit-icon-box.default">
 				<div class="elementor-widget-container">
 					<div class="ekit-wid-con">        <!-- link opening -->
-                <a href="mailto:%20info@domain.com" class="ekit_global_links">
+                <a href="mailto:info@impactcare.co.in" class="ekit_global_links">
                 <!-- end link opening -->
 
         <div class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
@@ -300,7 +443,7 @@
           </div>
                         <div class="box-body">
                             <h3 class="elementskit-info-box-title">
-                     info@domain.com                </h3>
+                     info@impactcare.co.in                </h3>
                                             </div>
         
         
@@ -335,7 +478,7 @@
 					<div class="ekit-wid-con">        <!-- link opening -->
                 <!-- end link opening -->
 
-        <a href="/contact-us#map" class="ekit_global_links"><div class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
+        <div class="elementskit-infobox text-left text-left icon-lef-right-aligin elementor-animation- media  ">
                     <div class="elementskit-box-header elementor-animation-">
                 <div class="elementskit-info-box-icon  text-center">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none"><path d="M14.9999 27C14.9999 27 24.3913 18.6522 24.3913 12.3913C24.3913 7.20463 20.1866 3 14.9999 3C9.81327 3 5.60864 7.20463 5.60864 12.3913C5.60864 18.6522 14.9999 27 14.9999 27Z" stroke="currentColor" stroke-width="2"></path><path d="M18.0003 12.0002C18.0003 13.657 16.6572 15.0002 15.0003 15.0002C13.3435 15.0002 12.0003 13.657 12.0003 12.0002C12.0003 10.3433 13.3435 9.00019 15.0003 9.00019C16.6572 9.00019 18.0003 10.3433 18.0003 12.0002Z" stroke="currentColor" stroke-width="2"></path></svg>
@@ -347,7 +490,7 @@
                                             </div>
         
         
-                </div></a>
+                </div>
         </div>				</div>
 				</div>
 				</div>
@@ -406,11 +549,18 @@
 		<div class="elementor-element elementor-element-653b620 e-con-full e-flex e-con e-child" data-id="653b620" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-2c6fc45 elementor-widget elementor-widget-text-editor" data-id="2c6fc45" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p>Copyright© 2024 Impact Care. All rights reserved. Developed by Sprint Digitech</p>								</div>
+									<p>Copyright 2024 Impact Care. All rights reserved. Developed by Sprint Digitech</p>								</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-fa57236 e-con-full e-flex e-con e-child" data-id="fa57236" data-element_type="container" data-e-type="container">
-				
+				<div class="elementor-element elementor-element-d939481 privacy-policy-links elementor-widget elementor-widget-ekit-vertical-menu" data-id="d939481" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="ekit-vertical-menu.default">
+				<div class="elementor-widget-container">
+					<div class="ekit-wid-con">        <div class="ekit-vertical-main-menu-wraper   badge-position-left">
+                        <div class="ekit-vertical-menu-container"><ul id="menu-privacy-policy-menu" class="ekit-vertical-navbar-nav submenu-click-on-icon"><li id="menu-item-5088" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5088 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="#" class="ekit-menu-nav-link">Privacy Policy</a></li>
+<li id="menu-item-5092" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5092 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="#" class="ekit-menu-nav-link">Terms &amp; Conditions</a></li>
+</ul></div>        </div>
+        </div>				</div>
+				</div>
 				</div>
 				</div>
 					</div>
@@ -418,4 +568,5 @@
 					</div>
 				</div>
 				</div>
-		</div></div>
+		</div>
+
