@@ -1287,6 +1287,10 @@
     {
       "path": "/rd",
       "fileKey": "rd"
+    },
+    {
+      "path": "/quality",
+      "fileKey": "quality"
     }
   ],
   "generatedAt": "2026-05-26T12:48:52.540Z"

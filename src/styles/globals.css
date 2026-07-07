@@ -4357,3 +4357,645 @@ body {
 @media (max-width: 992px) {
     .rd-faq-grid { grid-template-columns: 1fr; }
 }
+/* =========================================
+   QUALITY PAGE: PREMIUM SECTIONS
+   ========================================= */
+
+/* 1. Intro & Commitment (Awaken Split) */
+.q-intro-section {
+    font-family: 'Inter', sans-serif;
+    padding: 100px 20px;
+    background: #ffffff;
+    overflow: hidden;
+}
+.q-intro-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+.q-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #00b853;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 25px;
+    background: #f0fdf4;
+    padding: 8px 20px;
+    border-radius: 30px;
+}
+.q-badge-icon {
+    font-size: 16px;
+    color: #f97316;
+}
+.q-heading {
+    font-size: 46px;
+    font-weight: 900;
+    color: #2b3a8c;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+.q-desc {
+    font-size: 17px;
+    color: #475569;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+.q-commitment-list {
+    list-style: none;
+    padding: 0;
+}
+.q-commitment-list li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 15px;
+    background: #f8fafc;
+    padding: 15px 20px;
+    border-radius: 12px;
+    border-left: 4px solid #00b853;
+    transition: transform 0.3s ease;
+}
+.q-commitment-list li:hover {
+    transform: translateX(10px);
+}
+.q-commitment-list li i {
+    color: #00b853;
+    font-size: 20px;
+}
+.q-intro-img-box { position: relative; }
+.q-intro-img {
+    width: 100%;
+    border-radius: 30px 100px 30px 100px;
+    box-shadow: 0 40px 80px rgba(0,0,0,0.1);
+}
+
+
+/* 2. Quality Policy (Figma Premium Quote) */
+.q-policy-section {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    padding: 100px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.q-policy-container {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+.q-quote-icon {
+    font-size: 60px;
+    color: rgba(0, 184, 83, 0.4);
+    margin-bottom: 20px;
+}
+.q-policy-text {
+    font-size: 32px;
+    font-weight: 300;
+    color: #ffffff;
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.q-policy-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #f97316;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+/* 3. Manufacturing Excellence (Bento Grid) */
+.q-mfg-section {
+    background-image: url('/assets/images/quality_mfg.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 120px 20px;
+    position: relative;
+}
+.q-mfg-section::before {
+    content: ''; position: absolute; inset: 0;
+    background: rgba(15, 23, 42, 0.9);
+}
+.q-mfg-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+.q-section-head {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.q-section-head h2 { color: #ffffff; font-size: 42px; font-weight: 900; margin-bottom: 20px; }
+.q-section-head p { color: rgba(255,255,255,0.8); font-size: 18px; max-width: 800px; margin: 0 auto; }
+.q-bento-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.q-bento-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.q-bento-card:hover {
+    background: #00b853;
+    transform: translateY(-10px);
+}
+.q-bento-card i { font-size: 32px; color: #ffffff; margin-bottom: 15px; }
+.q-bento-card h4 { color: #ffffff; font-size: 16px; font-weight: 700; line-height: 1.4; }
+.q-mfg-note { color: rgba(255,255,255,0.5); font-size: 13px; text-align: center; margin-top: 40px; }
+
+
+/* 4. QA & QC (Glassmorphism Dual Column) */
+.q-qaqc-section {
+    background-image: url('/assets/images/quality_lab.png');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 20px;
+    position: relative;
+}
+.q-qaqc-section::before {
+    content: ''; position: absolute; inset: 0;
+    background: rgba(255, 255, 255, 0.85); /* Light overlay for contrast */
+}
+.q-qaqc-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.q-glass-card {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    padding: 60px 50px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.05);
+}
+.q-glass-card h3 {
+    font-size: 32px; color: #2b3a8c; font-weight: 800; margin-bottom: 15px; border-bottom: 3px solid #00b853; padding-bottom: 15px; display: inline-block;
+}
+.q-glass-card p { font-size: 16px; color: #475569; margin-bottom: 30px; }
+.q-list-2col {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 15px; list-style: none; padding: 0;
+}
+.q-list-2col li {
+    font-size: 15px; font-weight: 600; color: #1e293b; display: flex; align-items: center; gap: 10px;
+}
+.q-list-2col li i { color: #f97316; }
+
+
+/* 5. Quality Workflow (Interactive Timeline) */
+.q-workflow-section {
+    background: #f8fafc; padding: 120px 20px;
+}
+.q-timeline {
+    position: relative; max-width: 800px; margin: 0 auto;
+}
+.q-timeline::after {
+    content: ''; position: absolute; width: 4px; background: #e2e8f0; top: 0; bottom: 0; left: 50%; margin-left: -2px; border-radius: 4px;
+}
+.q-tl-item {
+    padding: 20px 40px; position: relative; background: inherit; width: 50%;
+}
+.q-tl-item::after {
+    content: ''; position: absolute; width: 24px; height: 24px; right: -12px; background: #ffffff; border: 4px solid #00b853; top: 25px; border-radius: 50%; z-index: 1; box-shadow: 0 0 0 4px rgba(0, 184, 83, 0.2);
+}
+.q-tl-left { left: 0; text-align: right; }
+.q-tl-right { left: 50%; text-align: left; }
+.q-tl-right::after { left: -12px; }
+.q-tl-content {
+    background: #ffffff; padding: 20px 30px; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,0.05); display: inline-block; border-bottom: 3px solid #f97316;
+}
+.q-tl-content h4 { font-size: 18px; font-weight: 700; color: #2b3a8c; margin: 0; }
+
+
+/* 6. Regulatory & Packaging (SaaS Blocks) */
+.q-saas-section { padding: 100px 20px; background: #ffffff; }
+.q-saas-block {
+    max-width: 1200px; margin: 0 auto 60px; background: #f0fdf4; border-radius: 20px; padding: 60px; display: grid; grid-template-columns: 1fr 2fr; gap: 50px; align-items: center; border: 1px solid #dcfce7;
+}
+.q-saas-block:nth-child(even) {
+    background: #fff7ed; border-color: #ffedd5;
+}
+.q-saas-title h3 { font-size: 36px; color: #1e293b; font-weight: 800; margin-bottom: 20px; }
+.q-saas-title p { font-size: 16px; color: #475569; }
+.q-saas-list { display: flex; flex-wrap: wrap; gap: 15px; }
+.q-saas-tag {
+    background: #ffffff; padding: 10px 20px; border-radius: 30px; font-size: 14px; font-weight: 700; color: #0f172a; box-shadow: 0 4px 10px rgba(0,0,0,0.05); display: flex; align-items: center; gap: 10px;
+}
+.q-saas-tag i { color: #00b853; }
+
+
+/* 7. Trust & Improvement (Awaken Overlap) */
+.q-trust-section {
+    padding: 100px 20px; background: #f8fafc;
+}
+.q-trust-container {
+    max-width: 1200px; margin: 0 auto; position: relative; display: flex; align-items: center;
+}
+.q-trust-img {
+    width: 60%; border-radius: 30px; box-shadow: 0 30px 60px rgba(0,0,0,0.1); z-index: 1;
+}
+.q-trust-box {
+    width: 50%; background: #00b853; border-radius: 30px; padding: 60px 50px; color: #ffffff; position: absolute; right: 0; z-index: 2; box-shadow: -20px 20px 60px rgba(0, 184, 83, 0.3);
+}
+.q-trust-box h3 { font-size: 32px; font-weight: 800; margin-bottom: 20px; }
+.q-trust-box p { font-size: 16px; line-height: 1.6; margin-bottom: 30px; opacity: 0.9; }
+.q-trust-list { list-style: none; padding: 0; margin-bottom: 30px; }
+.q-trust-list li { font-size: 16px; font-weight: 600; margin-bottom: 10px; display: flex; align-items: center; gap: 12px; }
+.q-trust-list li i { background: #ffffff; color: #00b853; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; }
+.q-improvement-card {
+    background: rgba(255,255,255,0.1); padding: 25px; border-radius: 16px; border-left: 4px solid #f97316;
+}
+.q-improvement-card h4 { font-size: 20px; font-weight: 700; margin-bottom: 10px; }
+.q-improvement-card p { margin: 0; font-size: 14px; opacity: 1; }
+
+
+/* 8. Promise & Counters (Footer Style) */
+.q-promise-section {
+    background: #0f172a; padding: 100px 20px; color: #ffffff; text-align: center;
+}
+.q-promise-container { max-width: 1200px; margin: 0 auto; }
+.q-promise-quote { font-size: 28px; font-style: italic; font-weight: 300; margin-bottom: 60px; max-width: 900px; margin-left: auto; margin-right: auto; line-height: 1.6; }
+.q-counters-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; }
+.q-counter-card {
+    background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: 16px; padding: 30px 20px; width: calc(20% - 24px); min-width: 200px; transition: all 0.3s ease;
+}
+.q-counter-card:hover { background: #00b853; transform: translateY(-10px); }
+.q-counter-card h4 { font-size: 16px; font-weight: 700; line-height: 1.4; }
+
+
+/* Responsive Tweaks */
+@media (max-width: 1024px) {
+    .q-bento-grid { grid-template-columns: repeat(2, 1fr); }
+    .q-qaqc-container { grid-template-columns: 1fr; }
+    .q-saas-block { grid-template-columns: 1fr; }
+    .q-trust-img { width: 100%; position: relative; }
+    .q-trust-box { width: 100%; position: relative; right: auto; margin-top: -50px; }
+    .q-trust-container { flex-direction: column; }
+}
+@media (max-width: 768px) {
+    .q-intro-container { grid-template-columns: 1fr; }
+    .q-timeline::after { left: 31px; }
+    .q-tl-item { width: 100%; padding-left: 70px; padding-right: 25px; }
+    .q-tl-left, .q-tl-right { left: 0; text-align: left; }
+    .q-tl-left::after, .q-tl-right::after { left: 15px; }
+}
+
+
+/* =========================================
+   QUALITY PAGE REDESIGN (SECTIONS 1 & 2)
+   ========================================= */
+
+/* 1. Intro & Commitment (Hero Overlap Style) */
+.q-intro-v2 {
+    position: relative;
+    padding: 150px 0 100px 0; /* Padding to clear fixed header */
+    background: #f8fafc;
+    min-height: 800px;
+}
+.q-intro-bg-v2 {
+    position: absolute;
+    top: 0; left: 0;
+    width: 65%;
+    height: 100%;
+    background-image: url('/assets/images/quality_intro_v2.png');
+    background-size: cover;
+    background-position: center;
+    border-bottom-right-radius: 100px;
+    z-index: 1;
+}
+.q-intro-bg-v2::after {
+    content: ''; position: absolute; inset: 0;
+    background: linear-gradient(90deg, rgba(15,23,42,0.6) 0%, rgba(248,250,252,1) 100%);
+}
+.q-intro-content-wrapper-v2 {
+    position: relative;
+    z-index: 2;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 20px;
+}
+.q-intro-card-v2 {
+    background: #ffffff;
+    width: 55%;
+    padding: 60px;
+    border-radius: 30px;
+    box-shadow: -20px 30px 60px rgba(0,0,0,0.08);
+    border: 1px solid #e2e8f0;
+}
+.q-badge-v2 {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #fff7ed;
+    color: #f97316;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.q-heading-v2 {
+    font-size: 42px;
+    font-weight: 900;
+    color: #1e293b;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.q-desc-v2 {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+.q-commit-title-v2 {
+    font-size: 20px;
+    font-weight: 800;
+    color: #2b3a8c;
+    margin: 30px 0 20px 0;
+    border-bottom: 2px solid #00b853;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+.q-commit-grid-v2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+.q-commit-grid-v2 li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #334155;
+    background: #f1f5f9;
+    padding: 15px;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+.q-commit-grid-v2 li:hover {
+    background: #00b853;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+.q-commit-grid-v2 li i {
+    color: #f97316;
+    font-size: 16px;
+    margin-top: 2px;
+}
+.q-commit-grid-v2 li:hover i {
+    color: #ffffff;
+}
+
+/* 2. Quality Policy (Glassmorphism on AI Bg) */
+.q-policy-v2 {
+    position: relative;
+    padding: 120px 20px;
+    background-image: url('/assets/images/quality_policy_v2.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.q-policy-v2::before {
+    content: ''; position: absolute; inset: 0;
+    background: rgba(15, 23, 42, 0.7); /* Dark overlay */
+}
+.q-policy-glass-v2 {
+    position: relative;
+    z-index: 2;
+    max-width: 900px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 24px;
+    padding: 60px;
+    text-align: center;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.3);
+}
+.q-policy-icon-v2 {
+    font-size: 50px;
+    color: #00b853;
+    margin-bottom: 25px;
+    filter: drop-shadow(0 0 10px rgba(0,184,83,0.5));
+}
+.q-policy-text-v2 {
+    font-size: 28px;
+    font-weight: 300;
+    color: #ffffff;
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.q-policy-title-v2 {
+    font-size: 15px;
+    font-weight: 800;
+    color: #f97316;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+@media (max-width: 1024px) {
+    .q-intro-bg-v2 { width: 100%; border-radius: 0; }
+    .q-intro-bg-v2::after { background: rgba(248,250,252,0.85); }
+    .q-intro-content-wrapper-v2 { justify-content: center; }
+    .q-intro-card-v2 { width: 100%; max-width: 700px; padding: 40px; }
+}
+@media (max-width: 768px) {
+    .q-commit-grid-v2 { grid-template-columns: 1fr; }
+    .q-policy-glass-v2 { padding: 40px 20px; }
+    .q-policy-text-v2 { font-size: 22px; }
+}
+
+
+/* =========================================
+   QUALITY PAGE: V3 REDESIGN
+   ========================================= */
+
+/* 1. Intro Section V3 (Overlapping Card Style) */
+.q-intro-v3 {
+    background-color: #f8fafc;
+    padding: 120px 20px;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+}
+.q-intro-v3-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.q-intro-v3-image-wrapper {
+    width: 60%;
+    position: relative;
+    z-index: 1;
+}
+.q-intro-v3-image-wrapper img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.1);
+}
+.q-intro-v3-content {
+    width: 50%;
+    background: #ffffff;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 40px 80px rgba(0,0,0,0.08);
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    border-left: 5px solid #00b853;
+}
+.q-intro-v3-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #f0fdf4;
+    color: #00b853;
+    padding: 8px 16px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.q-intro-v3-title {
+    font-size: 38px;
+    font-weight: 800;
+    color: #1e293b;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.q-intro-v3-desc {
+    font-size: 16px;
+    color: #475569;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+.q-intro-v3-list {
+    list-style: none;
+    padding: 0;
+}
+.q-intro-v3-list li {
+    font-size: 15px;
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.q-intro-v3-list li i {
+    color: #f97316;
+    background: #fff7ed;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+@media (max-width: 992px) {
+    .q-intro-v3-container { flex-direction: column; }
+    .q-intro-v3-image-wrapper, .q-intro-v3-content { width: 100%; position: relative; }
+    .q-intro-v3-content { margin-top: -50px; padding: 40px; }
+}
+
+/* 2. Quality Policy V3 (Premium Parallax + Glassmorphism) */
+.q-policy-v3 {
+    background-image: url('/assets/images/quality_lab.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 140px 20px;
+    position: relative;
+}
+.q-policy-v3::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(15, 23, 42, 0.85); /* Dark blue overlay */
+    z-index: 1;
+}
+.q-policy-v3-container {
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 60px 80px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 40px 80px rgba(0,0,0,0.3);
+}
+.q-policy-v3-icon {
+    width: 70px;
+    height: 70px;
+    background: linear-gradient(135deg, #00b853, #f97316);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 0 auto 30px;
+    box-shadow: 0 10px 20px rgba(0, 184, 83, 0.3);
+}
+.q-policy-v3-quote {
+    font-size: 28px;
+    font-weight: 300;
+    color: #ffffff;
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.q-policy-v3-author {
+    font-size: 16px;
+    font-weight: 700;
+    color: #00b853;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+    .q-policy-v3-container { padding: 40px 20px; }
+    .q-policy-v3-quote { font-size: 22px; }
+}

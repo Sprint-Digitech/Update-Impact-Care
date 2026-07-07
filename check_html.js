@@ -1,0 +1,10 @@
+const fs = require('fs');
+const cheerio = require('cheerio');
+const html = fs.readFileSync('src/content/bodies/rd.html', 'utf8');
+const $ = cheerio.load(html);
+console.log($('.elementor-section').length, "sections in rd");
+console.log("Hero banner length:", $('.top-hero-banner').length);
+const html2 = fs.readFileSync('src/content/bodies/quality.html', 'utf8');
+const $2 = cheerio.load(html2);
+console.log($2('.elementor-section').length, "sections in quality");
+console.log("Hero banner length:", $2('.top-hero-banner').length);
