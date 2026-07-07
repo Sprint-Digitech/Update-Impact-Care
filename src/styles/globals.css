@@ -3022,7 +3022,18 @@ body {
     .quality-image-col { height: 450px; margin-top: 30px; }
     .cert-1 { left: 10px; }
     .cert-2 { right: 10px; }
+    .cert-3 { left: 10px; }
     .quality-main-img { border-radius: 40px; }
+}
+
+@media (max-width: 767px) {
+    .quality-image-col { height: 350px; }
+    .cert-float { padding: 10px 15px; gap: 10px; }
+    .cert-icon { width: 32px; height: 32px; font-size: 10px; }
+    .cert-text { font-size: 13px; }
+    .cert-1 { top: 5%; left: 5px; }
+    .cert-2 { bottom: 5%; right: 5px; }
+    .cert-3 { bottom: 45%; left: 5px; }
 }
 
 /* =========================================
