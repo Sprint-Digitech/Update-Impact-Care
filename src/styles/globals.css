@@ -1115,7 +1115,7 @@ body {
   .page-header.bg-section,
   .top-hero-banner,
   .home-slider-hero {
-    padding-bottom: 100px !important;
+    padding-bottom: 50px !important;
   }
 
   .scroll-indicator-container {
@@ -1442,7 +1442,7 @@ body {
 
 .elementor-10179,
 .elementor-10179 > .elementor-element-bef7d76 {
-    margin-top: 100px !important;
+    margin-top: 50px !important;
 }
 
 /* Reduce Hero Section Height */
@@ -1716,7 +1716,7 @@ body {
 
 /* Override for home page scroll indicator */
 .elementor-10179 .scroll-indicator-container {
-  bottom: 200px !important;
+  bottom: 160px !important;
 }
 
 /* NEW ABOUT US PAGE STYLES */
@@ -1786,7 +1786,7 @@ body {
 /* 1. Hero Section */
 .about-hero-section {
     position: relative;
-    padding: 100px 20px;
+    padding: 50px 20px;
     background: linear-gradient(135deg, #081028 0%, #172886 100%);
     text-align: center;
     border-bottom-left-radius: 40px;
@@ -1847,7 +1847,7 @@ body {
     display: flex;
     align-items: center;
     gap: 60px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .premium-intro-text {
@@ -1906,7 +1906,7 @@ body {
     background: #172886;
     border-radius: 30px;
     padding: 80px 60px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     box-shadow: 0 30px 60px rgba(8, 16, 40, 0.2);
     position: relative;
     overflow: hidden;
@@ -1977,7 +1977,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .bento-card {
@@ -2063,7 +2063,7 @@ body {
 .awaken-about-wrapper {
     font-family: 'Inter', sans-serif;
     background-color: #f8fafc;
-    padding: 100px 20px;
+    padding: 50px 20px;
     color: #1e293b;
     overflow: hidden;
 }
@@ -2380,7 +2380,7 @@ body {
 .awaken-about-wrapper {
     font-family: 'Inter', sans-serif;
     background-color: #ffffff;
-    padding: 100px 20px;
+    padding: 50px 20px;
     color: #1e293b;
     overflow: hidden;
 }
@@ -2702,7 +2702,7 @@ body {
 .expertise-section-wrapper {
     font-family: 'Inter', sans-serif;
     background-color: #ffffff;
-    padding: 100px 20px;
+    padding: 50px 20px;
     color: #1e293b;
     overflow: hidden;
 }
@@ -2864,7 +2864,7 @@ body {
 .quality-section-wrapper {
     font-family: 'Inter', sans-serif;
     background-color: #f0fdf4; /* Soft green tint to separate from previous white section */
-    padding: 100px 20px;
+    padding: 50px 20px;
     color: #1e293b;
     overflow: hidden;
 }
@@ -3032,7 +3032,7 @@ body {
 .faq-section-wrapper {
     font-family: 'Inter', sans-serif;
     background-color: #ffffff; /* Clean white background */
-    padding: 100px 20px;
+    padding: 50px 20px;
     color: #1e293b;
 }
 
@@ -3408,7 +3408,7 @@ body {
 .faq-grid-wrapper {
     font-family: 'Inter', sans-serif;
     background-color: #f8fafc; /* Very light slate gray */
-    padding: 100px 20px;
+    padding: 50px 20px;
     color: #1e293b;
     position: relative;
 }
@@ -3773,7 +3773,7 @@ body {
 .mfg-awaken-intro {
     font-family: 'Inter', sans-serif;
     background-color: #ffffff;
-    padding: 100px 20px;
+    padding: 50px 20px;
     color: #1e293b;
     overflow: hidden;
 }
@@ -3956,7 +3956,7 @@ body {
 /* 3. Impact Conclusion (Centered Premium Banner) */
 .mfg-awaken-impact {
     font-family: 'Inter', sans-serif;
-    padding: 100px 20px;
+    padding: 50px 20px;
     background-color: #ffffff;
 }
 
@@ -4028,7 +4028,7 @@ body {
 .rd-awaken-intro {
     font-family: 'Inter', sans-serif;
     background-color: #ffffff;
-    padding: 100px 20px;
+    padding: 50px 20px;
     color: #1e293b;
     overflow: hidden;
 }
@@ -4242,7 +4242,7 @@ body {
    ========================================= */
 .rd-faq-section {
     background-color: #fdfcfc;
-    padding: 100px 20px;
+    padding: 50px 20px;
     font-family: 'Inter', sans-serif;
 }
 
@@ -4364,7 +4364,7 @@ body {
 /* 1. Intro & Commitment (Awaken Split) */
 .q-intro-section {
     font-family: 'Inter', sans-serif;
-    padding: 100px 20px;
+    padding: 50px 20px;
     background: #ffffff;
     overflow: hidden;
 }
@@ -4443,7 +4443,7 @@ body {
 /* 2. Quality Policy (Figma Premium Quote) */
 .q-policy-section {
     background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-    padding: 100px 20px;
+    padding: 50px 20px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -4592,7 +4592,7 @@ body {
 
 
 /* 6. Regulatory & Packaging (SaaS Blocks) */
-.q-saas-section { padding: 100px 20px; background: #ffffff; }
+.q-saas-section { padding: 50px 20px; background: #ffffff; }
 .q-saas-block {
     max-width: 1200px; margin: 0 auto 60px; background: #f0fdf4; border-radius: 20px; padding: 60px; display: grid; grid-template-columns: 1fr 2fr; gap: 50px; align-items: center; border: 1px solid #dcfce7;
 }
@@ -4610,7 +4610,7 @@ body {
 
 /* 7. Trust & Improvement (Awaken Overlap) */
 .q-trust-section {
-    padding: 100px 20px; background: #f8fafc;
+    padding: 50px 20px; background: #f8fafc;
 }
 .q-trust-container {
     max-width: 1200px; margin: 0 auto; position: relative; display: flex; align-items: center;
@@ -4635,7 +4635,7 @@ body {
 
 /* 8. Promise & Counters (Footer Style) */
 .q-promise-section {
-    background: #0f172a; padding: 100px 20px; color: #ffffff; text-align: center;
+    background: #0f172a; padding: 50px 20px; color: #ffffff; text-align: center;
 }
 .q-promise-container { max-width: 1200px; margin: 0 auto; }
 .q-promise-quote { font-size: 28px; font-style: italic; font-weight: 300; margin-bottom: 60px; max-width: 900px; margin-left: auto; margin-right: auto; line-height: 1.6; }
@@ -4672,7 +4672,7 @@ body {
 /* 1. Intro & Commitment (Hero Overlap Style) */
 .q-intro-v2 {
     position: relative;
-    padding: 150px 0 100px 0; /* Padding to clear fixed header */
+    padding: 150px 0 50px 0; /* Padding to clear fixed header */
     background: #f8fafc;
     min-height: 800px;
 }
