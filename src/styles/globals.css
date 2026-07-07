@@ -3900,6 +3900,32 @@ body {
     z-index: 2;
 }
 
+/* 2. Core Strengths (Glassmorphism over Image Background) */
+.mfg-awaken-strengths {
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    padding: 120px 20px;
+    background-image: url('/assets/uploads/2024/12/health-item-img-2.jpg'); /* Industrial bg */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+
+.mfg-awaken-strengths::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(15, 23, 42, 0.85); /* Deep dark overlay */
+}
+
+.mfg-awaken-strengths-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
 .mfg-strengths-heading {
     text-align: center;
     font-size: 42px;
@@ -3950,6 +3976,24 @@ body {
     color: rgba(255, 255, 255, 0.9);
 }
 
+@media (max-width: 991px) {
+    .mfg-glass-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .mfg-glass-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .mfg-strengths-heading {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+}
 
 
 
