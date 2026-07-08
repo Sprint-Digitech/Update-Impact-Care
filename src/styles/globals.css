@@ -43,9 +43,9 @@ body {
 
 /* Premium Header Navigation Formatting */
 .ekit-template-content-header .elementskit-navbar-nav>li>a {
-    padding: 10px 18px !important;
+    padding: 10px 10px !important;
     /* Balanced horizontal spacing between links */
-    font-size: 15px !important;
+    font-size: 14px !important;
     font-weight: 500 !important;
     letter-spacing: 0.3px !important;
 }
@@ -626,17 +626,23 @@ body {
 /* Make nav links even smaller and tighter so they fit horizontally */
 .elementor-3822 .ekit-menu-nav-link {
     font-size: 11px !important;
-    padding: 2px 7px !important;
-    letter-spacing: 0.5px !important;
+    padding: 2px 6px !important;
+    letter-spacing: 0.2px !important;
     white-space: nowrap !important;
     /* Fix ABOUT US / CONTACT US wrapping */
 }
 
 /* Make the CTA button even slimmer to reduce overall height */
 .elementor-3822 .elementor-button {
-    padding: 8px 18px !important;
-    font-size: 13px !important;
+    padding: 8px 16px !important;
+    font-size: 12px !important;
     line-height: 1 !important;
+}
+
+/* Fix button wrapper shifting which causes overlap on desktop */
+.elementor-3822 .elementor-button-wrapper {
+    transform: none !important;
+    margin-left: 25px !important;
 }
 
 /* Ensure the central menu container can shrink/grow as needed */
@@ -769,6 +775,62 @@ body {
     transform: scale(2.5) !important;
     transform-origin: left center !important;
     transition: transform 0.3s ease !important;
+}
+
+/* ========================================= */
+/* TABLET & MEDIUM LAPTOP OVERLAP FIX        */
+/* ========================================= */
+@media (min-width: 768px) and (max-width: 1199px) {
+    /* Allow the pill container to wrap items */
+    .elementor-3822 .elementor-element-8e961d2 > .e-con-inner {
+        flex-wrap: wrap !important;
+        justify-content: space-between !important;
+        padding: 10px 20px !important;
+        row-gap: 10px !important;
+    }
+
+    /* Logo stays top left */
+    .elementor-3822 .elementor-element-0ce231e {
+        width: auto !important;
+        order: 1 !important;
+    }
+
+    /* Reduce logo size slightly */
+    .elementor-3822 .elementor-element-0ce231e img,
+    .elementor-3822 .ata-site-logo-img {
+        transform: scale(1.6) !important;
+        transform-origin: left center !important;
+    }
+
+    /* Button stays top right */
+    .elementor-3822 .elementor-element-071fc9d {
+        width: auto !important;
+        order: 2 !important;
+        display: flex !important;
+        justify-content: flex-end !important;
+    }
+
+    /* Navigation moves to second row, taking full width */
+    .elementor-3822 .elementor-element-e2b5f2c {
+        width: 100% !important;
+        flex: 1 1 100% !important;
+        order: 3 !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    /* Adjust nav item styling to fit well on the second row */
+    .elementor-3822 .elementskit-navbar-nav {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        gap: 8px !important;
+    }
+
+    .elementor-3822 .ekit-menu-nav-link {
+        font-size: 11px !important;
+        padding: 4px 8px !important;
+        letter-spacing: 0 !important;
+    }
 }
 
 /* ========================================= */
