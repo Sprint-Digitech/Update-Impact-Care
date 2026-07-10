@@ -173,6 +173,45 @@
         display: none;
     }
 }
+
+/* Custom Header Dropdown */
+.custom-dropdown-container {
+    position: relative;
+}
+.custom-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #ffffff;
+    min-width: 200px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    padding: 10px 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+.custom-dropdown-container:hover .custom-dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+.custom-dropdown-item {
+    display: block;
+    padding: 10px 20px;
+    color: #4b5563;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    transition: background 0.2s, color 0.2s;
+}
+.custom-dropdown-item:hover {
+    background: #f8f9fa;
+    color: #0d2657;
+}
 </style>
 
 <header class="custom-header-wrapper">
@@ -208,8 +247,31 @@
             <nav class="custom-header-nav">
                 <a href="/" class="custom-nav-link">HOME</a>
                 <a href="/about-us/" class="custom-nav-link">ABOUT US</a>
-                <a href="/divisions/" class="custom-nav-link custom-nav-item-has-children">DIVISIONS <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
-                <a href="/products/" class="custom-nav-link custom-nav-item-has-children">PRODUCTS <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+                <div class="custom-dropdown-container">
+                    <a href="/divisions/" class="custom-nav-link custom-nav-item-has-children">DIVISIONS <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+                    <div class="custom-dropdown-menu">
+                        <a href="/divisions/#general-medicine" class="custom-dropdown-item">General Medicine</a>
+                        <a href="/divisions/#cardio-diabetics" class="custom-dropdown-item">Cardio-Diabetics</a>
+                        <a href="/divisions/#critical-care" class="custom-dropdown-item">Critical Care</a>
+                        <a href="/divisions/#pediatrics" class="custom-dropdown-item">Pediatrics</a>
+                        <a href="/divisions/#herbals" class="custom-dropdown-item">Herbals</a>
+                        <a href="/divisions/#generic" class="custom-dropdown-item">Generic</a>
+                        <a href="/divisions/#upcoming" class="custom-dropdown-item">Upcoming</a>
+                    </div>
+                </div>
+                
+                <div class="custom-dropdown-container">
+                    <a href="/products/" class="custom-nav-link custom-nav-item-has-children">PRODUCTS <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+                    <div class="custom-dropdown-menu">
+                        <a href="/products/?category=Syrups%20%26%20Suspensions" class="custom-dropdown-item">Syrups & Suspensions</a>
+                        <a href="/products/?category=Tablets" class="custom-dropdown-item">Tablets</a>
+                        <a href="/products/?category=Injections" class="custom-dropdown-item">Injections</a>
+                        <a href="/products/?category=Drops" class="custom-dropdown-item">Drops</a>
+                        <a href="/products/?category=Creams%20%26%20Ointments" class="custom-dropdown-item">Creams & Ointments</a>
+                        <a href="/products/?category=Capsules" class="custom-dropdown-item">Capsules</a>
+                    </div>
+                </div>
+
                 <a href="/quality/" class="custom-nav-link">QUALITY</a>
                 <a href="/rd/" class="custom-nav-link">R&D</a>
                 <a href="/manufacturing/" class="custom-nav-link">MANUFACTURING</a>
@@ -223,6 +285,10 @@
         </div>
     </div>
 </header>
+
+
+
+
 
 
 <div data-elementor-type="wp-page" data-elementor-id="282" class="elementor elementor-282"><div class="elementor-element elementor-element-11af3d9 e-flex e-con-boxed e-con e-parent" data-id="11af3d9" data-element_type="container" data-e-type="container">
@@ -259,8 +325,8 @@
         
         <!-- Left Column: Images -->
         <div class="awaken-images-col">
-            <img src="/assets/uploads/2024/11/about-img-1.jpg" alt="Main Facility" class="awaken-img-main">
-            <img src="/assets/uploads/2024/11/about-img-2.jpg" alt="Secondary Image" class="awaken-img-secondary" onerror="this.src='/assets/images/chairman-avatar.png'">
+            <img src="/assets/uploads/images/about-us/about-main.jpeg" alt="Main Facility" class="awaken-img-main">
+            <img src="/assets/uploads/images/about-us/about-secondary.jpeg" alt="Secondary Image" class="awaken-img-secondary" onerror="this.src='/assets/images/chairman-avatar.png'">
             
             <div class="awaken-spin-badge">
                 <div class="spin-circle-text">
@@ -406,7 +472,7 @@
         <!-- Right Column: Image -->
         <div class="expertise-image-col">
             <div class="expertise-floating-dot"></div>
-            <img src="/assets/uploads/2024/11/about-img-2.jpg" alt="Our Expertise" onerror="this.src='/assets/uploads/2024/12/backup/team-1.jpg'">
+            <img src="/assets/uploads/images/about-us/about-expertise.jpeg" alt="Our Expertise" onerror="this.src='/assets/uploads/2024/12/backup/team-1.jpg'">
         </div>
         
     </div>
@@ -438,7 +504,7 @@
 
         <!-- Right Column: Image & Certifications -->
         <div class="quality-image-col">
-            <img src="/assets/uploads/2024/12/backup/health-item-img-2.jpg" alt="Quality Manufacturing" class="quality-main-img" onerror="this.src='/assets/uploads/2024/11/about-img-1.jpg'">
+            <img src="/assets/uploads/images/about-us/about-quality.jpeg" alt="Quality Manufacturing" class="quality-main-img" onerror="this.src='/assets/uploads/2024/11/about-img-1.jpg'">
             
             <div class="cert-float cert-1">
                 <div class="cert-icon">EU</div>
@@ -775,7 +841,7 @@
 								<div class="elementor-element elementor-element-653b620 e-con-full e-flex e-con e-child" data-id="653b620" data-element_type="container" data-e-type="container">
 									<div class="elementor-element elementor-element-2c6fc45 elementor-widget elementor-widget-text-editor" data-id="2c6fc45" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="text-editor.default">
 										<div class="elementor-widget-container">
-											<p>Copyright Â© 2026 All Rights Reserved.</p>
+											<p>Copyright &copy; 2026 All Rights Reserved.</p>
 										</div>
 									</div>
 								</div>
