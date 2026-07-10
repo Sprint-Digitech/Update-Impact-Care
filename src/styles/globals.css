@@ -781,55 +781,44 @@ body {
 /* TABLET & MEDIUM LAPTOP OVERLAP FIX        */
 /* ========================================= */
 @media (min-width: 768px) and (max-width: 1199px) {
-    /* Allow the pill container to wrap items */
+    /* Keep everything on ONE line */
     .elementor-3822 .elementor-element-8e961d2 > .e-con-inner {
-        flex-wrap: wrap !important;
+        flex-wrap: nowrap !important;
         justify-content: space-between !important;
-        padding: 10px 20px !important;
-        row-gap: 10px !important;
+        gap: 5px !important;
+        padding: 0px 10px !important;
     }
 
-    /* Logo stays top left */
-    .elementor-3822 .elementor-element-0ce231e {
-        width: auto !important;
-        order: 1 !important;
-    }
-
-    /* Reduce logo size slightly */
+    /* Reduce logo size aggressively to fit on one line */
     .elementor-3822 .elementor-element-0ce231e img,
     .elementor-3822 .ata-site-logo-img {
-        transform: scale(1.6) !important;
+        transform: scale(1.4) !important;
         transform-origin: left center !important;
     }
 
-    /* Button stays top right */
-    .elementor-3822 .elementor-element-071fc9d {
-        width: auto !important;
-        order: 2 !important;
-        display: flex !important;
-        justify-content: flex-end !important;
-    }
-
-    /* Navigation moves to second row, taking full width */
-    .elementor-3822 .elementor-element-e2b5f2c {
-        width: 100% !important;
-        flex: 1 1 100% !important;
-        order: 3 !important;
-        display: flex !important;
-        justify-content: center !important;
-    }
-
-    /* Adjust nav item styling to fit well on the second row */
+    /* Force the navigation menu to stay on ONE line */
     .elementor-3822 .elementskit-navbar-nav {
-        flex-wrap: wrap !important;
-        justify-content: center !important;
-        gap: 8px !important;
+        flex-wrap: nowrap !important;
+        gap: 0 !important;
     }
 
+    /* Ultra-compact nav item styling for medium screens */
+    .ekit-template-content-header .elementor-3822 .elementskit-navbar-nav>li>a,
     .elementor-3822 .ekit-menu-nav-link {
-        font-size: 11px !important;
-        padding: 4px 8px !important;
+        font-size: 10px !important;
+        padding: 2px 4px !important;
         letter-spacing: 0 !important;
+        white-space: nowrap !important;
+    }
+    
+    /* Shrink the CTA button */
+    .elementor-3822 .elementor-button {
+        padding: 6px 12px !important;
+        font-size: 11px !important;
+    }
+
+    .elementor-3822 .elementor-button-wrapper {
+        margin-left: 5px !important;
     }
 }
 
@@ -1572,11 +1561,30 @@ body {
     position: relative !important;
     background-color: #ffffff !important;
     z-index: 100 !important;
+    .swiper-pagination-bullet-active {
+        background-color: var(--luxury-gold) !important;
+        opacity: 1 !important;
+    }
+}
+
+/* Custom Scrollbar for Services Template */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(197, 160, 89, 0.5); /* luxury-gold with opacity */
+  border-radius: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(197, 160, 89, 1); /* solid luxury-gold */
 }
 
 .elementor-10179,
 .elementor-10179>.elementor-element-bef7d76 {
-    margin-top: 50px !important;
+    margin-top: 0px !important;
 }
 
 /* Reduce Hero Section Height */
