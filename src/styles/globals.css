@@ -781,8 +781,9 @@ body {
 /* TABLET & MEDIUM LAPTOP OVERLAP FIX        */
 /* ========================================= */
 @media (min-width: 768px) and (max-width: 1199px) {
+
     /* Keep everything on ONE line */
-    .elementor-3822 .elementor-element-8e961d2 > .e-con-inner {
+    .elementor-3822 .elementor-element-8e961d2>.e-con-inner {
         flex-wrap: nowrap !important;
         justify-content: space-between !important;
         gap: 5px !important;
@@ -810,7 +811,7 @@ body {
         letter-spacing: 0 !important;
         white-space: nowrap !important;
     }
-    
+
     /* Shrink the CTA button */
     .elementor-3822 .elementor-button {
         padding: 6px 12px !important;
@@ -1561,6 +1562,7 @@ body {
     position: relative !important;
     background-color: #ffffff !important;
     z-index: 100 !important;
+
     .swiper-pagination-bullet-active {
         background-color: var(--luxury-gold) !important;
         opacity: 1 !important;
@@ -1569,17 +1571,22 @@ body {
 
 /* Custom Scrollbar for Services Template */
 .custom-scrollbar::-webkit-scrollbar {
-  width: 4px;
+    width: 4px;
 }
+
 .custom-scrollbar::-webkit-scrollbar-track {
-  background: transparent;
+    background: transparent;
 }
+
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background: rgba(197, 160, 89, 0.5); /* luxury-gold with opacity */
-  border-radius: 4px;
+    background: rgba(197, 160, 89, 0.5);
+    /* luxury-gold with opacity */
+    border-radius: 4px;
 }
+
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: rgba(197, 160, 89, 1); /* solid luxury-gold */
+    background: rgba(197, 160, 89, 1);
+    /* solid luxury-gold */
 }
 
 .elementor-10179,
@@ -7323,6 +7330,7 @@ body {
     max-width: 900px;
     margin: 0 auto;
 }
+
 .chairman-card-new .chairman-subtitle {
     color: #2b3a8c;
     font-size: 14px;
@@ -7332,6 +7340,7 @@ body {
     margin-bottom: 5px;
     font-family: 'Inter', sans-serif;
 }
+
 .chairman-card-new .chairman-quote-icon {
     color: #2b3a8c;
     font-size: 90px;
@@ -7341,6 +7350,7 @@ body {
     margin: 0px auto 15px auto;
     opacity: 0.15;
 }
+
 .chairman-card-new .chairman-text {
     font-size: 20px;
     line-height: 1.8;
@@ -7350,13 +7360,16 @@ body {
     font-weight: 500;
     font-family: 'Inter', sans-serif;
 }
+
 .chairman-card-new .chairman-text:last-child {
     margin-bottom: 0;
 }
+
 @media (max-width: 768px) {
     .chairman-card-new {
         padding: 40px 20px;
     }
+
     .chairman-card-new .chairman-text {
         font-size: 16px;
     }
@@ -7387,11 +7400,12 @@ body {
     left: -10%;
     width: 350px;
     height: 350px;
-    background: radial-gradient(circle, rgba(96, 165, 250, 0.15) 0%, rgba(0,0,0,0) 70%);
+    background: radial-gradient(circle, rgba(96, 165, 250, 0.15) 0%, rgba(0, 0, 0, 0) 70%);
     border-radius: 50%;
     z-index: -1;
     pointer-events: none;
 }
+
 .chairman-card-premium::after {
     content: '';
     position: absolute;
@@ -7399,7 +7413,7 @@ body {
     right: -10%;
     width: 350px;
     height: 350px;
-    background: radial-gradient(circle, rgba(52, 211, 153, 0.1) 0%, rgba(0,0,0,0) 70%);
+    background: radial-gradient(circle, rgba(52, 211, 153, 0.1) 0%, rgba(0, 0, 0, 0) 70%);
     border-radius: 50%;
     z-index: -1;
     pointer-events: none;
@@ -7459,9 +7473,11 @@ body {
         padding: 50px 30px;
         border-radius: 16px;
     }
+
     .chairman-text-premium {
         font-size: 18px;
     }
+
     .premium-quote-bg {
         font-size: 200px;
         top: 0;
@@ -7488,7 +7504,8 @@ body {
     max-width: 900px;
     margin: 0 auto;
     position: relative;
-    border-bottom: 4px solid #00b853; /* Brand Green Accent */
+    border-bottom: 4px solid #00b853;
+    /* Brand Green Accent */
 }
 
 .awaken-quote-icon-top {
@@ -7540,9 +7557,11 @@ body {
     .chairman-message-section.awaken-style {
         padding: 60px 20px;
     }
+
     .awaken-quote-card {
         padding: 40px 30px;
     }
+
     .awaken-chairman-text {
         font-size: 18px;
     }
@@ -7560,7 +7579,8 @@ body {
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    background-color: #f0f8ff; /* Fallback */
+    background-color: #f0f8ff;
+    /* Fallback */
 }
 
 .chairman-card-exact {
@@ -7593,10 +7613,12 @@ body {
     font-weight: 900;
     line-height: 1;
     background: #ffffff;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.02);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
     position: relative;
-    padding-top: 15px; /* adjust quote vertical alignment */
+    padding-top: 15px;
+    /* adjust quote vertical alignment */
 }
+
 /* creating the semi-circle arcs with dots */
 .quote-circle::before {
     content: '';
@@ -7611,7 +7633,8 @@ body {
     pointer-events: none;
 }
 
-.quote-dot-left, .quote-dot-right {
+.quote-dot-left,
+.quote-dot-right {
     width: 6px;
     height: 6px;
     background-color: #0044cc;
@@ -7650,7 +7673,7 @@ body {
     height: 10px;
     background-color: #0044cc;
     transform: rotate(45deg);
-    box-shadow: inset -3px -3px 0 rgba(0,0,0,0.2), inset 1px 1px 0 rgba(255,255,255,0.3);
+    box-shadow: inset -3px -3px 0 rgba(0, 0, 0, 0.2), inset 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
 
 /* Text */
@@ -7682,6 +7705,7 @@ body {
     .chairman-text-exact {
         font-size: 18px;
     }
+
     .chairman-text-exact br {
         display: none;
     }
