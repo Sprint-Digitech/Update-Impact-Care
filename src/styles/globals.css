@@ -1866,14 +1866,7 @@ body {
 
 /* Override for home page scroll indicator */
 .elementor-10179 .scroll-indicator-container {
-    bottom: 160px !important;
-}
-
-@media (max-width: 767px) {
-    .elementor-10179 .scroll-indicator-container {
-        bottom: 5px !important;
-        transform: translateX(-50%) scale(0.75) !important;
-    }
+    display: none !important;
 }
 
 /* NEW ABOUT US PAGE STYLES */
