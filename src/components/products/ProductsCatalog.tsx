@@ -1,20 +1,32 @@
 "use client";
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect, useRef } from "react";
+import { useSearchParams } from "next/navigation";
 import { products } from "@/lib/data/products";
 import { CategoryTabs } from "./CategoryTabs";
 import { ProductCard } from "./ProductCard";
 
 export function ProductsCatalog() {
+  const searchParams = useSearchParams();
   const [activeCategory, setActiveCategory] = useState("All");
 
-  React.useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const cat = params.get("category");
+  const catalogRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const cat = searchParams.get("category");
     if (cat) {
       setActiveCategory(cat);
+      setTimeout(() => {
+        if (catalogRef.current) {
+          const yOffset = -100; // offset for fixed header
+          const y = catalogRef.current.getBoundingClientRect().top + window.pageYOffset + yOffset;
+          window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+      }, 500); // Wait for page to fully render/hydrate
+    } else {
+      setActiveCategory("All");
     }
-  }, []);
+  }, [searchParams]);
 
   const categories = useMemo(() => {
     const cats = new Set<string>();
@@ -32,7 +44,7 @@ export function ProductsCatalog() {
   }, [activeCategory]);
 
   return (
-    <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "60px 20px" }}>
+    <div ref={catalogRef} style={{ maxWidth: "1200px", margin: "0 auto", padding: "60px 20px" }}>
       <CategoryTabs
         categories={categories}
         activeCategory={activeCategory}
