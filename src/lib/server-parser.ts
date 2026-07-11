@@ -5,7 +5,7 @@ export function parseWordPressLayout(html: string) {
   const headStyles = $("head style").parent().html() || "";
   const preloader = $.html($(".preloader")) || "";
   const cursor = $.html($("#magic-cursor")) || "";
-  const header = $.html($(".ekit-template-content-header")) || "";
+  const header = $.html($(".custom-header-wrapper")) || $.html($(".ekit-template-content-header")) || "";
   const mainContent = $('.elementor.elementor-947');
   
   let heroBanner = "";
@@ -28,7 +28,7 @@ export function parseWordPressDetailLayout(html: string) {
   const headStyles = $("head style").parent().html() || "";
   const preloader = $.html($(".preloader")) || "";
   const cursor = $.html($("#magic-cursor")) || "";
-  const header = $.html($(".ekit-template-content-header")) || "";
+  const header = $.html($(".custom-header-wrapper")) || $.html($(".ekit-template-content-header")) || "";
   const mainContent = $('.elementor.elementor-10083');
   
   let heroBanner = "";
@@ -48,7 +48,7 @@ export function parseHomeSliderLayout(html: string, elementorClass: string = '.e
   const headStyles = $("head style").parent().html() || "";
   const preloader = $.html($(".preloader")) || "";
   const cursor = $.html($("#magic-cursor")) || "";
-  const header = $.html($(".ekit-template-content-header")) || "";
+  const header = $.html($(".custom-header-wrapper")) || $.html($(".ekit-template-content-header")) || "";
   
   // Extract lower content (everything after the hero section)
   const mainContent = $(elementorClass);

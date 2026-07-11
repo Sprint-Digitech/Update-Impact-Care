@@ -1,7 +1,8 @@
 const fs = require('fs');
-const cheerio = require('cheerio');
-const html = fs.readFileSync('src/content/bodies/index.html', 'utf8');
-const $ = cheerio.load(html);
-$('.elementskit-card-header').each(function() {
-    console.log($(this).text().trim());
+const files = fs.readdirSync('src/content/bodies').filter(f => f.endsWith('.html'));
+files.forEach(file => {
+    const html = fs.readFileSync('src/content/bodies/' + file, 'utf8');
+    const hasNew = html.includes('<header class="custom-header-wrapper"');
+    const hasOld = html.includes('ekit-template-content-header');
+    console.log(file, 'hasNew:', hasNew, 'hasOld:', hasOld);
 });
