@@ -7735,3 +7735,39 @@ body {
         transform: translateX(-80px);
     }
 }
+/* --- MOBILE MENU OVERLAP FIX --- */
+html body .elementskit-menu-container .elementskit-navbar-nav > li.custom-menu-open {
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    position: relative !important;
+}
+
+html body .elementskit-menu-container .elementskit-navbar-nav > li.custom-menu-open > ul.elementskit-submenu-panel,
+html body ul.elementskit-navbar-nav > li.custom-menu-open > ul.elementskit-submenu-panel,
+html body li.custom-menu-open > ul.elementskit-submenu-panel {
+    display: block !important;
+    position: relative !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    height: auto !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: transparent !important;
+    padding-left: 15px !important;
+    margin-top: 5px !important;
+    width: 100% !important;
+    transform: none !important;
+    top: auto !important;
+    left: auto !important;
+}
+
+
+/* --- MOBILE MENU OVERLAP FIX PART 2 --- */
+html body li.custom-menu-open {
+    height: auto !important;
+    max-height: none !important;
+    overflow: visible !important;
+    position: relative !important;
+}
+
