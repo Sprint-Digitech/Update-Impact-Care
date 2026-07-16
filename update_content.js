@@ -16,7 +16,7 @@ const socialReplacement = `<ul class="ekit_social_media">
                         </a>
                     </li>
                     <li class="elementor-repeater-item-instagram">
-					    <a href="https://www.instagram.com/impact.healthcare/" aria-label="Instagram" class="instagram" target="_blank">
+					    <a href="https://www.instagram.com/impact.healthcare?igsh=MTI5ODUzNWFmYjNoYw==" aria-label="Instagram" class="instagram" target="_blank">
 							<i aria-hidden="true" class="fab fa-instagram"></i>
                         </a>
                     </li>

@@ -1,4 +1,4 @@
-<style id="top-hero-banner-styles">
+<html><head><style id="top-hero-banner-styles">
         /* Scoped styles only for the very top hero banner */
         .top-hero-banner::before {
             content: '';
@@ -31,6 +31,16 @@
         .top-hero-banner .ekit-breadcrumb a,
         .top-hero-banner .ekit-breadcrumb span {
             color: rgba(255, 255, 255, 0.90) !important;
+        }
+        .top-hero-banner {
+            min-height: 350px !important;
+            background-position: center 35% !important;
+        }
+        @media (max-width: 768px) {
+            .top-hero-banner {
+                min-height: 180px !important;
+                background-position: center 10% !important;
+            }
         }
     </style>
     <style id="mfg-responsive-styles">
@@ -367,7 +377,7 @@
 }
 </style>
 
-<header class="custom-header-wrapper">
+</head><body><header class="custom-header-wrapper">
     <!-- Top Bar -->
     <div class="custom-header-top">
         <div class="custom-header-top-container">
@@ -439,15 +449,20 @@
 									<span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span><span class="elementskit-menu-hamburger-icon"></span>
 								</button>
 								<div id="ekit-megamenu-header-menu" class="elementskit-menu-container elementskit-menu-offcanvas-elements elementskit-navbar-nav-default ekit-nav-menu-one-page-no ekit-nav-dropdown-hover">
-									<ul id="menu-header-menu" class="elementskit-navbar-nav elementskit-menu-po-center submenu-click-on-icon">
+									
 
-										<li id="menu-item-10341" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-10341 nav-item elementskit-mobile-builder-content" data-vertical-menu="750px"><a href="/" class="ekit-menu-nav-link">Home</a>
-										</li>
+<ul id="menu-header-menu" class="elementskit-navbar-nav elementskit-menu-po-center submenu-click-on-icon">
+    
+<li class="menu-item menu-item-type-post_type menu-item-object-page nav-item elementskit-mobile-builder-content">
+	<a href="/" class="ekit-menu-nav-link">Home</a>
+</li>
 
-										<li class="menu-item menu-item-type-post_type menu-item-object-page nav-item elementskit-mobile-builder-content">
-											<a href="/about-us/" class="ekit-menu-nav-link">About Us</a>
-										</li>
-										
+    
+<li class="menu-item menu-item-type-post_type menu-item-object-page nav-item elementskit-mobile-builder-content">
+	<a href="/about-us/" class="ekit-menu-nav-link">About Us</a>
+</li>
+
+    
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu="750px">
     <div class="custom-dropdown-toggle" onclick="var p = this.nextElementSibling; if(p){p.style.display = (p.style.display === 'none' || p.style.display === '') ? 'block' : 'none';} event.stopPropagation(); event.preventDefault(); return false;" style="cursor: pointer; padding: 10px 15px; display: flex; justify-content: space-between; align-items: center; color: #333; font-weight: 500; border-bottom: 1px solid #eee;">Divisions<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></div>
     <ul class="custom-submenu-panel" style="display: none; list-style: none; padding-left: 15px; margin: 0; background: transparent; border: none; box-shadow: none;">
@@ -461,6 +476,7 @@
     </ul>
 </li>
 
+    
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children nav-item elementskit-dropdown-has relative_position elementskit-dropdown-menu-default_width elementskit-mobile-builder-content" data-vertical-menu="750px">
     <div class="custom-dropdown-toggle" onclick="var p = this.nextElementSibling; if(p){p.style.display = (p.style.display === 'none' || p.style.display === '') ? 'block' : 'none';} event.stopPropagation(); event.preventDefault(); return false;" style="cursor: pointer; padding: 10px 15px; display: flex; justify-content: space-between; align-items: center; color: #333; font-weight: 500; border-bottom: 1px solid #eee;">Products<i aria-hidden="true" class="icon icon-down-arrow1 elementskit-submenu-indicator"></i></div>
     <ul class="custom-submenu-panel" style="display: none; list-style: none; padding-left: 15px; margin: 0; background: transparent; border: none; box-shadow: none;">
@@ -473,19 +489,34 @@
     </ul>
 </li>
 
-										<li class="menu-item menu-item-type-post_type menu-item-object-page nav-item elementskit-mobile-builder-content">
-											<a href="/manufacturing/" class="ekit-menu-nav-link">Manufacturing</a>
-										</li>
-										<li class="menu-item menu-item-type-post_type menu-item-object-page nav-item elementskit-mobile-builder-content">
-											<a href="/contact-us/" class="ekit-menu-nav-link">Contact Us</a>
-										</li>
-										<li class="menu-item menu-item-type-post_type menu-item-object-page nav-item elementskit-mobile-builder-content">
-											<a href="/blog/" class="ekit-menu-nav-link">Blog</a>
-										</li>
-										<li class="menu-item menu-item-type-post_type menu-item-object-page nav-item elementskit-mobile-builder-content">
-											<a href="/careers/" class="ekit-menu-nav-link">Careers</a>
-										</li>
-									</ul>
+    
+<li class="menu-item menu-item-type-post_type menu-item-object-page nav-item elementskit-mobile-builder-content">
+	<a href="/quality/" class="ekit-menu-nav-link">Quality</a>
+</li>
+
+    
+<li class="menu-item menu-item-type-post_type menu-item-object-page nav-item elementskit-mobile-builder-content">
+	<a href="/rd/" class="ekit-menu-nav-link">R&amp;D</a>
+</li>
+
+    
+<li class="menu-item menu-item-type-post_type menu-item-object-page nav-item elementskit-mobile-builder-content">
+	<a href="/manufacturing/" class="ekit-menu-nav-link">Manufacturing</a>
+</li>
+
+    
+<li class="menu-item menu-item-type-post_type menu-item-object-page nav-item elementskit-mobile-builder-content">
+	<a href="/image-gallery/" class="ekit-menu-nav-link">Gallery</a>
+</li>
+
+    
+<li class="menu-item menu-item-type-post_type menu-item-object-page nav-item elementskit-mobile-builder-content">
+	<a href="/contact-us/" class="ekit-menu-nav-link">Contact Us</a>
+</li>
+
+</ul>
+
+
 									<div class="elementskit-nav-identity-panel"><button class="elementskit-menu-close elementskit-menu-toggler" type="button">X</button></div>
 								</div>
 								<div class="elementskit-menu-overlay elementskit-menu-offcanvas-elements elementskit-menu-toggler ekit-nav-menu--overlay">
@@ -569,7 +600,7 @@ if (!window.mobileMenuFixed) {
 <div data-elementor-type="wp-page" data-elementor-id="282" class="elementor elementor-282">
 				<div class="elementor-element elementor-element-11af3d9 e-flex e-con-boxed e-con e-parent" data-id="11af3d9" data-element_type="container" data-e-type="container">
 					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-31536b2 bg-section e-flex e-con-boxed e-con e-child top-hero-banner" data-id="31536b2" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="background-image: url(&quot;/assets/uploads/images/rd_hero_banner_final.png&quot;) !important; background-size: cover !important; background-position: center 35% !important; background-repeat: no-repeat !important; position: relative !important; min-height: 250px;">
+		<div class="elementor-element elementor-element-31536b2 bg-section e-flex e-con-boxed e-con e-child top-hero-banner" data-id="31536b2" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="background-image: url(&quot;/assets/uploads/images/rd_hero_banner_final.png&quot;) !important; background-size: cover !important; background-repeat: no-repeat !important; position: relative !important;">
 					<div class="e-con-inner">
 				<div class="elementor-element elementor-element-3822550 at-heading-animation at-animation-heading-style-3 elementor-widget elementor-widget-heading" data-id="3822550" data-element_type="widget" data-e-type="widget" data-settings="{&quot;ekit_we_effect_on&quot;:&quot;none&quot;}" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
@@ -729,3 +760,4 @@ if (!window.mobileMenuFixed) {
 		
 
 
+</body></html>
